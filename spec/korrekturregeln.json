@@ -1,0 +1,417 @@
+{
+  "rules": {
+    "NEAR_SHAPE": {
+      "scope": "T15_MSA_1; die Linse beim Nahsehen ist als Subjekt gegeben.",
+      "required": [
+        "rundere/stärker gewölbte Form"
+      ],
+      "accept": [
+        "rund",
+        "runder",
+        "dicker",
+        "stärker gewölbt",
+        "konvexer",
+        "nicht flach, sondern rund"
+      ],
+      "partial": [
+        "nicht flach",
+        "sie verändert sich"
+      ],
+      "clarify": [
+        "größer",
+        "kleiner",
+        "dunkler",
+        "rund oder flach",
+        "wird runder und flacher"
+      ],
+      "reject": [
+        "flach",
+        "flacher",
+        "wird nicht runder",
+        "Pupille wird runder (explizit falsches Subjekt)"
+      ],
+      "notes": "Größe ist mehrdeutig, nicht mit Dicke gleichsetzen. Bei Negation nur den tatsächlich verneinten Satzteil behandeln.",
+      "feedbackPartial": "Es geht um die Form der Linse. Wird sie runder oder flacher?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "CONE_DIFFERENCE": {
+      "scope": "T11_AHR_1; drei Zapfentypen sind in der Frage gegeben.",
+      "required": [
+        "unterschiedliche Reaktion auf verschiedenfarbiges Licht / unterschiedliche Lichtbereiche"
+      ],
+      "accept": [
+        "verschiedene Farben",
+        "unterschiedliches Licht",
+        "rot grün blau",
+        "sie reagieren unterschiedlich auf die Farben"
+      ],
+      "partial": [
+        "Zapfen",
+        "drei Typen",
+        "sie reagieren auf Licht",
+        "nicht alle gleich"
+      ],
+      "clarify": [
+        "im Auge",
+        "bunt",
+        "ja"
+      ],
+      "reject": [
+        "alle reagieren genau gleich",
+        "Stäbchen sind die drei Farbtypen",
+        "sie erkennen keine Farben"
+      ],
+      "notes": "Die knappe Farbauflistung ist wegen der engen Frage ausreichend. Keine Behauptung, jeder Typ reagiere ausschließlich auf genau eine Farbe. Der frühere Test „Zapfen reagieren auf Licht und Gehirn macht Farben“ ist für diese Teilfrage nur teilweise richtig, nicht vollständig.",
+      "feedbackPartial": "Die Zapfen sind beteiligt. Was unterscheidet ihre Reaktion auf Licht?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "BRAIN": {
+      "scope": "T11_AHR_2 (Farbeindruck) sowie T20_MSA_3 / T20_AHR_4 (Hörnerv-Ziel).",
+      "required": [
+        "Gehirn/Hirn als Ziel oder Verarbeitungsort"
+      ],
+      "accept": [
+        "Gehirn",
+        "Hirn",
+        "ins Hirn",
+        "zum Gehirn",
+        "Das Gehirn verarbeitet die Signale"
+      ],
+      "partial": [
+        "Nerv leitet weiter"
+      ],
+      "clarify": [
+        "Kopf",
+        "Gehirn oder Auge"
+      ],
+      "reject": [
+        "zur Linse",
+        "Gehirn ausdrücklich negiert",
+        "umgekehrte Richtung als einzige Antwort"
+      ],
+      "notes": "Nur aufgabenbezogene Beziehungen bewerten. „Der Hörnerv bringt den Ton zum Gehirn“ als Alltagssprache akzeptieren und präzisieren. Explizites „Schallwellen laufen im Hörnerv“ ist fachlich falsch. Nicht jedes Vorkommen von „Ton“ automatisch verwerfen.",
+      "feedbackPartial": "Die Signale werden weitergeleitet. Wohin?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "EARDRUM_MOVES": {
+      "scope": "T20_MSA_1 / T20_AHR_1; Frage nach der Tätigkeit des Trommelfells.",
+      "required": [
+        "Bewegung/Schwingung"
+      ],
+      "accept": [
+        "schwingt",
+        "wackelt",
+        "vibriert",
+        "zittert",
+        "bewegt sich",
+        "Es wird durch Schall bewegt"
+      ],
+      "partial": [
+        "gibt weiter"
+      ],
+      "clarify": [
+        "Trommelfell",
+        "ja",
+        "Gehörknöchelchen schwingen (richtiger anderer Inhalt, gesuchtes Subjekt unklar)"
+      ],
+      "reject": [
+        "bleibt still",
+        "schwingt nicht",
+        "erzeugt Licht"
+      ],
+      "notes": "Wiederholung des Fachworts ist kein Tätigkeitsnachweis. Keine bloße globale Suche nach dem Stamm „schwing“.",
+      "feedbackPartial": "Das Trommelfell gibt etwas weiter. Was macht es dabei?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "OSSICLES_TRANSMIT": {
+      "scope": "T20_MSA_2 / T20_AHR_2: Was geben die Gehörknöchelchen weiter?",
+      "required": [
+        "Schwingungen/Bewegungen als übertragenes Etwas"
+      ],
+      "accept": [
+        "Schwingungen",
+        "Bewegungen",
+        "Schall (alltagssprachlich)",
+        "Sie geben die Schwingungen weiter"
+      ],
+      "partial": [
+        "sie wackeln",
+        "weiter",
+        "sie geben es weiter"
+      ],
+      "clarify": [
+        "Knochen",
+        "Signale (ohne mechanisch/elektrisch)"
+      ],
+      "reject": [
+        "Nervensignale",
+        "elektrische Impulse zum Gehirn",
+        "nichts",
+        "Licht",
+        "Hörnerv → Knochen → Trommelfell als Gegenrichtung"
+      ],
+      "notes": "Die Frage liefert das Subjekt und die Handlung. Ein passendes Objektwort genügt. „Weiter“ allein beantwortet die Was-Frage nicht.",
+      "feedbackPartial": "Was wird durch die kleinen Knochen weitergegeben?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "COCHLEA_SIGNAL": {
+      "scope": "T20_AHR_3; Entstehung aus Schwingungen in der Hörschnecke.",
+      "required": [
+        "Nervensignale/elektrische Signale"
+      ],
+      "accept": [
+        "Nervensignale",
+        "elektrische Signale",
+        "Signale (in dieser eng gestellten Frage)",
+        "elektrische Impulse",
+        "Schwingungen werden Signale"
+      ],
+      "partial": [
+        "Nachrichten",
+        "weitergeleitet"
+      ],
+      "clarify": [
+        "Strom",
+        "Hörschnecke",
+        "Bewegung"
+      ],
+      "reject": [
+        "Licht",
+        "neue Knochen",
+        "keine Signale",
+        "Schallwellen laufen im Hörnerv"
+      ],
+      "notes": "Keine Kenntnis von Ionen, Rezeptorpotentialen oder Transduktion verlangen. Einwortantwort „Signale“ ist hier fachlich ausreichend.",
+      "feedbackPartial": "Es entsteht eine Nachricht für Nerven. Wie heißt sie?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "FOCUS_REASON": {
+      "scope": "T15_AHR_2; naher Stift und deutlich ferner Baum, normale Akkommodation, vereinfachtes Modell.",
+      "required": [
+        "verschiedene nötige Einstellungen",
+        "nicht gleichzeitig beide passend"
+      ],
+      "accept": [
+        "Linse kann nicht zugleich rund und flach sein",
+        "nah rund fern flach, beides zugleich geht nicht",
+        "nur eine Entfernung kann scharf eingestellt sein",
+        "Nah- und Fernzuordnung mit runder/flacher Linse als verständliche knappe Begründung"
+      ],
+      "partial": [
+        "wegen der Linse",
+        "Linse ändert Form",
+        "rund und flach (ohne Zuordnung/Verhältnis)",
+        "nicht gleichzeitig (ohne Bezug)"
+      ],
+      "clarify": [
+        "zwei Augen",
+        "kann zugleich rund und flach sein und kann es nicht"
+      ],
+      "reject": [
+        "nah flach fern rund",
+        "Pupille wird zur Linse",
+        "Linse kann gleichzeitig beide benötigten Formen haben"
+      ],
+      "notes": "Die Negation der Gleichzeitigkeit ist gerade der richtige Kern. Keine globale Regel „Negation = falsch“. Unbekannte richtige Alternativbegründungen über Scharfstellung/Ringmuskel mindestens wertungsfrei klären, nie automatisch abwerten. Keine pauschale Behauptung über jede beliebige Entfernungsdifferenz.",
+      "feedbackPartial": "Die Linsenform ist wichtig. Warum passt eine Einstellung nicht für beide Entfernungen?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "TERM_LENS": {
+      "scope": "T24_MSA_1 / T24_AHR_1; explizit hinter der Pupille.",
+      "required": [
+        "Linse"
+      ],
+      "accept": [
+        "Linse",
+        "Augenlinse"
+      ],
+      "partial": [],
+      "clarify": [
+        "Lichtteil"
+      ],
+      "reject": [
+        "Hornhaut",
+        "Pupille",
+        "Netzhaut"
+      ],
+      "notes": "Bei „Hornhaut“: Die Hornhaut bricht ebenfalls Licht; gesucht ist hier der Teil hinter der Pupille. Keine falsche globale Negation der Hornhautfunktion.",
+      "feedbackPartial": "Gesucht ist der Name des Teils hinter der Pupille.",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "TERM_RETINA": {
+      "scope": "T24_MSA_2 / T24_AHR_2; optisches Bild auf einer Schicht.",
+      "required": [
+        "Netzhaut"
+      ],
+      "accept": [
+        "Netzhaut",
+        "Retina"
+      ],
+      "partial": [
+        "im Auge"
+      ],
+      "clarify": [
+        "hinten"
+      ],
+      "reject": [
+        "Gehirn",
+        "Linse",
+        "Hörnerv"
+      ],
+      "notes": "Optisches Bild im Auge und bewusster Seheindruck im Gehirn unterscheiden. Die Frage nennt ausdrücklich das optische Bild.",
+      "feedbackPartial": "Im Auge ist richtig. Welche Schicht ist gemeint?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "ANATOMY": {
+      "scope": "14 kurze Begriffsfelder in T03/T07 für MSA/AHR.",
+      "required": [
+        "der tatsächlich markierte Fachbegriff"
+      ],
+      "accept": [
+        "gültige eindeutige Synonyme aus dem anatomischen Lexikon"
+      ],
+      "partial": [
+        "Bogengänge bei Ziel ganzes Gleichgewichtsorgan"
+      ],
+      "clarify": [
+        "Nerv",
+        "Haut",
+        "Knochen bei Einzelknöchelchen",
+        "mehrere alternative Begriffe"
+      ],
+      "reject": [
+        "anderer eindeutig erkannter anatomischer Begriff"
+      ],
+      "notes": "Zuerst gegen das GESAMTE Lexikon auf exakt gültigen Begriff prüfen, dann eingeschränkte Tippfehlerzuordnung. Nie einen korrekten falschen Begriff zum erwarteten Begriff hin korrigieren. Papille nicht zu Pupille umdeuten.",
+      "feedbackPartial": "Du hast einen Teil erkannt. Wie heißt das ganze Organ?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    }
+  },
+  "anatomyLexicon": {
+    "Ohrmuschel": [
+      "ohrmuschel"
+    ],
+    "Gehörgang": [
+      "gehörgang",
+      "gehoergang",
+      "ohrgang",
+      "äußerer gehörgang"
+    ],
+    "Trommelfell": [
+      "trommelfell",
+      "tromelfell",
+      "trommelfel",
+      "tromelfel"
+    ],
+    "Gehörknöchelchen": [
+      "gehörknöchelchen",
+      "gehoerknoechelchen",
+      "gehörknochen",
+      "gehörknöchel",
+      "kleine ohrknochen"
+    ],
+    "Hammer": [
+      "hammer",
+      "malleus"
+    ],
+    "Amboss": [
+      "amboss",
+      "ambos",
+      "incus"
+    ],
+    "Steigbügel": [
+      "steigbügel",
+      "steigbuegel",
+      "steigbügl",
+      "stapes"
+    ],
+    "Hörschnecke": [
+      "hörschnecke",
+      "hoerschnecke",
+      "schnecke",
+      "cochlea"
+    ],
+    "Hörnerv": [
+      "hörnerv",
+      "hoernerv",
+      "hörnerf"
+    ],
+    "Gleichgewichtsorgan": [
+      "gleichgewichtsorgan",
+      "gleichgewichtsorgen",
+      "vestibularorgan"
+    ],
+    "Hornhaut": [
+      "hornhaut",
+      "kornea",
+      "cornea"
+    ],
+    "Pupille": [
+      "pupille",
+      "pupile"
+    ],
+    "Iris": [
+      "iris",
+      "regenbogenhaut"
+    ],
+    "Linse": [
+      "linse",
+      "augenlinse"
+    ],
+    "Glaskörper": [
+      "glaskörper",
+      "glaskoerper",
+      "glaskorper"
+    ],
+    "Netzhaut": [
+      "netzhaut",
+      "retina"
+    ],
+    "Sehnerv": [
+      "sehnerv",
+      "sehnerf"
+    ]
+  },
+  "stateEnum": [
+    "correct",
+    "partial",
+    "clarify",
+    "incorrect"
+  ],
+  "inputEvents": [
+    "empty",
+    "help_requested",
+    "too_long"
+  ],
+  "notaBene": "Regeln und Testfälle spezifizieren erwartetes Verhalten. Es ist noch kein Korrektor implementiert."
+}

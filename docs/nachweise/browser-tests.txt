@@ -1,0 +1,47 @@
+
+> mission-sinneslabor@1.0.0 test:browser
+> playwright test
+
+
+Running 24 tests using 2 workers
+
+(node:11426) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11427) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11426) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11427) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/game.spec.js:52:34 › Full correct tour: Foerder / 24 missions (9.9s)
+  ✓   2 [chromium] › tests/browser/game.spec.js:52:34 › Full correct tour: ESA / 24 missions (12.0s)
+  ✓   3 [chromium] › tests/browser/game.spec.js:52:34 › Full correct tour: MSA / 24 missions (9.9s)
+  ✓   4 [chromium] › tests/browser/game.spec.js:52:34 › Full correct tour: AHR / 24 missions (10.3s)
+  ✓   5 [chromium] › tests/browser/game.spec.js:73:34 › Error, help and solution path for each of 24 missions: Foerder (10.7s)
+  ✓   6 [chromium] › tests/browser/game.spec.js:73:34 › Error, help and solution path for each of 24 missions: ESA (11.6s)
+  ✓   7 [chromium] › tests/browser/game.spec.js:73:34 › Error, help and solution path for each of 24 missions: MSA (10.0s)
+  ✓   9 [chromium] › tests/browser/game.spec.js:103:1 › Clarification is usable once, preserves uncertainty and does not store raw text (723ms)
+  ✓  10 [chromium] › tests/browser/game.spec.js:115:1 › Edited input invalidates success; solution and errors are tracked separately (735ms)
+  ✓  11 [chromium] › tests/browser/game.spec.js:127:1 › Reload, level changes, restart and duplicate completion do not inflate progress (1.2s)
+  ✓  12 [chromium] › tests/browser/game.spec.js:138:1 › A physical double click only completes one step (621ms)
+  ✓   8 [chromium] › tests/browser/game.spec.js:73:34 › Error, help and solution path for each of 24 missions: AHR (10.9s)
+  ✓  13 [chromium] › tests/browser/game.spec.js:147:1 › Anatomy word bank can be opened before any failure and counts as support (1.4s)
+  ✓  15 [chromium] › tests/browser/game.spec.js:170:1 › Blocked and corrupt storage still allow play; other application data survives (562ms)
+  ✓  14 [chromium] › tests/browser/game.spec.js:157:1 › Moving a term out of a verified hidden group requires that group again (1.5s)
+  ✓  16 [chromium] › tests/browser/game.spec.js:174:1 › Corrupt and stale progress are rejected (773ms)
+  ✓  18 [chromium] › tests/browser/game.spec.js:208:145 › Responsive layout and visible feedback 1440x900 (1.2s)
+  ✓  17 [chromium] › tests/browser/game.spec.js:184:1 › Tap, drag, swap, remove, keyboard sorting, cancellation and partial success (2.0s)
+  ✓  19 [chromium] › tests/browser/game.spec.js:208:145 › Responsive layout and visible feedback 768x1024 (1.4s)
+  ✓  20 [chromium] › tests/browser/game.spec.js:208:145 › Responsive layout and visible feedback 1024x768 (1.3s)
+  -  22 [chromium] › tests/browser/game.spec.js:226:1 › Local multi-file and single-file exports work without network
+  ✓  21 [chromium] › tests/browser/game.spec.js:208:145 › Responsive layout and visible feedback 390x844 (1.3s)
+  ✓  24 [chromium] › tests/browser/game.spec.js:255:1 › Touch interaction, reduced motion, keyboard navigation and safe raw text (678ms)
+  ✓  23 [chromium] › tests/browser/game.spec.js:243:1 › Self-contained offline export plays a complete level after networking is blocked (8.0s)
+
+  1 skipped
+  23 passed (58.7s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

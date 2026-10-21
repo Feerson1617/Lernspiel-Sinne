@@ -1,0 +1,56 @@
+
+> mission-sinneslabor@1.0.0 test:spec
+> cd spec && python3 validate_spec.py
+
+{
+  "what_was_tested": "Teaching data, references, declared coverage and test-case consistency. NOT the game or an answer evaluator.",
+  "status": "passed",
+  "task_count": 24,
+  "resolved_level_variants": 96,
+  "top_level_steps": 240,
+  "closed_choice_steps_including_fallbacks": 210,
+  "golden_expected_cases": 176,
+  "exact_distinct_golden_inputs": 176,
+  "expected_states": {
+    "correct": 73,
+    "incorrect": 39,
+    "partial": 20,
+    "clarify": 37,
+    "empty": 3,
+    "help_requested": 3,
+    "too_long": 1
+  },
+  "level_summary": {
+    "Foerder": {
+      "P_units": 34,
+      "Z_units": 38,
+      "planned_task_seconds": 1255,
+      "planned_total_seconds_including_270s_buffer": 1525
+    },
+    "ESA": {
+      "P_units": 42,
+      "Z_units": 49,
+      "planned_task_seconds": 1420,
+      "planned_total_seconds_including_270s_buffer": 1690
+    },
+    "MSA": {
+      "P_units": 41,
+      "Z_units": 49,
+      "planned_task_seconds": 1430,
+      "planned_total_seconds_including_270s_buffer": 1700
+    },
+    "AHR": {
+      "P_units": 44,
+      "Z_units": 49,
+      "planned_task_seconds": 1500,
+      "planned_total_seconds_including_270s_buffer": 1770
+    }
+  },
+  "not_tested": [
+    "Running game",
+    "Actual evaluator",
+    "SVG anatomy after rendering",
+    "Real iPad/Safari",
+    "Classroom completion times"
+  ]
+}
