@@ -1,4 +1,5 @@
 import specification from '../spec/korrekturregeln.json' with { type: 'json' };
+import { additionalRule } from './scoped-rules.js';
 
 // This module is shared by the browser and tests. It never imports the golden corpus.
 export function normalize(value) {
@@ -59,10 +60,10 @@ function polarityResult(good, bad = { positive: false, negative: false }) {
   if (good.positive) return 'correct';
   return null;
 }
-const round = /\b(rund(?:er)?|dick(?:er)?|konvex(?:er)?|(?:staerker )?gewoelbt)\b/;
+const round = /\b(rund(?:er)?|dick(?:er)?|konvex(?:er)?|(?:staerker )?gewoelbt(?:er)?)\b/;
 const flat = /\b(flach(?:er)?|duenn(?:er)?)\b/;
 const brain = /\b(gehirn|gehirrn|hirn)\b/;
-const motion = /\b(schwing[a-z]*|schwinkt|wackel[a-z]*|vibrier[a-z]*|zitter[a-z]*|bewegt|bewegung[a-z]*)\b/;
+const motion = /\b(schwing[a-z]*|schwinkt|wackel[a-z]*|wakel[a-z]*|vibrier[a-z]*|zitter[a-z]*|bewegt|bewegung[a-z]*)\b/;
 const mechanical = /\b(schwingung[a-z]*|schwingugen|bewegung[a-z]*|schall)\b/;
 const signal = /\b((?:nerven)?signal[a-z]*|nervensignahle|impuls[a-z]*)\b/;
 
@@ -88,7 +89,8 @@ function coneDifference(text) {
   if (same.positive || /\bstaebchen\b.*\b(farb[a-z]*|drei)\b|\bdrei\b.*\bstaebchen\b/.test(text)) return 'incorrect';
   const color = evidence(text, /\b(farb[a-z]*|licht[a-z]*)\b/);
   if (color.negative && !different) return 'incorrect';
-  if ((different && /\b(licht[a-z]*|farb[a-z]*)\b/.test(text)) || (/\brot\b/.test(text) && /\bgruen\b/.test(text) && /\bblau\b/.test(text))) return 'correct';
+  if (different && /\blichtstaerke\b|\bhelligkeit\b/.test(text) && !/\b(farb[a-z]*|lichtfarben|lichtbereiche|wellenlaengen)\b/.test(text)) return 'partial';
+  if ((different && /\b(licht|lichtfarben|lichtbereiche|farb[a-z]*|wellenlaengen)\b/.test(text)) || (/\brot\b/.test(text) && /\bgruen\b/.test(text) && /\bblau\b/.test(text))) return 'correct';
   if (/\b(zapfen|zapfn|drei|typ[a-z]*|reagier[a-z]*)\b/.test(text) || same.negative) return 'partial';
   return 'clarify';
 }
@@ -127,6 +129,9 @@ function cochleaSignal(text) {
   if (/\boder\b/.test(text)) return 'clarify';
   if (evidence(text, /\bschallwellen\b/).positive && /\bhoernerv\b/.test(text)) return 'incorrect';
   if (/\b(trommelfell|linse|pupille|gehoerknoechelchen)\b.*\b(erzeug[a-z]*|mach[a-z]*|entsteh[a-z]*|wandel[a-z]*)\b/.test(text) && signal.test(text) && !/\bhoerschnecke\b/.test(text)) return 'incorrect';
+  // Conversion has a direction: electrical signals are the output, not the input.
+  const backwards = /\b(?:nervensignal[a-z]*|signal[a-z]*|impuls[a-z]*)\b[^.!?;]*\bin\b[^.!?;]*\b(?:bewegung[a-z]*|schwingung[a-z]*)\b|\b(?:bewegung[a-z]*|schwingung[a-z]*)\b[^.!?;]*\baus\b[^.!?;]*\b(?:nervensignal[a-z]*|signal[a-z]*|impuls[a-z]*)\b|\b(?:nervensignal[a-z]*|signal[a-z]*|impuls[a-z]*)\b\s+werden\s+(?:die\s+)?(?:bewegung[a-z]*|schwingung[a-z]*)\b/;
+  if (text.split(/[.!?;]/).some(clause => backwards.test(clause) && !negative.test(clause))) return 'incorrect';
   const result = polarityResult(evidence(text, signal), evidence(text, /\b(licht[a-z]*|knochen)\b/));
   if (result) return result;
   if (/\b(nachricht[a-z]*|weitergeleitet)\b/.test(text)) return 'partial';
@@ -137,17 +142,45 @@ function focusReason(text) {
   if (/\bpupille\b.*\blinse\b/.test(text)) return 'incorrect';
   const simultaneous = /\b(gleichzeitig|zugleich|zusammen)\b/.test(text);
   const no = negative.test(text);
-  const both = /\b(beide[a-z]*|beides)\b/.test(text);
   const shapes = round.test(text) && flat.test(text);
   const differing = /\b(verschieden[a-z]*|unterschiedlich[a-z]*|andere[a-z]*)\b.*\b(form[a-z]*|gewoelbt|einstellung[a-z]*)\b/.test(text);
-  // "... zugleich und nicht zugleich" makes two opposing assertions.
+  // Inspect the full answer before any positive return. A correct near/far mapping
+  // cannot cancel a later assertion that both shapes or distances work at once.
   if (/\b(gleichzeitig|zugleich)\b[^.!?]*\bund\b[^.!?]*\bnicht\b/.test(text)) return 'clarify';
-  const simultaneousClaims = text.split(/[.,;!?:]/).filter(clause => /\b(gleichzeitig|zugleich|zusammen)\b/.test(clause) && (/\b(beide[a-z]*|beides|form[a-z]*|gewoelbt)\b/.test(clause) || (round.test(clause) && flat.test(clause))));
+  const simultaneousClaims = text.split(/[.;!?:]|\b(?:aber|sondern)\b|(?:,|\bund\b)(?=\s+(?:sie|beide[a-z]*|beides|die linse)\b)/).filter(clause =>
+    /\b(gleichzeitig|zugleich|zusammen)\b/.test(clause) &&
+    (/\b(beide[a-z]*|beides)\b/.test(clause) || round.test(clause) && flat.test(clause) || differing && /\blinse\b/.test(clause)));
   if (simultaneousClaims.some(c => negative.test(c)) && simultaneousClaims.some(c => !negative.test(c))) return 'clarify';
+  if (simultaneousClaims.some(c => !negative.test(c))) return 'incorrect';
+  if (/\bnicht nur eine\b.*\b(entfernung|einstellung|form)\b/.test(text)) return 'incorrect';
+  // A separate denial of a required shape must not be hidden by the short mapping.
+  // Without an unambiguous distance binding, ask for clarification instead.
+  if (/\bnah\b/.test(text) && /\bfern\b/.test(text) && text.split(/[.;!?:]/).some(clause => {
+    const distanceIndex = clause.search(/\b(nah(?:sehen)?|naehe|fern(?:sehen)?|ferne)\b/);
+    const shapeIndex = clause.search(/\b(rund(?:er)?|flach(?:er)?|dick(?:er)?|duenn(?:er)?|gewoelbt(?:er)?)\b/);
+    return negative.test(clause) && shapeIndex >= 0 &&
+      !/\b(gleichzeitig|zugleich|zusammen)\b/.test(clause) &&
+      (distanceIndex < 0 || shapeIndex < distanceIndex);
+  })) return 'clarify';
+  // Bind each shape to its own distance before considering a complete explanation.
+  // A later "nicht gleichzeitig" must not negate the preceding far-shape claim.
+  const distances = [...text.matchAll(/\b(nah(?:sehen)?|naehe|fern(?:sehen)?|ferne)\b/g)];
+  const relations = [];
+  for (const [i, match] of distances.entries()) {
+    let clause = text.slice(match.index + match[0].length, distances[i + 1]?.index ?? text.length);
+    clause = clause.split(/[.,;!?:]/)[0];
+    clause = clause.split(/\b(beides|beide|gleichzeitig|zugleich|zusammen)\b/)[0];
+    const near = /nah|naehe/.test(match[0]);
+    const good = evidence(clause, near ? round : flat), bad = evidence(clause, near ? flat : round);
+    if (good.positive && good.negative || good.positive && bad.positive) return 'clarify';
+    if (good.negative || bad.positive) return 'incorrect';
+    if (good.positive) relations.push(near ? 'near' : 'far');
+  }
+  if (relations.includes('near') && relations.includes('far')) return 'correct';
   if (/\bnah\b[^.!?]*\bflach(?:er)?\b[^.!?]*\bfern\b[^.!?]*\brund(?:er)?\b/.test(text)) return 'incorrect';
   if (/\bfern\b[^.!?]*\brund(?:er)?\b[^.!?]*\bnah\b[^.!?]*\bflach(?:er)?\b/.test(text)) return 'incorrect';
   if (/\bnah\b[^.!?]*\b(rund(?:er)?|dick(?:er)?)\b[^.!?]*\bfern\b[^.!?]*\bflach(?:er)?\b/.test(text)) return 'correct';
-  if (simultaneous && (shapes || (both && /\b(linse|form[a-z]*)\b/.test(text)) || differing)) return no ? 'correct' : 'incorrect';
+  if (simultaneousClaims.some(c => negative.test(c))) return 'correct';
   if (/\bnur\b.*\beine\b.*\b(entfernung|einstellung|form)\b/.test(text) && !no) return 'correct';
   if (/\bnah\b/.test(text) && /\bfern\b/.test(text) && differing) return 'correct';
   if (/\blinse\b|\bform\b/.test(text) || shapes || (simultaneous && no)) return 'partial';
@@ -157,14 +190,14 @@ function focusReason(text) {
 const rules = { NEAR_SHAPE: nearShape, CONE_DIFFERENCE: coneDifference, BRAIN: brainTarget, EARDRUM_MOVES: eardrumMoves, OSSICLES_TRANSMIT: ossiclesTransmit, COCHLEA_SIGNAL: cochleaSignal, FOCUS_REASON: focusReason };
 // Known concepts alone must not turn unrelated prose into a correct answer.
 // This small vocabulary is a conservative gate, not a language model or a word score.
-const grammar = new Set('die der das den dem des ein eine einer eines einen einem sie es er ihre ihr sich beide beiden beides alle jeder ist sind sein wird werden wurde kann koennen geht gehen passt hat haben auf im in ins zum zur mit fuer durch von vom nach als am an ueber wegen und nicht sondern oder aber nein genau voellig dabei nur zugleich gleichzeitig zusammen noch auch selbst anders braucht brauchen aus zu beim vor hinter staerker stark etwas es'.split(' '));
+const grammar = new Set('die der das den dem des ein eine einer eines einen einem sie es er ihre ihr sich beide beiden beides alle jeder ist sind sein wird werden wurde wirt kann koennen geht gehen passt hat haben auf im in ins zum zur mit fuer durch von vom nach als am an bei ueber wegen und nicht sondern oder aber nein genau voellig dabei nur zugleich gleichzeitig zusammen noch auch selbst anders braucht brauchen aus zu beim vor hinter staerker stark etwas es um damit'.split(' '));
 const answerVocabulary = {
-  NEAR_SHAPE: /^(linse|augenlinse|nahsehen|nah|form[a-z]*|aender[a-z]*|veraender[a-z]*|rund[a-z]*|flach[a-z]*|dick[a-z]*|duenn[a-z]*|gewoelbt|konvex[a-z]*|wuert)$/,
-  CONE_DIFFERENCE: /^(zapfen[a-z]*|typen|typ|arten|art|reagier[a-z]*|unterschied[a-z]*|verschieden[a-z]*|gleich[a-z]*|drei|licht[a-z]*|farb[a-z]*|rot|gruen|blau|empfindlich|besonders|sehen|gehirn|macht)$/,
-  BRAIN: /^(gehirn|gehirrn|hirn|hoernerv|sehnerv|ton|signal[a-z]*|nervensignal[a-z]*|farbeindruck|verarbeit[a-z]*|leit[a-z]*|bring[a-z]*|send[a-z]*|macht|auge|linse)$/,
-  EARDRUM_MOVES: /^(trommelfell|tromelfel|schwing[a-z]*|schwinkt|wackel[a-z]*|vibrier[a-z]*|zitter[a-z]*|bewegt|bewegung[a-z]*|schall|leit[a-z]*|weiter|still|steht)$/,
-  OSSICLES_TRANSMIT: /^(gehoerknoechelchen|schwingung[a-z]*|schwingugen|bewegung[a-z]*|schall|geb[a-z]*|gibt|weiter|licht|knochen)$/,
-  COCHLEA_SIGNAL: /^(hoerschnecke|schwingung[a-z]*|signal[a-z]*|nervensignal[a-z]*|nervensignahle|elektrisch[a-z]*|impuls[a-z]*|entsteh[a-z]*|lichtstrahl[a-z]*|keine)$/,
+  NEAR_SHAPE: /^(linse|augenlinse|nahsehen|nah|naehe|form[a-z]*|aender[a-z]*|veraender[a-z]*|rund[a-z]*|flach[a-z]*|dick[a-z]*|duenn[a-z]*|gewoelbt(?:er)?|konvex[a-z]*|wuert)$/,
+  CONE_DIFFERENCE: /^(zapfen[a-z]*|typen|typ|arten|art|reagier[a-z]*|unterschied[a-z]*|verschieden[a-z]*|gleich[a-z]*|drei|licht[a-z]*|wellenlaengen|farb[a-z]*|rot|gruen|blau|empfindlich|besonders|sehen|gehirn|macht)$/,
+  BRAIN: /^(gehirn|gehirrn|hirn|hoernerv|sehnerv|ton|signal[a-z]*|nervensignal[a-z]*|farbeindruck|verarbeit[a-z]*|leit[a-z]*|geleitet|bring[a-z]*|send[a-z]*|macht|auge|linse)$/,
+  EARDRUM_MOVES: /^(trommelfell|tromelfel|schwing[a-z]*|schwinkt|wackel[a-z]*|wakel[a-z]*|vibrier[a-z]*|zitter[a-z]*|bewegt|bewegung[a-z]*|schall|bring[a-z]*|leit[a-z]*|weiter|still|steht)$/,
+  OSSICLES_TRANSMIT: /^(gehoerknoechelchen|schwingung[a-z]*|schwingugen|bewegung[a-z]*|schall|geb[a-z]*|gibt|leit[a-z]*|uebertrag[a-z]*|weiter|licht|knochen)$/,
+  COCHLEA_SIGNAL: /^(hoerschnecke|bewegung[a-z]*|schwingung[a-z]*|signal[a-z]*|nervensignal[a-z]*|nervensignahle|elektrisch[a-z]*|impuls[a-z]*|entsteh[a-z]*|wandel[a-z]*|umgewandelt|lichtstrahl[a-z]*|keine)$/,
   FOCUS_REASON: /^(linse|linsenform[a-z]*|form[a-z]*|einstellung[a-z]*|entfernung[a-z]*|gewoelbt|rund[a-z]*|flach[a-z]*|dick[a-z]*|duenn[a-z]*|nah[a-z]*|fern[a-z]*|stift|baum|unterschiedlich[a-z]*|verschieden[a-z]*|andere[a-z]*|eingestellt|scharf|passend|weil|dafuer)$/
 };
 function knownAnswerVocabulary(ruleId, text) {
@@ -179,6 +212,8 @@ export function evaluateText(ruleId, raw, targetTerm, context) {
   if (ruleId === 'ANATOMY') return evaluateTerm(raw, targetTerm);
   if (ruleId === 'TERM_LENS') return evaluateTerm(raw, 'Linse');
   if (ruleId === 'TERM_RETINA') return /^(?:das |im |auf dem )?(?:gehirn|hirn)[.!]*$/.test(text) ? 'incorrect' : evaluateTerm(raw, 'Netzhaut');
+  const additional = additionalRule(ruleId, text);
+  if (additional) return additional;
   if (ruleId === 'BRAIN') {
     const prompt = normalize(context?.prompt || '');
     if (/\bhoernerv\b/.test(prompt) && /^der sehnerv\b.*\b(leit[a-z]*|bring[a-z]*|send[a-z]*)\b/.test(text)) return 'incorrect';
@@ -197,11 +232,12 @@ export function evaluateStep(step, answer) {
     const parts = Object.fromEntries(step.correctOrder.map((id, i) => [String(i), answer[i] === id ? 'correct' : 'incorrect']));
     return { state: Object.values(parts).every(s => s === 'correct') ? 'correct' : 'incorrect', parts };
   }
-  const parts = Object.fromEntries(step.pairs.map(pair => [pair.targetId, step.type === 'anatomy_recall' ? evaluateText('ANATOMY', answer?.[pair.targetId], pair.answerText) : !answer?.[pair.targetId] ? 'empty' : answer[pair.targetId] === pair.answerId ? 'correct' : 'incorrect']));
+  const recall = ['anatomy_recall', 'term_fill'].includes(step.type);
+  const parts = Object.fromEntries(step.pairs.map(pair => [pair.targetId, recall ? evaluateText(pair.ruleId || 'ANATOMY', answer?.[pair.targetId], pair.answerText, step) : !answer?.[pair.targetId] ? 'empty' : answer[pair.targetId] === pair.answerId ? 'correct' : 'incorrect']));
   const values = Object.values(parts);
   // A bank term can only be used once; duplicate correct words can't bypass IDs.
   const assigned = Object.values(answer || {});
-  const duplicate = step.type !== 'anatomy_recall' && new Set(assigned).size !== assigned.length;
+  const duplicate = !recall && new Set(assigned).size !== assigned.length;
   const state = values.includes('empty') ? 'empty' : values.includes('too_long') ? 'too_long' : values.includes('help_requested') ? 'help_requested' : values.every(s => s === 'correct') && !duplicate ? 'correct' : values.includes('incorrect') || duplicate ? 'incorrect' : values.includes('clarify') ? 'clarify' : 'partial';
   return { state, parts };
 }

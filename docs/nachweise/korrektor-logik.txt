@@ -1,0 +1,3412 @@
+TAP version 13
+# Subtest: BLIND-T22_MSA_1-01: Es gibt keine Sinneszellen => correct
+ok 1 - BLIND-T22_MSA_1-01: Es gibt keine Sinneszellen => correct
+  ---
+  duration_ms: 2.153837
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-02: Dort gibt es gar keine Lichtsinneszellen => correct
+ok 2 - BLIND-T22_MSA_1-02: Dort gibt es gar keine Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.309793
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-03: keine Sinneszellen => correct
+ok 3 - BLIND-T22_MSA_1-03: keine Sinneszellen => correct
+  ---
+  duration_ms: 0.158246
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-04: Keine Sinneszellen am blinden Fleck => correct
+ok 4 - BLIND-T22_MSA_1-04: Keine Sinneszellen am blinden Fleck => correct
+  ---
+  duration_ms: 0.082363
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-05: Dort gibt es Stäbchen und Zapfen => incorrect
+ok 5 - BLIND-T22_MSA_1-05: Dort gibt es Stäbchen und Zapfen => incorrect
+  ---
+  duration_ms: 0.196544
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-06: Am blinden Fleck sind Stäbchen und Zapfen => incorrect
+ok 6 - BLIND-T22_MSA_1-06: Am blinden Fleck sind Stäbchen und Zapfen => incorrect
+  ---
+  duration_ms: 0.075784
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-07: Stäbchen und Zapfen => correct
+ok 7 - BLIND-T22_MSA_1-07: Stäbchen und Zapfen => correct
+  ---
+  duration_ms: 0.061532
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-08: Lichtsinneszellen => correct
+ok 8 - BLIND-T22_MSA_1-08: Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.101992
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-09: Am blinden Fleck gibt es keine Sinneszellen => correct
+ok 9 - BLIND-T22_MSA_1-09: Am blinden Fleck gibt es keine Sinneszellen => correct
+  ---
+  duration_ms: 0.083966
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-10: Sinneszellen gibt es dort nicht => correct
+ok 10 - BLIND-T22_MSA_1-10: Sinneszellen gibt es dort nicht => correct
+  ---
+  duration_ms: 0.146058
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-11: Stäbchen und Zapfen sind dort nicht vorhanden => correct
+ok 11 - BLIND-T22_MSA_1-11: Stäbchen und Zapfen sind dort nicht vorhanden => correct
+  ---
+  duration_ms: 0.085508
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-12: Dort sind weder Stäbchen noch Zapfen vorhanden => correct
+ok 12 - BLIND-T22_MSA_1-12: Dort sind weder Stäbchen noch Zapfen vorhanden => correct
+  ---
+  duration_ms: 0.073159
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-13: Am blinden Fleck fehlen Stäbchen und Zapfen => correct
+ok 13 - BLIND-T22_MSA_1-13: Am blinden Fleck fehlen Stäbchen und Zapfen => correct
+  ---
+  duration_ms: 0.049294
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-14: Es fehlen dort die Lichtsinneszellen => correct
+ok 14 - BLIND-T22_MSA_1-14: Es fehlen dort die Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.065198
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-15: Sinneszellen sind am blinden Fleck nicht vorhanden => correct
+ok 15 - BLIND-T22_MSA_1-15: Sinneszellen sind am blinden Fleck nicht vorhanden => correct
+  ---
+  duration_ms: 0.053009
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-16: Es gibt Sinneszellen => incorrect
+ok 16 - BLIND-T22_MSA_1-16: Es gibt Sinneszellen => incorrect
+  ---
+  duration_ms: 0.050315
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-17: Dort gibt es Lichtsinneszellen => incorrect
+ok 17 - BLIND-T22_MSA_1-17: Dort gibt es Lichtsinneszellen => incorrect
+  ---
+  duration_ms: 0.065408
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-18: Sinneszellen sind am blinden Fleck vorhanden => incorrect
+ok 18 - BLIND-T22_MSA_1-18: Sinneszellen sind am blinden Fleck vorhanden => incorrect
+  ---
+  duration_ms: 0.052669
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-19: Stäbchen und Zapfen sind dort vorhanden => incorrect
+ok 19 - BLIND-T22_MSA_1-19: Stäbchen und Zapfen sind dort vorhanden => incorrect
+  ---
+  duration_ms: 0.03343
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-20: Stäbchen und Zapfen fehlen dort nicht => incorrect
+ok 20 - BLIND-T22_MSA_1-20: Stäbchen und Zapfen fehlen dort nicht => incorrect
+  ---
+  duration_ms: 0.031637
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-21: Es fehlen keine Sinneszellen => incorrect
+ok 21 - BLIND-T22_MSA_1-21: Es fehlen keine Sinneszellen => incorrect
+  ---
+  duration_ms: 0.028283
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-22: Es fehlen dort gar keine Lichtsinneszellen => incorrect
+ok 22 - BLIND-T22_MSA_1-22: Es fehlen dort gar keine Lichtsinneszellen => incorrect
+  ---
+  duration_ms: 0.029043
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-23: Lichtsinneszellen fehlen nicht => incorrect
+ok 23 - BLIND-T22_MSA_1-23: Lichtsinneszellen fehlen nicht => incorrect
+  ---
+  duration_ms: 0.0404
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-24: Keine Sinneszellen fehlen am blinden Fleck => incorrect
+ok 24 - BLIND-T22_MSA_1-24: Keine Sinneszellen fehlen am blinden Fleck => incorrect
+  ---
+  duration_ms: 0.026009
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-25: Dort sind nicht keine Sinneszellen => clarify
+ok 25 - BLIND-T22_MSA_1-25: Dort sind nicht keine Sinneszellen => clarify
+  ---
+  duration_ms: 0.021493
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-26: Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden. => clarify
+ok 26 - BLIND-T22_MSA_1-26: Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden. => clarify
+  ---
+  duration_ms: 0.062403
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-27: Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden. => clarify
+ok 27 - BLIND-T22_MSA_1-27: Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden. => clarify
+  ---
+  duration_ms: 0.047231
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-28: Stäbchen oder Zapfen => clarify
+ok 28 - BLIND-T22_MSA_1-28: Stäbchen oder Zapfen => clarify
+  ---
+  duration_ms: 0.025007
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-29: Zapfen => partial
+ok 29 - BLIND-T22_MSA_1-29: Zapfen => partial
+  ---
+  duration_ms: 0.026549
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-30: Sehnerv => incorrect
+ok 30 - BLIND-T22_MSA_1-30: Sehnerv => incorrect
+  ---
+  duration_ms: 0.05342
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-31: Kein Sehnerv => clarify
+ok 31 - BLIND-T22_MSA_1-31: Kein Sehnerv => clarify
+  ---
+  duration_ms: 0.025358
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_MSA_1-32: Dort gibt es keine Bananen und Sinneszellen => clarify
+ok 32 - BLIND-T22_MSA_1-32: Dort gibt es keine Bananen und Sinneszellen => clarify
+  ---
+  duration_ms: 0.031667
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-01: Es gibt keine Sinneszellen => correct
+ok 33 - BLIND-T22_AHR_1-01: Es gibt keine Sinneszellen => correct
+  ---
+  duration_ms: 0.024687
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-02: Dort gibt es gar keine Lichtsinneszellen => correct
+ok 34 - BLIND-T22_AHR_1-02: Dort gibt es gar keine Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.022984
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-03: keine Sinneszellen => correct
+ok 35 - BLIND-T22_AHR_1-03: keine Sinneszellen => correct
+  ---
+  duration_ms: 0.068993
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-04: Keine Sinneszellen am blinden Fleck => correct
+ok 36 - BLIND-T22_AHR_1-04: Keine Sinneszellen am blinden Fleck => correct
+  ---
+  duration_ms: 0.035733
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-05: Dort gibt es Stäbchen und Zapfen => incorrect
+ok 37 - BLIND-T22_AHR_1-05: Dort gibt es Stäbchen und Zapfen => incorrect
+  ---
+  duration_ms: 0.029844
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-06: Am blinden Fleck sind Stäbchen und Zapfen => incorrect
+ok 38 - BLIND-T22_AHR_1-06: Am blinden Fleck sind Stäbchen und Zapfen => incorrect
+  ---
+  duration_ms: 0.025358
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-07: Stäbchen und Zapfen => correct
+ok 39 - BLIND-T22_AHR_1-07: Stäbchen und Zapfen => correct
+  ---
+  duration_ms: 0.804952
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-08: Lichtsinneszellen => correct
+ok 40 - BLIND-T22_AHR_1-08: Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.03988
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-09: Am blinden Fleck gibt es keine Sinneszellen => correct
+ok 41 - BLIND-T22_AHR_1-09: Am blinden Fleck gibt es keine Sinneszellen => correct
+  ---
+  duration_ms: 0.027552
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-10: Sinneszellen gibt es dort nicht => correct
+ok 42 - BLIND-T22_AHR_1-10: Sinneszellen gibt es dort nicht => correct
+  ---
+  duration_ms: 0.02028
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-11: Stäbchen und Zapfen sind dort nicht vorhanden => correct
+ok 43 - BLIND-T22_AHR_1-11: Stäbchen und Zapfen sind dort nicht vorhanden => correct
+  ---
+  duration_ms: 0.023215
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-12: Dort sind weder Stäbchen noch Zapfen vorhanden => correct
+ok 44 - BLIND-T22_AHR_1-12: Dort sind weder Stäbchen noch Zapfen vorhanden => correct
+  ---
+  duration_ms: 0.022704
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-13: Am blinden Fleck fehlen Stäbchen und Zapfen => correct
+ok 45 - BLIND-T22_AHR_1-13: Am blinden Fleck fehlen Stäbchen und Zapfen => correct
+  ---
+  duration_ms: 0.021953
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-14: Es fehlen dort die Lichtsinneszellen => correct
+ok 46 - BLIND-T22_AHR_1-14: Es fehlen dort die Lichtsinneszellen => correct
+  ---
+  duration_ms: 0.020381
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-15: Sinneszellen sind am blinden Fleck nicht vorhanden => correct
+ok 47 - BLIND-T22_AHR_1-15: Sinneszellen sind am blinden Fleck nicht vorhanden => correct
+  ---
+  duration_ms: 0.019909
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-16: Es gibt Sinneszellen => incorrect
+ok 48 - BLIND-T22_AHR_1-16: Es gibt Sinneszellen => incorrect
+  ---
+  duration_ms: 0.017866
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-17: Dort gibt es Lichtsinneszellen => incorrect
+ok 49 - BLIND-T22_AHR_1-17: Dort gibt es Lichtsinneszellen => incorrect
+  ---
+  duration_ms: 0.017796
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-18: Sinneszellen sind am blinden Fleck vorhanden => incorrect
+ok 50 - BLIND-T22_AHR_1-18: Sinneszellen sind am blinden Fleck vorhanden => incorrect
+  ---
+  duration_ms: 0.018518
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-19: Stäbchen und Zapfen sind dort vorhanden => incorrect
+ok 51 - BLIND-T22_AHR_1-19: Stäbchen und Zapfen sind dort vorhanden => incorrect
+  ---
+  duration_ms: 0.019169
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-20: Stäbchen und Zapfen fehlen dort nicht => incorrect
+ok 52 - BLIND-T22_AHR_1-20: Stäbchen und Zapfen fehlen dort nicht => incorrect
+  ---
+  duration_ms: 0.195582
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-21: Es fehlen keine Sinneszellen => incorrect
+ok 53 - BLIND-T22_AHR_1-21: Es fehlen keine Sinneszellen => incorrect
+  ---
+  duration_ms: 0.029114
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-22: Es fehlen dort gar keine Lichtsinneszellen => incorrect
+ok 54 - BLIND-T22_AHR_1-22: Es fehlen dort gar keine Lichtsinneszellen => incorrect
+  ---
+  duration_ms: 0.030976
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-23: Lichtsinneszellen fehlen nicht => incorrect
+ok 55 - BLIND-T22_AHR_1-23: Lichtsinneszellen fehlen nicht => incorrect
+  ---
+  duration_ms: 0.020701
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-24: Keine Sinneszellen fehlen am blinden Fleck => incorrect
+ok 56 - BLIND-T22_AHR_1-24: Keine Sinneszellen fehlen am blinden Fleck => incorrect
+  ---
+  duration_ms: 0.02028
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-25: Dort sind nicht keine Sinneszellen => clarify
+ok 57 - BLIND-T22_AHR_1-25: Dort sind nicht keine Sinneszellen => clarify
+  ---
+  duration_ms: 0.016544
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-26: Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden. => clarify
+ok 58 - BLIND-T22_AHR_1-26: Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden. => clarify
+  ---
+  duration_ms: 0.022894
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-27: Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden. => clarify
+ok 59 - BLIND-T22_AHR_1-27: Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden. => clarify
+  ---
+  duration_ms: 0.025988
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-28: Stäbchen oder Zapfen => clarify
+ok 60 - BLIND-T22_AHR_1-28: Stäbchen oder Zapfen => clarify
+  ---
+  duration_ms: 0.017286
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-29: Zapfen => partial
+ok 61 - BLIND-T22_AHR_1-29: Zapfen => partial
+  ---
+  duration_ms: 0.018428
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-30: Sehnerv => incorrect
+ok 62 - BLIND-T22_AHR_1-30: Sehnerv => incorrect
+  ---
+  duration_ms: 0.017336
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-31: Kein Sehnerv => clarify
+ok 63 - BLIND-T22_AHR_1-31: Kein Sehnerv => clarify
+  ---
+  duration_ms: 0.017757
+  type: 'test'
+  ...
+# Subtest: BLIND-T22_AHR_1-32: Dort gibt es keine Bananen und Sinneszellen => clarify
+ok 64 - BLIND-T22_AHR_1-32: Dort gibt es keine Bananen und Sinneszellen => clarify
+  ---
+  duration_ms: 0.066059
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-01: nah rund fern flach. Die Linse kann aber gleichzeitig beide Formen haben. => incorrect
+ok 65 - FOCUS-T15_AHR_2-01: nah rund fern flach. Die Linse kann aber gleichzeitig beide Formen haben. => incorrect
+  ---
+  duration_ms: 0.837781
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-02: nah rund fern flach; und sie kann beides gleichzeitig => incorrect
+ok 66 - FOCUS-T15_AHR_2-02: nah rund fern flach; und sie kann beides gleichzeitig => incorrect
+  ---
+  duration_ms: 0.210925
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-03: Nah rund, fern flach, und beide sind gleichzeitig scharf => incorrect
+ok 67 - FOCUS-T15_AHR_2-03: Nah rund, fern flach, und beide sind gleichzeitig scharf => incorrect
+  ---
+  duration_ms: 0.038978
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-04: nah rund fern flach => correct
+ok 68 - FOCUS-T15_AHR_2-04: nah rund fern flach => correct
+  ---
+  duration_ms: 0.561008
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-05: Die Linse kann nicht gleichzeitig rund und flach sein => correct
+ok 69 - FOCUS-T15_AHR_2-05: Die Linse kann nicht gleichzeitig rund und flach sein => correct
+  ---
+  duration_ms: 0.461079
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-06: Bei nah wird die Linse runder, bei fern flacher => correct
+ok 70 - FOCUS-T15_AHR_2-06: Bei nah wird die Linse runder, bei fern flacher => correct
+  ---
+  duration_ms: 0.144886
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-07: Die Linse kann gleichzeitig rund und flach sein => incorrect
+ok 71 - FOCUS-T15_AHR_2-07: Die Linse kann gleichzeitig rund und flach sein => incorrect
+  ---
+  duration_ms: 0.030265
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-08: Nah flach, fern rund => incorrect
+ok 72 - FOCUS-T15_AHR_2-08: Nah flach, fern rund => incorrect
+  ---
+  duration_ms: 0.029464
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-09: Bei nah wird die Linse flacher, bei fern runder => incorrect
+ok 73 - FOCUS-T15_AHR_2-09: Bei nah wird die Linse flacher, bei fern runder => incorrect
+  ---
+  duration_ms: 0.046399
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-10: Beide sind gleichzeitig scharf. Nah rund, fern flach. => incorrect
+ok 74 - FOCUS-T15_AHR_2-10: Beide sind gleichzeitig scharf. Nah rund, fern flach. => incorrect
+  ---
+  duration_ms: 0.037295
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-11: Nah rund, fern flach. Beides geht gleichzeitig. => incorrect
+ok 75 - FOCUS-T15_AHR_2-11: Nah rund, fern flach. Beides geht gleichzeitig. => incorrect
+  ---
+  duration_ms: 0.025128
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-12: Nah rund, fern flach. Die Linse kann zugleich beide Formen haben. => incorrect
+ok 76 - FOCUS-T15_AHR_2-12: Nah rund, fern flach. Die Linse kann zugleich beide Formen haben. => incorrect
+  ---
+  duration_ms: 0.02025
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-13: Nah rund, fern flach. Beide sind nicht gleichzeitig scharf. => correct
+ok 77 - FOCUS-T15_AHR_2-13: Nah rund, fern flach. Beide sind nicht gleichzeitig scharf. => correct
+  ---
+  duration_ms: 0.081552
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-14: Nah rund, fern flach; und sie kann nicht beides gleichzeitig => correct
+ok 78 - FOCUS-T15_AHR_2-14: Nah rund, fern flach; und sie kann nicht beides gleichzeitig => correct
+  ---
+  duration_ms: 0.054301
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-15: Nah rund fern flach beides zusammen geht nicht => correct
+ok 79 - FOCUS-T15_AHR_2-15: Nah rund fern flach beides zusammen geht nicht => correct
+  ---
+  duration_ms: 0.032689
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-16: Nah rund, fern flach. Die Linse kann nicht beide Formen zugleich haben. => correct
+ok 80 - FOCUS-T15_AHR_2-16: Nah rund, fern flach. Die Linse kann nicht beide Formen zugleich haben. => correct
+  ---
+  duration_ms: 0.029354
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-17: Die Linse kann beide Formen gleichzeitig haben. Sie kann nicht beide Formen gleichzeitig haben. => clarify
+ok 81 - FOCUS-T15_AHR_2-17: Die Linse kann beide Formen gleichzeitig haben. Sie kann nicht beide Formen gleichzeitig haben. => clarify
+  ---
+  duration_ms: 0.019399
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-18: Nah rund fern flach. Beides geht nicht gleichzeitig. Beides geht gleichzeitig. => clarify
+ok 82 - FOCUS-T15_AHR_2-18: Nah rund fern flach. Beides geht nicht gleichzeitig. Beides geht gleichzeitig. => clarify
+  ---
+  duration_ms: 0.020491
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-19: Die Linse kann nur eine Form gleichzeitig haben => correct
+ok 83 - FOCUS-T15_AHR_2-19: Die Linse kann nur eine Form gleichzeitig haben => correct
+  ---
+  duration_ms: 0.16086
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-20: Die Linse kann nicht nur eine Form gleichzeitig haben => incorrect
+ok 84 - FOCUS-T15_AHR_2-20: Die Linse kann nicht nur eine Form gleichzeitig haben => incorrect
+  ---
+  duration_ms: 0.024827
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-21: Nah rund fern flach. Die Linse kann beide Formen haben, gleichzeitig. => incorrect
+ok 85 - FOCUS-T15_AHR_2-21: Nah rund fern flach. Die Linse kann beide Formen haben, gleichzeitig. => incorrect
+  ---
+  duration_ms: 0.018578
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-22: Nah rund fern flach. Beides ist zugleich scharf. => incorrect
+ok 86 - FOCUS-T15_AHR_2-22: Nah rund fern flach. Beides ist zugleich scharf. => incorrect
+  ---
+  duration_ms: 0.01947
+  type: 'test'
+  ...
+# Subtest: FOCUS-T15_AHR_2-23: Nah rund fern flach. Beides ist nicht zugleich scharf. => correct
+ok 87 - FOCUS-T15_AHR_2-23: Nah rund fern flach. Beides ist nicht zugleich scharf. => correct
+  ---
+  duration_ms: 0.032619
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-01: Die Muskeln ziehen sich zusammen und die Pupille wird kleiner. => incorrect
+ok 88 - IRIS-T18_ESA_5-01: Die Muskeln ziehen sich zusammen und die Pupille wird kleiner. => incorrect
+  ---
+  duration_ms: 0.288992
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-02: ziehen sich zusammen => correct
+ok 89 - IRIS-T18_ESA_5-02: ziehen sich zusammen => correct
+  ---
+  duration_ms: 0.418395
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-03: die Muskeln ziehen sich zusammen => correct
+ok 90 - IRIS-T18_ESA_5-03: die Muskeln ziehen sich zusammen => correct
+  ---
+  duration_ms: 0.114141
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-04: sie spannen sich an => correct
+ok 91 - IRIS-T18_ESA_5-04: sie spannen sich an => correct
+  ---
+  duration_ms: 0.028843
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-05: Die Muskeln ziehen sich zusammen und die Pupille wird größer. => correct
+ok 92 - IRIS-T18_ESA_5-05: Die Muskeln ziehen sich zusammen und die Pupille wird größer. => correct
+  ---
+  duration_ms: 0.083304
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-06: Die Pupille wird kleiner, weil sich die Muskeln zusammenziehen. => incorrect
+ok 93 - IRIS-T18_ESA_5-06: Die Pupille wird kleiner, weil sich die Muskeln zusammenziehen. => incorrect
+  ---
+  duration_ms: 0.039029
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-07: Die Muskeln ziehen sich zusammen. Kleiner wird dadurch die Pupille. => incorrect
+ok 94 - IRIS-T18_ESA_5-07: Die Muskeln ziehen sich zusammen. Kleiner wird dadurch die Pupille. => incorrect
+  ---
+  duration_ms: 0.020671
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-08: Sie spannen sich an und verengen die Pupille => incorrect
+ok 95 - IRIS-T18_ESA_5-08: Sie spannen sich an und verengen die Pupille => incorrect
+  ---
+  duration_ms: 0.024577
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-09: Sie spannen sich an und die Pupille verengt sich => incorrect
+ok 96 - IRIS-T18_ESA_5-09: Sie spannen sich an und die Pupille verengt sich => incorrect
+  ---
+  duration_ms: 0.022023
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-10: Sie spannen sich an und verkleinern die Pupille => incorrect
+ok 97 - IRIS-T18_ESA_5-10: Sie spannen sich an und verkleinern die Pupille => incorrect
+  ---
+  duration_ms: 0.018908
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-11: Sie ziehen sich zusammen und die Pupille wird nicht kleiner => correct
+ok 98 - IRIS-T18_ESA_5-11: Sie ziehen sich zusammen und die Pupille wird nicht kleiner => correct
+  ---
+  duration_ms: 0.071177
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-12: Sie ziehen sich zusammen und die Pupille wird nicht größer => incorrect
+ok 99 - IRIS-T18_ESA_5-12: Sie ziehen sich zusammen und die Pupille wird nicht größer => incorrect
+  ---
+  duration_ms: 0.025778
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-13: Sie ziehen sich nicht zusammen => incorrect
+ok 100 - IRIS-T18_ESA_5-13: Sie ziehen sich nicht zusammen => incorrect
+  ---
+  duration_ms: 0.025618
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-14: Die Muskeln entspannen sich => incorrect
+ok 101 - IRIS-T18_ESA_5-14: Die Muskeln entspannen sich => incorrect
+  ---
+  duration_ms: 0.019119
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-15: Der Ziliarmuskel zieht sich zusammen => incorrect
+ok 102 - IRIS-T18_ESA_5-15: Der Ziliarmuskel zieht sich zusammen => incorrect
+  ---
+  duration_ms: 0.034312
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-16: Der ringförmige Schließmuskel zieht sich zusammen => incorrect
+ok 103 - IRIS-T18_ESA_5-16: Der ringförmige Schließmuskel zieht sich zusammen => incorrect
+  ---
+  duration_ms: 0.020991
+  type: 'test'
+  ...
+# Subtest: IRIS-T18_ESA_5-17: Der ringförmige Schließmuskel zieht sich nicht zusammen. Die Erweiterungsmuskeln ziehen sich zusammen. => correct
+ok 104 - IRIS-T18_ESA_5-17: Der ringförmige Schließmuskel zieht sich nicht zusammen. Die Erweiterungsmuskeln ziehen sich zusammen. => correct
+  ---
+  duration_ms: 0.027652
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-01: Augenlider => correct
+ok 105 - DUST-T23_MSA_1-01: Augenlider => correct
+  ---
+  duration_ms: 0.169974
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-02: Die Augenlider schützen das Auge vor Staub => correct
+ok 106 - DUST-T23_MSA_1-02: Die Augenlider schützen das Auge vor Staub => correct
+  ---
+  duration_ms: 0.133479
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-03: Nicht die Augenlider => incorrect
+ok 107 - DUST-T23_MSA_1-03: Nicht die Augenlider => incorrect
+  ---
+  duration_ms: 0.057345
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-04: Die Augenlider schützen das Auge nicht vor Staub => incorrect
+ok 108 - DUST-T23_MSA_1-04: Die Augenlider schützen das Auge nicht vor Staub => incorrect
+  ---
+  duration_ms: 0.035343
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-05: Sehnerv => incorrect
+ok 109 - DUST-T23_MSA_1-05: Sehnerv => incorrect
+  ---
+  duration_ms: 0.018758
+  type: 'test'
+  ...
+# Subtest: DUST-T23_MSA_1-06: Augenlider und Sehnerv => clarify
+ok 110 - DUST-T23_MSA_1-06: Augenlider und Sehnerv => clarify
+  ---
+  duration_ms: 0.018518
+  type: 'test'
+  ...
+# Subtest: LIGHT-T18_MSA_1-01: mehr Licht hineinlassen => correct
+ok 111 - LIGHT-T18_MSA_1-01: mehr Licht hineinlassen => correct
+  ---
+  duration_ms: 0.259979
+  type: 'test'
+  ...
+# Subtest: LIGHT-T18_MSA_1-02: weniger Licht hineinlassen => incorrect
+ok 112 - LIGHT-T18_MSA_1-02: weniger Licht hineinlassen => incorrect
+  ---
+  duration_ms: 0.132438
+  type: 'test'
+  ...
+# Subtest: LIGHT-T18_MSA_1-03: nicht mehr Licht hineinlassen => incorrect
+ok 113 - LIGHT-T18_MSA_1-03: nicht mehr Licht hineinlassen => incorrect
+  ---
+  duration_ms: 0.030115
+  type: 'test'
+  ...
+# Subtest: LIGHT-T18_MSA_1-04: Mehr Licht aus dem Auge hinauslassen => incorrect
+ok 114 - LIGHT-T18_MSA_1-04: Mehr Licht aus dem Auge hinauslassen => incorrect
+  ---
+  duration_ms: 0.01978
+  type: 'test'
+  ...
+# Subtest: LIGHT-T18_MSA_1-05: mehr Licht hineinlassen und weniger Licht hineinlassen => clarify
+ok 115 - LIGHT-T18_MSA_1-05: mehr Licht hineinlassen und weniger Licht hineinlassen => clarify
+  ---
+  duration_ms: 0.022814
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-01: Hörschnecke wandelt Bewegung in elektrische Signale um => correct
+ok 116 - COCHLEA-T20_AHR_3-01: Hörschnecke wandelt Bewegung in elektrische Signale um => correct
+  ---
+  duration_ms: 0.489572
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-02: Hörschnecke wandelt elektrische Signale in Bewegung um => incorrect
+ok 117 - COCHLEA-T20_AHR_3-02: Hörschnecke wandelt elektrische Signale in Bewegung um => incorrect
+  ---
+  duration_ms: 0.135432
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-03: Hörschnecke wandelt Bewegung nicht in elektrische Signale um => incorrect
+ok 118 - COCHLEA-T20_AHR_3-03: Hörschnecke wandelt Bewegung nicht in elektrische Signale um => incorrect
+  ---
+  duration_ms: 0.06016
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-04: Bewegungen werden in der Hörschnecke in elektrische Impulse umgewandelt => correct
+ok 119 - COCHLEA-T20_AHR_3-04: Bewegungen werden in der Hörschnecke in elektrische Impulse umgewandelt => correct
+  ---
+  duration_ms: 0.0338
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-05: Elektrische Signale werden in der Hörschnecke in Bewegungen umgewandelt => incorrect
+ok 120 - COCHLEA-T20_AHR_3-05: Elektrische Signale werden in der Hörschnecke in Bewegungen umgewandelt => incorrect
+  ---
+  duration_ms: 0.025157
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-06: Die Hörschnecke wandelt die Schwingungen in Nervensignale um => correct
+ok 121 - COCHLEA-T20_AHR_3-06: Die Hörschnecke wandelt die Schwingungen in Nervensignale um => correct
+  ---
+  duration_ms: 0.071167
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-07: Die Hörschnecke wandelt Nervensignale in Schwingungen um => incorrect
+ok 122 - COCHLEA-T20_AHR_3-07: Die Hörschnecke wandelt Nervensignale in Schwingungen um => incorrect
+  ---
+  duration_ms: 0.027741
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-08: In der Hörschnecke entstehen elektrische Signale aus Bewegung => correct
+ok 123 - COCHLEA-T20_AHR_3-08: In der Hörschnecke entstehen elektrische Signale aus Bewegung => correct
+  ---
+  duration_ms: 0.032659
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-09: In der Hörschnecke entstehen Bewegungen aus elektrischen Signalen => incorrect
+ok 124 - COCHLEA-T20_AHR_3-09: In der Hörschnecke entstehen Bewegungen aus elektrischen Signalen => incorrect
+  ---
+  duration_ms: 0.029114
+  type: 'test'
+  ...
+# Subtest: COCHLEA-T20_AHR_3-10: Trommelfell wandelt Bewegung in elektrische Signale um => incorrect
+ok 125 - COCHLEA-T20_AHR_3-10: Trommelfell wandelt Bewegung in elektrische Signale um => incorrect
+  ---
+  duration_ms: 0.039749
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-01: Es gibt keine Sinneszellen und Stäbchen und Zapfen sind vorhanden => clarify
+ok 126 - CONTRA-T22_MSA_1-01: Es gibt keine Sinneszellen und Stäbchen und Zapfen sind vorhanden => clarify
+  ---
+  duration_ms: 0.047811
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-02: Stäbchen und Zapfen sind vorhanden und Sinneszellen fehlen => clarify
+ok 127 - CONTRA-T22_MSA_1-02: Stäbchen und Zapfen sind vorhanden und Sinneszellen fehlen => clarify
+  ---
+  duration_ms: 0.029845
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-03: Dort gibt es nicht nur Sinneszellen => incorrect
+ok 128 - CONTRA-T22_MSA_1-03: Dort gibt es nicht nur Sinneszellen => incorrect
+  ---
+  duration_ms: 0.025858
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-04: Dort sind nicht alle Lichtsinneszellen vorhanden => incorrect
+ok 129 - CONTRA-T22_MSA_1-04: Dort sind nicht alle Lichtsinneszellen vorhanden => incorrect
+  ---
+  duration_ms: 0.022965
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-05: Sinneszellen fehlen nicht nicht => clarify
+ok 130 - CONTRA-T22_MSA_1-05: Sinneszellen fehlen nicht nicht => clarify
+  ---
+  duration_ms: 0.022042
+  type: 'test'
+  ...
+# Subtest: CONTRA-T22_MSA_1-06: Dort fehlen Sinneszellen, aber keine Stäbchen und Zapfen => clarify
+ok 131 - CONTRA-T22_MSA_1-06: Dort fehlen Sinneszellen, aber keine Stäbchen und Zapfen => clarify
+  ---
+  duration_ms: 0.02672
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-01: Nah rund fern flach. Die Linse kann nicht beide Formen gleichzeitig haben, sie kann beide Formen gleichzeitig haben. => clarify
+ok 132 - CONTRA-T15_AHR_2-01: Nah rund fern flach. Die Linse kann nicht beide Formen gleichzeitig haben, sie kann beide Formen gleichzeitig haben. => clarify
+  ---
+  duration_ms: 0.02687
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-02: Nah rund fern flach. Die Linse kann beide Formen gleichzeitig haben, sie kann nicht beide Formen gleichzeitig haben. => clarify
+ok 133 - CONTRA-T15_AHR_2-02: Nah rund fern flach. Die Linse kann beide Formen gleichzeitig haben, sie kann nicht beide Formen gleichzeitig haben. => clarify
+  ---
+  duration_ms: 0.020601
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-03: Nah rund fern flach. Nah wird die Linse nicht rund. => incorrect
+ok 134 - CONTRA-T15_AHR_2-03: Nah rund fern flach. Nah wird die Linse nicht rund. => incorrect
+  ---
+  duration_ms: 0.036335
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-04: Nah rund fern flach. Fern wird die Linse nicht flach. => incorrect
+ok 135 - CONTRA-T15_AHR_2-04: Nah rund fern flach. Fern wird die Linse nicht flach. => incorrect
+  ---
+  duration_ms: 0.027871
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-05: Nah rund fern flach. Die Linse kann zugleich rund und flach sein. => incorrect
+ok 136 - CONTRA-T15_AHR_2-05: Nah rund fern flach. Die Linse kann zugleich rund und flach sein. => incorrect
+  ---
+  duration_ms: 0.044937
+  type: 'test'
+  ...
+# Subtest: CONTRA-T15_AHR_2-06: Nah rund fern flach. Beide sind scharf gleichzeitig. => incorrect
+ok 137 - CONTRA-T15_AHR_2-06: Nah rund fern flach. Beide sind scharf gleichzeitig. => incorrect
+  ---
+  duration_ms: 0.02013
+  type: 'test'
+  ...
+# Subtest: CONTRA-T18_ESA_5-01: Die Muskeln ziehen sich zusammen und die Pupille wird größer und dann kleiner => incorrect
+ok 138 - CONTRA-T18_ESA_5-01: Die Muskeln ziehen sich zusammen und die Pupille wird größer und dann kleiner => incorrect
+  ---
+  duration_ms: 0.028673
+  type: 'test'
+  ...
+# Subtest: CONTRA-T18_ESA_5-02: Sie ziehen sich zusammen und die Pupille wird größer. Danach wird sie kleiner. => incorrect
+ok 139 - CONTRA-T18_ESA_5-02: Sie ziehen sich zusammen und die Pupille wird größer. Danach wird sie kleiner. => incorrect
+  ---
+  duration_ms: 0.022954
+  type: 'test'
+  ...
+# Subtest: CONTRA-T18_ESA_5-03: Sie ziehen sich zusammen und die Pupille wird größer und nicht kleiner => correct
+ok 140 - CONTRA-T18_ESA_5-03: Sie ziehen sich zusammen und die Pupille wird größer und nicht kleiner => correct
+  ---
+  duration_ms: 0.028453
+  type: 'test'
+  ...
+# Subtest: CONTRA-T18_ESA_5-04: Die Muskeln ziehen sich zusammen und die Pupille wird nicht größer sondern kleiner => incorrect
+ok 141 - CONTRA-T18_ESA_5-04: Die Muskeln ziehen sich zusammen und die Pupille wird nicht größer sondern kleiner => incorrect
+  ---
+  duration_ms: 0.020861
+  type: 'test'
+  ...
+# Subtest: CONTRA-T20_AHR_3-01: Elektrische Signale werden Bewegungen => incorrect
+ok 142 - CONTRA-T20_AHR_3-01: Elektrische Signale werden Bewegungen => incorrect
+  ---
+  duration_ms: 0.024376
+  type: 'test'
+  ...
+# Subtest: CONTRA-T20_AHR_3-02: Aus Bewegungen werden elektrische Signale => correct
+ok 143 - CONTRA-T20_AHR_3-02: Aus Bewegungen werden elektrische Signale => correct
+  ---
+  duration_ms: 0.02653
+  type: 'test'
+  ...
+# Subtest: CONTRA-T20_AHR_3-03: Elektrische Signale werden aus Bewegungen => correct
+ok 144 - CONTRA-T20_AHR_3-03: Elektrische Signale werden aus Bewegungen => correct
+  ---
+  duration_ms: 0.024547
+  type: 'test'
+  ...
+# Subtest: FULL-01: Nah rund fern flach. Die Linse kann nicht rund sein. => clarify
+ok 145 - FULL-01: Nah rund fern flach. Die Linse kann nicht rund sein. => clarify
+  ---
+  duration_ms: 0.022964
+  type: 'test'
+  ...
+# Subtest: FULL-02: Nah rund fern flach. Flach wird die Linse bei fern nicht. => clarify
+ok 146 - FULL-02: Nah rund fern flach. Flach wird die Linse bei fern nicht. => clarify
+  ---
+  duration_ms: 0.02
+  type: 'test'
+  ...
+# Subtest: FULL-03: Nah rund fern flach. Nicht rund sondern flach. => clarify
+ok 147 - FULL-03: Nah rund fern flach. Nicht rund sondern flach. => clarify
+  ---
+  duration_ms: 0.021202
+  type: 'test'
+  ...
+# Subtest: FULL-04: Der ringförmige Muskel zieht sich zusammen => incorrect
+ok 148 - FULL-04: Der ringförmige Muskel zieht sich zusammen => incorrect
+  ---
+  duration_ms: 0.020951
+  type: 'test'
+  ...
+# Subtest: FULL-05: Die radial angeordneten Muskeln ziehen sich zusammen => correct
+ok 149 - FULL-05: Die radial angeordneten Muskeln ziehen sich zusammen => correct
+  ---
+  duration_ms: 0.050356
+  type: 'test'
+  ...
+# Subtest: G001 NEAR_SHAPE: correct
+ok 150 - G001 NEAR_SHAPE: correct
+  ---
+  duration_ms: 2.012165
+  type: 'test'
+  ...
+# Subtest: G002 NEAR_SHAPE: correct
+ok 151 - G002 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.274851
+  type: 'test'
+  ...
+# Subtest: G003 NEAR_SHAPE: correct
+ok 152 - G003 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.067791
+  type: 'test'
+  ...
+# Subtest: G004 NEAR_SHAPE: correct
+ok 153 - G004 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.067431
+  type: 'test'
+  ...
+# Subtest: G005 NEAR_SHAPE: correct
+ok 154 - G005 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.090686
+  type: 'test'
+  ...
+# Subtest: G006 NEAR_SHAPE: correct
+ok 155 - G006 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.063375
+  type: 'test'
+  ...
+# Subtest: G007 NEAR_SHAPE: correct
+ok 156 - G007 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.067871
+  type: 'test'
+  ...
+# Subtest: G008 NEAR_SHAPE: correct
+ok 157 - G008 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.069944
+  type: 'test'
+  ...
+# Subtest: G009 NEAR_SHAPE: correct
+ok 158 - G009 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.136264
+  type: 'test'
+  ...
+# Subtest: G010 NEAR_SHAPE: correct
+ok 159 - G010 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.119649
+  type: 'test'
+  ...
+# Subtest: G011 NEAR_SHAPE: incorrect
+ok 160 - G011 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.099078
+  type: 'test'
+  ...
+# Subtest: G012 NEAR_SHAPE: incorrect
+ok 161 - G012 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.044777
+  type: 'test'
+  ...
+# Subtest: G013 NEAR_SHAPE: incorrect
+ok 162 - G013 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.03341
+  type: 'test'
+  ...
+# Subtest: G014 NEAR_SHAPE: incorrect
+ok 163 - G014 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.029223
+  type: 'test'
+  ...
+# Subtest: G015 NEAR_SHAPE: partial
+ok 164 - G015 NEAR_SHAPE: partial
+  ---
+  duration_ms: 0.029855
+  type: 'test'
+  ...
+# Subtest: G016 NEAR_SHAPE: partial
+ok 165 - G016 NEAR_SHAPE: partial
+  ---
+  duration_ms: 0.109664
+  type: 'test'
+  ...
+# Subtest: G017 NEAR_SHAPE: clarify
+ok 166 - G017 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.078838
+  type: 'test'
+  ...
+# Subtest: G018 NEAR_SHAPE: clarify
+ok 167 - G018 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.029895
+  type: 'test'
+  ...
+# Subtest: G019 NEAR_SHAPE: clarify
+ok 168 - G019 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.074632
+  type: 'test'
+  ...
+# Subtest: G020 NEAR_SHAPE: clarify
+ok 169 - G020 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.043115
+  type: 'test'
+  ...
+# Subtest: G021 NEAR_SHAPE: clarify
+ok 170 - G021 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.036414
+  type: 'test'
+  ...
+# Subtest: G022 NEAR_SHAPE: clarify
+ok 171 - G022 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.026579
+  type: 'test'
+  ...
+# Subtest: G023 CONE_DIFFERENCE: correct
+ok 172 - G023 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.460919
+  type: 'test'
+  ...
+# Subtest: G024 CONE_DIFFERENCE: correct
+ok 173 - G024 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.161702
+  type: 'test'
+  ...
+# Subtest: G025 CONE_DIFFERENCE: correct
+ok 174 - G025 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.062954
+  type: 'test'
+  ...
+# Subtest: G026 CONE_DIFFERENCE: correct
+ok 175 - G026 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 1.284739
+  type: 'test'
+  ...
+# Subtest: G027 CONE_DIFFERENCE: correct
+ok 176 - G027 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.064636
+  type: 'test'
+  ...
+# Subtest: G028 CONE_DIFFERENCE: correct
+ok 177 - G028 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.040471
+  type: 'test'
+  ...
+# Subtest: G029 CONE_DIFFERENCE: partial
+ok 178 - G029 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.100109
+  type: 'test'
+  ...
+# Subtest: G030 CONE_DIFFERENCE: partial
+ok 179 - G030 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.042474
+  type: 'test'
+  ...
+# Subtest: G031 CONE_DIFFERENCE: partial
+ok 180 - G031 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.0406
+  type: 'test'
+  ...
+# Subtest: G032 CONE_DIFFERENCE: partial
+ok 181 - G032 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.028042
+  type: 'test'
+  ...
+# Subtest: G033 CONE_DIFFERENCE: partial
+ok 182 - G033 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.02016
+  type: 'test'
+  ...
+# Subtest: G034 CONE_DIFFERENCE: incorrect
+ok 183 - G034 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.016965
+  type: 'test'
+  ...
+# Subtest: G035 CONE_DIFFERENCE: incorrect
+ok 184 - G035 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.069324
+  type: 'test'
+  ...
+# Subtest: G036 CONE_DIFFERENCE: incorrect
+ok 185 - G036 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.027952
+  type: 'test'
+  ...
+# Subtest: G037 CONE_DIFFERENCE: incorrect
+ok 186 - G037 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.017827
+  type: 'test'
+  ...
+# Subtest: G038 CONE_DIFFERENCE: clarify
+ok 187 - G038 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.016394
+  type: 'test'
+  ...
+# Subtest: G039 CONE_DIFFERENCE: clarify
+ok 188 - G039 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.015443
+  type: 'test'
+  ...
+# Subtest: G040 CONE_DIFFERENCE: clarify
+ok 189 - G040 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.017546
+  type: 'test'
+  ...
+# Subtest: G041 BRAIN: correct
+ok 190 - G041 BRAIN: correct
+  ---
+  duration_ms: 0.544202
+  type: 'test'
+  ...
+# Subtest: G042 BRAIN: correct
+ok 191 - G042 BRAIN: correct
+  ---
+  duration_ms: 0.203514
+  type: 'test'
+  ...
+# Subtest: G043 BRAIN: correct
+ok 192 - G043 BRAIN: correct
+  ---
+  duration_ms: 0.029745
+  type: 'test'
+  ...
+# Subtest: G044 BRAIN: correct
+ok 193 - G044 BRAIN: correct
+  ---
+  duration_ms: 0.023525
+  type: 'test'
+  ...
+# Subtest: G045 BRAIN: correct
+ok 194 - G045 BRAIN: correct
+  ---
+  duration_ms: 0.058417
+  type: 'test'
+  ...
+# Subtest: G046 BRAIN: correct
+ok 195 - G046 BRAIN: correct
+  ---
+  duration_ms: 0.02658
+  type: 'test'
+  ...
+# Subtest: G047 BRAIN: correct
+ok 196 - G047 BRAIN: correct
+  ---
+  duration_ms: 0.034962
+  type: 'test'
+  ...
+# Subtest: G048 BRAIN: partial
+ok 197 - G048 BRAIN: partial
+  ---
+  duration_ms: 0.050135
+  type: 'test'
+  ...
+# Subtest: G049 BRAIN: clarify
+ok 198 - G049 BRAIN: clarify
+  ---
+  duration_ms: 0.039259
+  type: 'test'
+  ...
+# Subtest: G050 BRAIN: clarify
+ok 199 - G050 BRAIN: clarify
+  ---
+  duration_ms: 0.032799
+  type: 'test'
+  ...
+# Subtest: G051 BRAIN: clarify
+ok 200 - G051 BRAIN: clarify
+  ---
+  duration_ms: 0.037386
+  type: 'test'
+  ...
+# Subtest: G052 BRAIN: incorrect
+ok 201 - G052 BRAIN: incorrect
+  ---
+  duration_ms: 0.025459
+  type: 'test'
+  ...
+# Subtest: G053 BRAIN: incorrect
+ok 202 - G053 BRAIN: incorrect
+  ---
+  duration_ms: 0.018607
+  type: 'test'
+  ...
+# Subtest: G054 BRAIN: incorrect
+ok 203 - G054 BRAIN: incorrect
+  ---
+  duration_ms: 0.018458
+  type: 'test'
+  ...
+# Subtest: G055 BRAIN: incorrect
+ok 204 - G055 BRAIN: incorrect
+  ---
+  duration_ms: 0.054762
+  type: 'test'
+  ...
+# Subtest: G056 BRAIN: correct
+ok 205 - G056 BRAIN: correct
+  ---
+  duration_ms: 0.058488
+  type: 'test'
+  ...
+# Subtest: G057 BRAIN: correct
+ok 206 - G057 BRAIN: correct
+  ---
+  duration_ms: 0.044857
+  type: 'test'
+  ...
+# Subtest: G058 BRAIN: incorrect
+ok 207 - G058 BRAIN: incorrect
+  ---
+  duration_ms: 0.019208
+  type: 'test'
+  ...
+# Subtest: G059 BRAIN: incorrect
+ok 208 - G059 BRAIN: incorrect
+  ---
+  duration_ms: 0.016875
+  type: 'test'
+  ...
+# Subtest: G060 EARDRUM_MOVES: correct
+ok 209 - G060 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.24113
+  type: 'test'
+  ...
+# Subtest: G061 EARDRUM_MOVES: correct
+ok 210 - G061 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.102403
+  type: 'test'
+  ...
+# Subtest: G062 EARDRUM_MOVES: correct
+ok 211 - G062 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.022123
+  type: 'test'
+  ...
+# Subtest: G063 EARDRUM_MOVES: correct
+ok 212 - G063 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.019159
+  type: 'test'
+  ...
+# Subtest: G064 EARDRUM_MOVES: correct
+ok 213 - G064 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.054301
+  type: 'test'
+  ...
+# Subtest: G065 EARDRUM_MOVES: correct
+ok 214 - G065 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.025848
+  type: 'test'
+  ...
+# Subtest: G066 EARDRUM_MOVES: correct
+ok 215 - G066 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.019168
+  type: 'test'
+  ...
+# Subtest: G067 EARDRUM_MOVES: partial
+ok 216 - G067 EARDRUM_MOVES: partial
+  ---
+  duration_ms: 0.051447
+  type: 'test'
+  ...
+# Subtest: G068 EARDRUM_MOVES: incorrect
+ok 217 - G068 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.051036
+  type: 'test'
+  ...
+# Subtest: G069 EARDRUM_MOVES: incorrect
+ok 218 - G069 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.035222
+  type: 'test'
+  ...
+# Subtest: G070 EARDRUM_MOVES: incorrect
+ok 219 - G070 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.021072
+  type: 'test'
+  ...
+# Subtest: G071 EARDRUM_MOVES: clarify
+ok 220 - G071 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.039229
+  type: 'test'
+  ...
+# Subtest: G072 EARDRUM_MOVES: clarify
+ok 221 - G072 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.018688
+  type: 'test'
+  ...
+# Subtest: G073 EARDRUM_MOVES: clarify
+ok 222 - G073 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.046549
+  type: 'test'
+  ...
+# Subtest: G074 EARDRUM_MOVES: clarify
+ok 223 - G074 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.02007
+  type: 'test'
+  ...
+# Subtest: G075 OSSICLES_TRANSMIT: correct
+ok 224 - G075 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.406427
+  type: 'test'
+  ...
+# Subtest: G076 OSSICLES_TRANSMIT: correct
+ok 225 - G076 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.119829
+  type: 'test'
+  ...
+# Subtest: G077 OSSICLES_TRANSMIT: correct
+ok 226 - G077 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.022573
+  type: 'test'
+  ...
+# Subtest: G078 OSSICLES_TRANSMIT: correct
+ok 227 - G078 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.017626
+  type: 'test'
+  ...
+# Subtest: G079 OSSICLES_TRANSMIT: correct
+ok 228 - G079 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.023305
+  type: 'test'
+  ...
+# Subtest: G080 OSSICLES_TRANSMIT: correct
+ok 229 - G080 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.0201
+  type: 'test'
+  ...
+# Subtest: G081 OSSICLES_TRANSMIT: correct
+ok 230 - G081 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.040801
+  type: 'test'
+  ...
+# Subtest: G082 OSSICLES_TRANSMIT: partial
+ok 231 - G082 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.054401
+  type: 'test'
+  ...
+# Subtest: G083 OSSICLES_TRANSMIT: partial
+ok 232 - G083 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.035804
+  type: 'test'
+  ...
+# Subtest: G084 OSSICLES_TRANSMIT: partial
+ok 233 - G084 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.02034
+  type: 'test'
+  ...
+# Subtest: G085 OSSICLES_TRANSMIT: incorrect
+ok 234 - G085 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.028923
+  type: 'test'
+  ...
+# Subtest: G086 OSSICLES_TRANSMIT: incorrect
+ok 235 - G086 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.020901
+  type: 'test'
+  ...
+# Subtest: G087 OSSICLES_TRANSMIT: incorrect
+ok 236 - G087 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.016104
+  type: 'test'
+  ...
+# Subtest: G088 OSSICLES_TRANSMIT: incorrect
+ok 237 - G088 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.036865
+  type: 'test'
+  ...
+# Subtest: G089 OSSICLES_TRANSMIT: incorrect
+ok 238 - G089 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.020331
+  type: 'test'
+  ...
+# Subtest: G090 OSSICLES_TRANSMIT: clarify
+ok 239 - G090 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.017987
+  type: 'test'
+  ...
+# Subtest: G091 OSSICLES_TRANSMIT: clarify
+ok 240 - G091 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.015774
+  type: 'test'
+  ...
+# Subtest: G092 OSSICLES_TRANSMIT: clarify
+ok 241 - G092 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.018528
+  type: 'test'
+  ...
+# Subtest: G093 COCHLEA_SIGNAL: correct
+ok 242 - G093 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.467518
+  type: 'test'
+  ...
+# Subtest: G094 COCHLEA_SIGNAL: correct
+ok 243 - G094 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.280979
+  type: 'test'
+  ...
+# Subtest: G095 COCHLEA_SIGNAL: correct
+ok 244 - G095 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.035633
+  type: 'test'
+  ...
+# Subtest: G096 COCHLEA_SIGNAL: correct
+ok 245 - G096 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.047851
+  type: 'test'
+  ...
+# Subtest: G097 COCHLEA_SIGNAL: correct
+ok 246 - G097 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.020201
+  type: 'test'
+  ...
+# Subtest: G098 COCHLEA_SIGNAL: correct
+ok 247 - G098 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.043706
+  type: 'test'
+  ...
+# Subtest: G099 COCHLEA_SIGNAL: correct
+ok 248 - G099 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.024407
+  type: 'test'
+  ...
+# Subtest: G100 COCHLEA_SIGNAL: partial
+ok 249 - G100 COCHLEA_SIGNAL: partial
+  ---
+  duration_ms: 0.051857
+  type: 'test'
+  ...
+# Subtest: G101 COCHLEA_SIGNAL: partial
+ok 250 - G101 COCHLEA_SIGNAL: partial
+  ---
+  duration_ms: 0.039118
+  type: 'test'
+  ...
+# Subtest: G102 COCHLEA_SIGNAL: incorrect
+ok 251 - G102 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.026199
+  type: 'test'
+  ...
+# Subtest: G103 COCHLEA_SIGNAL: incorrect
+ok 252 - G103 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.020471
+  type: 'test'
+  ...
+# Subtest: G104 COCHLEA_SIGNAL: incorrect
+ok 253 - G104 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.021482
+  type: 'test'
+  ...
+# Subtest: G105 COCHLEA_SIGNAL: incorrect
+ok 254 - G105 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.023375
+  type: 'test'
+  ...
+# Subtest: G106 COCHLEA_SIGNAL: clarify
+ok 255 - G106 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.052268
+  type: 'test'
+  ...
+# Subtest: G107 COCHLEA_SIGNAL: clarify
+ok 256 - G107 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.023496
+  type: 'test'
+  ...
+# Subtest: G108 COCHLEA_SIGNAL: clarify
+ok 257 - G108 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.022073
+  type: 'test'
+  ...
+# Subtest: G109 FOCUS_REASON: correct
+ok 258 - G109 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.810321
+  type: 'test'
+  ...
+# Subtest: G110 FOCUS_REASON: correct
+ok 259 - G110 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.220289
+  type: 'test'
+  ...
+# Subtest: G111 FOCUS_REASON: correct
+ok 260 - G111 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.293298
+  type: 'test'
+  ...
+# Subtest: G112 FOCUS_REASON: correct
+ok 261 - G112 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.10003
+  type: 'test'
+  ...
+# Subtest: G113 FOCUS_REASON: correct
+ok 262 - G113 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.122233
+  type: 'test'
+  ...
+# Subtest: G114 FOCUS_REASON: correct
+ok 263 - G114 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.061602
+  type: 'test'
+  ...
+# Subtest: G115 FOCUS_REASON: correct
+ok 264 - G115 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.06692
+  type: 'test'
+  ...
+# Subtest: G116 FOCUS_REASON: partial
+ok 265 - G116 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.076885
+  type: 'test'
+  ...
+# Subtest: G117 FOCUS_REASON: partial
+ok 266 - G117 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.064326
+  type: 'test'
+  ...
+# Subtest: G118 FOCUS_REASON: partial
+ok 267 - G118 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.025728
+  type: 'test'
+  ...
+# Subtest: G119 FOCUS_REASON: partial
+ok 268 - G119 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.03372
+  type: 'test'
+  ...
+# Subtest: G120 FOCUS_REASON: incorrect
+ok 269 - G120 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.033931
+  type: 'test'
+  ...
+# Subtest: G121 FOCUS_REASON: incorrect
+ok 270 - G121 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.021642
+  type: 'test'
+  ...
+# Subtest: G122 FOCUS_REASON: incorrect
+ok 271 - G122 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.017686
+  type: 'test'
+  ...
+# Subtest: G123 FOCUS_REASON: clarify
+ok 272 - G123 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.020791
+  type: 'test'
+  ...
+# Subtest: G124 FOCUS_REASON: clarify
+ok 273 - G124 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.02041
+  type: 'test'
+  ...
+# Subtest: G125 FOCUS_REASON: clarify
+ok 274 - G125 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.020851
+  type: 'test'
+  ...
+# Subtest: G126 TERM_LENS: correct
+ok 275 - G126 TERM_LENS: correct
+  ---
+  duration_ms: 0.242001
+  type: 'test'
+  ...
+# Subtest: G127 TERM_LENS: correct
+ok 276 - G127 TERM_LENS: correct
+  ---
+  duration_ms: 0.082433
+  type: 'test'
+  ...
+# Subtest: G128 TERM_LENS: correct
+ok 277 - G128 TERM_LENS: correct
+  ---
+  duration_ms: 0.561058
+  type: 'test'
+  ...
+# Subtest: G129 TERM_LENS: correct
+ok 278 - G129 TERM_LENS: correct
+  ---
+  duration_ms: 0.047851
+  type: 'test'
+  ...
+# Subtest: G130 TERM_LENS: incorrect
+ok 279 - G130 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.09391
+  type: 'test'
+  ...
+# Subtest: G131 TERM_LENS: incorrect
+ok 280 - G131 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.023145
+  type: 'test'
+  ...
+# Subtest: G132 TERM_LENS: incorrect
+ok 281 - G132 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.018959
+  type: 'test'
+  ...
+# Subtest: G133 TERM_LENS: clarify
+ok 282 - G133 TERM_LENS: clarify
+  ---
+  duration_ms: 0.158507
+  type: 'test'
+  ...
+# Subtest: G134 TERM_LENS: clarify
+ok 283 - G134 TERM_LENS: clarify
+  ---
+  duration_ms: 0.027
+  type: 'test'
+  ...
+# Subtest: G135 TERM_RETINA: correct
+ok 284 - G135 TERM_RETINA: correct
+  ---
+  duration_ms: 0.054452
+  type: 'test'
+  ...
+# Subtest: G136 TERM_RETINA: correct
+ok 285 - G136 TERM_RETINA: correct
+  ---
+  duration_ms: 0.037566
+  type: 'test'
+  ...
+# Subtest: G137 TERM_RETINA: correct
+ok 286 - G137 TERM_RETINA: correct
+  ---
+  duration_ms: 0.022684
+  type: 'test'
+  ...
+# Subtest: G138 TERM_RETINA: correct
+ok 287 - G138 TERM_RETINA: correct
+  ---
+  duration_ms: 0.116464
+  type: 'test'
+  ...
+# Subtest: G139 TERM_RETINA: partial
+ok 288 - G139 TERM_RETINA: partial
+  ---
+  duration_ms: 0.030426
+  type: 'test'
+  ...
+# Subtest: G140 TERM_RETINA: incorrect
+ok 289 - G140 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.017135
+  type: 'test'
+  ...
+# Subtest: G141 TERM_RETINA: incorrect
+ok 290 - G141 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.018118
+  type: 'test'
+  ...
+# Subtest: G142 TERM_RETINA: incorrect
+ok 291 - G142 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.051747
+  type: 'test'
+  ...
+# Subtest: G143 TERM_RETINA: clarify
+ok 292 - G143 TERM_RETINA: clarify
+  ---
+  duration_ms: 0.105187
+  type: 'test'
+  ...
+# Subtest: G144 TERM_RETINA: clarify
+ok 293 - G144 TERM_RETINA: clarify
+  ---
+  duration_ms: 0.02697
+  type: 'test'
+  ...
+# Subtest: G145 ANATOMY: correct
+ok 294 - G145 ANATOMY: correct
+  ---
+  duration_ms: 0.057396
+  type: 'test'
+  ...
+# Subtest: G146 ANATOMY: correct
+ok 295 - G146 ANATOMY: correct
+  ---
+  duration_ms: 0.049704
+  type: 'test'
+  ...
+# Subtest: G147 ANATOMY: correct
+ok 296 - G147 ANATOMY: correct
+  ---
+  duration_ms: 0.021632
+  type: 'test'
+  ...
+# Subtest: G148 ANATOMY: incorrect
+ok 297 - G148 ANATOMY: incorrect
+  ---
+  duration_ms: 0.018327
+  type: 'test'
+  ...
+# Subtest: G149 ANATOMY: incorrect
+ok 298 - G149 ANATOMY: incorrect
+  ---
+  duration_ms: 0.017075
+  type: 'test'
+  ...
+# Subtest: G150 ANATOMY: clarify
+ok 299 - G150 ANATOMY: clarify
+  ---
+  duration_ms: 0.018448
+  type: 'test'
+  ...
+# Subtest: G151 ANATOMY: clarify
+ok 300 - G151 ANATOMY: clarify
+  ---
+  duration_ms: 0.022003
+  type: 'test'
+  ...
+# Subtest: G152 ANATOMY: correct
+ok 301 - G152 ANATOMY: correct
+  ---
+  duration_ms: 0.017346
+  type: 'test'
+  ...
+# Subtest: G153 ANATOMY: correct
+ok 302 - G153 ANATOMY: correct
+  ---
+  duration_ms: 0.015263
+  type: 'test'
+  ...
+# Subtest: G154 ANATOMY: partial
+ok 303 - G154 ANATOMY: partial
+  ---
+  duration_ms: 0.035052
+  type: 'test'
+  ...
+# Subtest: G155 ANATOMY: correct
+ok 304 - G155 ANATOMY: correct
+  ---
+  duration_ms: 0.017316
+  type: 'test'
+  ...
+# Subtest: G156 ANATOMY: correct
+ok 305 - G156 ANATOMY: correct
+  ---
+  duration_ms: 0.019269
+  type: 'test'
+  ...
+# Subtest: G157 ANATOMY: correct
+ok 306 - G157 ANATOMY: correct
+  ---
+  duration_ms: 0.017366
+  type: 'test'
+  ...
+# Subtest: G158 ANATOMY: incorrect
+ok 307 - G158 ANATOMY: incorrect
+  ---
+  duration_ms: 0.024757
+  type: 'test'
+  ...
+# Subtest: G159 ANATOMY: clarify
+ok 308 - G159 ANATOMY: clarify
+  ---
+  duration_ms: 0.018368
+  type: 'test'
+  ...
+# Subtest: G160 ANATOMY: correct
+ok 309 - G160 ANATOMY: correct
+  ---
+  duration_ms: 0.038177
+  type: 'test'
+  ...
+# Subtest: G161 NEAR_SHAPE: empty
+ok 310 - G161 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.019679
+  type: 'test'
+  ...
+# Subtest: G162 NEAR_SHAPE: empty
+ok 311 - G162 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.016475
+  type: 'test'
+  ...
+# Subtest: G163 NEAR_SHAPE: empty
+ok 312 - G163 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.015503
+  type: 'test'
+  ...
+# Subtest: G164 NEAR_SHAPE: help_requested
+ok 313 - G164 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.018518
+  type: 'test'
+  ...
+# Subtest: G165 NEAR_SHAPE: help_requested
+ok 314 - G165 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.051958
+  type: 'test'
+  ...
+# Subtest: G166 NEAR_SHAPE: help_requested
+ok 315 - G166 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.019188
+  type: 'test'
+  ...
+# Subtest: G167 NEAR_SHAPE: clarify
+ok 316 - G167 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.023805
+  type: 'test'
+  ...
+# Subtest: G168 NEAR_SHAPE: clarify
+ok 317 - G168 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.017846
+  type: 'test'
+  ...
+# Subtest: G169 NEAR_SHAPE: clarify
+ok 318 - G169 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.021371
+  type: 'test'
+  ...
+# Subtest: G170 NEAR_SHAPE: clarify
+ok 319 - G170 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.034391
+  type: 'test'
+  ...
+# Subtest: G171 NEAR_SHAPE: clarify
+ok 320 - G171 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.039759
+  type: 'test'
+  ...
+# Subtest: G172 NEAR_SHAPE: too_long
+ok 321 - G172 NEAR_SHAPE: too_long
+  ---
+  duration_ms: 0.04026
+  type: 'test'
+  ...
+# Subtest: G173 BRAIN: incorrect
+ok 322 - G173 BRAIN: incorrect
+  ---
+  duration_ms: 0.027091
+  type: 'test'
+  ...
+# Subtest: G174 EARDRUM_MOVES: correct
+ok 323 - G174 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.029153
+  type: 'test'
+  ...
+# Subtest: G175 CONE_DIFFERENCE: correct
+ok 324 - G175 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.03396
+  type: 'test'
+  ...
+# Subtest: G176 FOCUS_REASON: correct
+ok 325 - G176 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.08711
+  type: 'test'
+  ...
+# Subtest: T01/Foerder: solution, error/help and partial assignment paths
+ok 326 - T01/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 2.017924
+  type: 'test'
+  ...
+# Subtest: T01/ESA: solution, error/help and partial assignment paths
+ok 327 - T01/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.096194
+  type: 'test'
+  ...
+# Subtest: T01/MSA: solution, error/help and partial assignment paths
+ok 328 - T01/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.050756
+  type: 'test'
+  ...
+# Subtest: T01/AHR: solution, error/help and partial assignment paths
+ok 329 - T01/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.045898
+  type: 'test'
+  ...
+# Subtest: T02/Foerder: solution, error/help and partial assignment paths
+ok 330 - T02/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.06642
+  type: 'test'
+  ...
+# Subtest: T02/ESA: solution, error/help and partial assignment paths
+ok 331 - T02/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.05333
+  type: 'test'
+  ...
+# Subtest: T02/MSA: solution, error/help and partial assignment paths
+ok 332 - T02/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.059759
+  type: 'test'
+  ...
+# Subtest: T02/AHR: solution, error/help and partial assignment paths
+ok 333 - T02/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.038598
+  type: 'test'
+  ...
+# Subtest: T03/Foerder: solution, error/help and partial assignment paths
+ok 334 - T03/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.178507
+  type: 'test'
+  ...
+# Subtest: T03/ESA: solution, error/help and partial assignment paths
+ok 335 - T03/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.123895
+  type: 'test'
+  ...
+# Subtest: T03/MSA: solution, error/help and partial assignment paths
+ok 336 - T03/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.699395
+  type: 'test'
+  ...
+# Subtest: T03/AHR: solution, error/help and partial assignment paths
+ok 337 - T03/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.121932
+  type: 'test'
+  ...
+# Subtest: T04/Foerder: solution, error/help and partial assignment paths
+ok 338 - T04/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.042554
+  type: 'test'
+  ...
+# Subtest: T04/ESA: solution, error/help and partial assignment paths
+ok 339 - T04/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.038397
+  type: 'test'
+  ...
+# Subtest: T04/MSA: solution, error/help and partial assignment paths
+ok 340 - T04/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.049384
+  type: 'test'
+  ...
+# Subtest: T04/AHR: solution, error/help and partial assignment paths
+ok 341 - T04/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.054141
+  type: 'test'
+  ...
+# Subtest: T05/Foerder: solution, error/help and partial assignment paths
+ok 342 - T05/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.124065
+  type: 'test'
+  ...
+# Subtest: T05/ESA: solution, error/help and partial assignment paths
+ok 343 - T05/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.046549
+  type: 'test'
+  ...
+# Subtest: T05/MSA: solution, error/help and partial assignment paths
+ok 344 - T05/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.027471
+  type: 'test'
+  ...
+# Subtest: T05/AHR: solution, error/help and partial assignment paths
+ok 345 - T05/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.022684
+  type: 'test'
+  ...
+# Subtest: T06/Foerder: solution, error/help and partial assignment paths
+ok 346 - T06/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.021112
+  type: 'test'
+  ...
+# Subtest: T06/ESA: solution, error/help and partial assignment paths
+ok 347 - T06/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.021352
+  type: 'test'
+  ...
+# Subtest: T06/MSA: solution, error/help and partial assignment paths
+ok 348 - T06/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.021112
+  type: 'test'
+  ...
+# Subtest: T06/AHR: solution, error/help and partial assignment paths
+ok 349 - T06/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.032308
+  type: 'test'
+  ...
+# Subtest: T07/Foerder: solution, error/help and partial assignment paths
+ok 350 - T07/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.08048
+  type: 'test'
+  ...
+# Subtest: T07/ESA: solution, error/help and partial assignment paths
+ok 351 - T07/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.03384
+  type: 'test'
+  ...
+# Subtest: T07/MSA: solution, error/help and partial assignment paths
+ok 352 - T07/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.10721
+  type: 'test'
+  ...
+# Subtest: T07/AHR: solution, error/help and partial assignment paths
+ok 353 - T07/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.07381
+  type: 'test'
+  ...
+# Subtest: T08/Foerder: solution, error/help and partial assignment paths
+ok 354 - T08/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.021122
+  type: 'test'
+  ...
+# Subtest: T08/ESA: solution, error/help and partial assignment paths
+ok 355 - T08/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.026099
+  type: 'test'
+  ...
+# Subtest: T08/MSA: solution, error/help and partial assignment paths
+ok 356 - T08/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.01988
+  type: 'test'
+  ...
+# Subtest: T08/AHR: solution, error/help and partial assignment paths
+ok 357 - T08/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.021662
+  type: 'test'
+  ...
+# Subtest: T09/Foerder: solution, error/help and partial assignment paths
+ok 358 - T09/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.043075
+  type: 'test'
+  ...
+# Subtest: T09/ESA: solution, error/help and partial assignment paths
+ok 359 - T09/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.028223
+  type: 'test'
+  ...
+# Subtest: T09/MSA: solution, error/help and partial assignment paths
+ok 360 - T09/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.102694
+  type: 'test'
+  ...
+# Subtest: T09/AHR: solution, error/help and partial assignment paths
+ok 361 - T09/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.653286
+  type: 'test'
+  ...
+# Subtest: T10/Foerder: solution, error/help and partial assignment paths
+ok 362 - T10/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.035503
+  type: 'test'
+  ...
+# Subtest: T10/ESA: solution, error/help and partial assignment paths
+ok 363 - T10/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.019299
+  type: 'test'
+  ...
+# Subtest: T10/MSA: solution, error/help and partial assignment paths
+ok 364 - T10/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015663
+  type: 'test'
+  ...
+# Subtest: T10/AHR: solution, error/help and partial assignment paths
+ok 365 - T10/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.014932
+  type: 'test'
+  ...
+# Subtest: T11/Foerder: solution, error/help and partial assignment paths
+ok 366 - T11/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.016424
+  type: 'test'
+  ...
+# Subtest: T11/ESA: solution, error/help and partial assignment paths
+ok 367 - T11/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.013981
+  type: 'test'
+  ...
+# Subtest: T11/MSA: solution, error/help and partial assignment paths
+ok 368 - T11/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.458224
+  type: 'test'
+  ...
+# Subtest: T11/AHR: solution, error/help and partial assignment paths
+ok 369 - T11/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 1.256847
+  type: 'test'
+  ...
+# Subtest: T12/Foerder: solution, error/help and partial assignment paths
+ok 370 - T12/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.031136
+  type: 'test'
+  ...
+# Subtest: T12/ESA: solution, error/help and partial assignment paths
+ok 371 - T12/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.050235
+  type: 'test'
+  ...
+# Subtest: T12/MSA: solution, error/help and partial assignment paths
+ok 372 - T12/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.018627
+  type: 'test'
+  ...
+# Subtest: T12/AHR: solution, error/help and partial assignment paths
+ok 373 - T12/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015743
+  type: 'test'
+  ...
+# Subtest: T13/Foerder: solution, error/help and partial assignment paths
+ok 374 - T13/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.01314
+  type: 'test'
+  ...
+# Subtest: T13/ESA: solution, error/help and partial assignment paths
+ok 375 - T13/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.023926
+  type: 'test'
+  ...
+# Subtest: T13/MSA: solution, error/help and partial assignment paths
+ok 376 - T13/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.050896
+  type: 'test'
+  ...
+# Subtest: T13/AHR: solution, error/help and partial assignment paths
+ok 377 - T13/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.029554
+  type: 'test'
+  ...
+# Subtest: T14/Foerder: solution, error/help and partial assignment paths
+ok 378 - T14/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015564
+  type: 'test'
+  ...
+# Subtest: T14/ESA: solution, error/help and partial assignment paths
+ok 379 - T14/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015383
+  type: 'test'
+  ...
+# Subtest: T14/MSA: solution, error/help and partial assignment paths
+ok 380 - T14/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.205517
+  type: 'test'
+  ...
+# Subtest: T14/AHR: solution, error/help and partial assignment paths
+ok 381 - T14/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.115533
+  type: 'test'
+  ...
+# Subtest: T15/Foerder: solution, error/help and partial assignment paths
+ok 382 - T15/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.03388
+  type: 'test'
+  ...
+# Subtest: T15/ESA: solution, error/help and partial assignment paths
+ok 383 - T15/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.035784
+  type: 'test'
+  ...
+# Subtest: T15/MSA: solution, error/help and partial assignment paths
+ok 384 - T15/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.342571
+  type: 'test'
+  ...
+# Subtest: T15/AHR: solution, error/help and partial assignment paths
+ok 385 - T15/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 1.263187
+  type: 'test'
+  ...
+# Subtest: T16/Foerder: solution, error/help and partial assignment paths
+ok 386 - T16/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.030456
+  type: 'test'
+  ...
+# Subtest: T16/ESA: solution, error/help and partial assignment paths
+ok 387 - T16/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.018478
+  type: 'test'
+  ...
+# Subtest: T16/MSA: solution, error/help and partial assignment paths
+ok 388 - T16/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.016995
+  type: 'test'
+  ...
+# Subtest: T16/AHR: solution, error/help and partial assignment paths
+ok 389 - T16/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.04733
+  type: 'test'
+  ...
+# Subtest: T17/Foerder: solution, error/help and partial assignment paths
+ok 390 - T17/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.031737
+  type: 'test'
+  ...
+# Subtest: T17/ESA: solution, error/help and partial assignment paths
+ok 391 - T17/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.017536
+  type: 'test'
+  ...
+# Subtest: T17/MSA: solution, error/help and partial assignment paths
+ok 392 - T17/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.032669
+  type: 'test'
+  ...
+# Subtest: T17/AHR: solution, error/help and partial assignment paths
+ok 393 - T17/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.023705
+  type: 'test'
+  ...
+# Subtest: T18/Foerder: solution, error/help and partial assignment paths
+ok 394 - T18/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.035814
+  type: 'test'
+  ...
+# Subtest: T18/ESA: solution, error/help and partial assignment paths
+ok 395 - T18/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.637592
+  type: 'test'
+  ...
+# Subtest: T18/MSA: solution, error/help and partial assignment paths
+ok 396 - T18/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.477423
+  type: 'test'
+  ...
+# Subtest: T18/AHR: solution, error/help and partial assignment paths
+ok 397 - T18/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.333899
+  type: 'test'
+  ...
+# Subtest: T19/Foerder: solution, error/help and partial assignment paths
+ok 398 - T19/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.035954
+  type: 'test'
+  ...
+# Subtest: T19/ESA: solution, error/help and partial assignment paths
+ok 399 - T19/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.022223
+  type: 'test'
+  ...
+# Subtest: T19/MSA: solution, error/help and partial assignment paths
+ok 400 - T19/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.203044
+  type: 'test'
+  ...
+# Subtest: T19/AHR: solution, error/help and partial assignment paths
+ok 401 - T19/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.095212
+  type: 'test'
+  ...
+# Subtest: T20/Foerder: solution, error/help and partial assignment paths
+ok 402 - T20/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.01985
+  type: 'test'
+  ...
+# Subtest: T20/ESA: solution, error/help and partial assignment paths
+ok 403 - T20/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015323
+  type: 'test'
+  ...
+# Subtest: T20/MSA: solution, error/help and partial assignment paths
+ok 404 - T20/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.755458
+  type: 'test'
+  ...
+# Subtest: T20/AHR: solution, error/help and partial assignment paths
+ok 405 - T20/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.658113
+  type: 'test'
+  ...
+# Subtest: T21/Foerder: solution, error/help and partial assignment paths
+ok 406 - T21/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.030486
+  type: 'test'
+  ...
+# Subtest: T21/ESA: solution, error/help and partial assignment paths
+ok 407 - T21/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.019879
+  type: 'test'
+  ...
+# Subtest: T21/MSA: solution, error/help and partial assignment paths
+ok 408 - T21/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.017706
+  type: 'test'
+  ...
+# Subtest: T21/AHR: solution, error/help and partial assignment paths
+ok 409 - T21/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.014902
+  type: 'test'
+  ...
+# Subtest: T22/Foerder: solution, error/help and partial assignment paths
+ok 410 - T22/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.038066
+  type: 'test'
+  ...
+# Subtest: T22/ESA: solution, error/help and partial assignment paths
+ok 411 - T22/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.016615
+  type: 'test'
+  ...
+# Subtest: T22/MSA: solution, error/help and partial assignment paths
+ok 412 - T22/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.517884
+  type: 'test'
+  ...
+# Subtest: T22/AHR: solution, error/help and partial assignment paths
+ok 413 - T22/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.111236
+  type: 'test'
+  ...
+# Subtest: T23/Foerder: solution, error/help and partial assignment paths
+ok 414 - T23/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.02052
+  type: 'test'
+  ...
+# Subtest: T23/ESA: solution, error/help and partial assignment paths
+ok 415 - T23/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.016305
+  type: 'test'
+  ...
+# Subtest: T23/MSA: solution, error/help and partial assignment paths
+ok 416 - T23/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.220069
+  type: 'test'
+  ...
+# Subtest: T23/AHR: solution, error/help and partial assignment paths
+ok 417 - T23/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.063675
+  type: 'test'
+  ...
+# Subtest: T24/Foerder: solution, error/help and partial assignment paths
+ok 418 - T24/Foerder: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.016615
+  type: 'test'
+  ...
+# Subtest: T24/ESA: solution, error/help and partial assignment paths
+ok 419 - T24/ESA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.015483
+  type: 'test'
+  ...
+# Subtest: T24/MSA: solution, error/help and partial assignment paths
+ok 420 - T24/MSA: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.090105
+  type: 'test'
+  ...
+# Subtest: T24/AHR: solution, error/help and partial assignment paths
+ok 421 - T24/AHR: solution, error/help and partial assignment paths
+  ---
+  duration_ms: 0.049133
+  type: 'test'
+  ...
+# Subtest: Additional context: NEAR_SHAPE / Die Linse ist nicht flacher, sondern dicker.
+ok 422 - Additional context: NEAR_SHAPE / Die Linse ist nicht flacher, sondern dicker.
+  ---
+  duration_ms: 0.057055
+  type: 'test'
+  ...
+# Subtest: Additional context: NEAR_SHAPE / Die Linse ist nicht dicker, sondern dünner.
+ok 423 - Additional context: NEAR_SHAPE / Die Linse ist nicht dicker, sondern dünner.
+  ---
+  duration_ms: 0.020581
+  type: 'test'
+  ...
+# Subtest: Additional context: NEAR_SHAPE / rund und nicht rund
+ok 424 - Additional context: NEAR_SHAPE / rund und nicht rund
+  ---
+  duration_ms: 0.017176
+  type: 'test'
+  ...
+# Subtest: Additional context: EARDRUM_MOVES / Es zittert durch den Schall.
+ok 425 - Additional context: EARDRUM_MOVES / Es zittert durch den Schall.
+  ---
+  duration_ms: 0.021553
+  type: 'test'
+  ...
+# Subtest: Additional context: EARDRUM_MOVES / Das Trommelfell bleibt nicht still.
+ok 426 - Additional context: EARDRUM_MOVES / Das Trommelfell bleibt nicht still.
+  ---
+  duration_ms: 0.016915
+  type: 'test'
+  ...
+# Subtest: Additional context: BRAIN / Nicht zur Linse. Ins Gehirn.
+ok 427 - Additional context: BRAIN / Nicht zur Linse. Ins Gehirn.
+  ---
+  duration_ms: 0.024908
+  type: 'test'
+  ...
+# Subtest: Additional context: BRAIN / Er leitet die Signale nicht ins Hirn.
+ok 428 - Additional context: BRAIN / Er leitet die Signale nicht ins Hirn.
+  ---
+  duration_ms: 0.02677
+  type: 'test'
+  ...
+# Subtest: Additional context: COCHLEA_SIGNAL / elektrische Nachrichten
+ok 429 - Additional context: COCHLEA_SIGNAL / elektrische Nachrichten
+  ---
+  duration_ms: 0.05389
+  type: 'test'
+  ...
+# Subtest: Additional context: OSSICLES_TRANSMIT / Nervensignale
+ok 430 - Additional context: OSSICLES_TRANSMIT / Nervensignale
+  ---
+  duration_ms: 0.051717
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / verschiedene Lichtbereiche
+ok 431 - Additional context: CONE_DIFFERENCE / verschiedene Lichtbereiche
+  ---
+  duration_ms: 0.064196
+  type: 'test'
+  ...
+# Subtest: Additional context: FOCUS_REASON / Nah rund, fern flach.
+ok 432 - Additional context: FOCUS_REASON / Nah rund, fern flach.
+  ---
+  duration_ms: 0.062644
+  type: 'test'
+  ...
+# Subtest: Additional context: FOCUS_REASON / Nah flach, fern rund.
+ok 433 - Additional context: FOCUS_REASON / Nah flach, fern rund.
+  ---
+  duration_ms: 0.047661
+  type: 'test'
+  ...
+# Subtest: Additional context: TERM_LENS / Retina
+ok 434 - Additional context: TERM_LENS / Retina
+  ---
+  duration_ms: 0.021492
+  type: 'test'
+  ...
+# Subtest: Additional context: TERM_RETINA / Iris
+ok 435 - Additional context: TERM_RETINA / Iris
+  ---
+  duration_ms: 0.035914
+  type: 'test'
+  ...
+# Subtest: Additional context: NEAR_SHAPE / Lichtbereiche
+ok 436 - Additional context: NEAR_SHAPE / Lichtbereiche
+  ---
+  duration_ms: 0.041312
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / Sie reagieren nicht unterschiedlich auf Licht.
+ok 437 - Additional context: CONE_DIFFERENCE / Sie reagieren nicht unterschiedlich auf Licht.
+  ---
+  duration_ms: 0.020761
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / Die Typen reagieren verschieden und nicht verschieden.
+ok 438 - Additional context: CONE_DIFFERENCE / Die Typen reagieren verschieden und nicht verschieden.
+  ---
+  duration_ms: 0.018387
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / Stäbchen reagieren auf verschiedene Lichtbereiche.
+ok 439 - Additional context: CONE_DIFFERENCE / Stäbchen reagieren auf verschiedene Lichtbereiche.
+  ---
+  duration_ms: 0.071056
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / Jeder Typ reagiert ausschließlich auf eine Farbe.
+ok 440 - Additional context: CONE_DIFFERENCE / Jeder Typ reagiert ausschließlich auf eine Farbe.
+  ---
+  duration_ms: 0.028022
+  type: 'test'
+  ...
+# Subtest: Additional context: EARDRUM_MOVES / Die Linse schwingt.
+ok 441 - Additional context: EARDRUM_MOVES / Die Linse schwingt.
+  ---
+  duration_ms: 0.043455
+  type: 'test'
+  ...
+# Subtest: Additional context: OSSICLES_TRANSMIT / Der Hörnerv leitet Schwingungen weiter.
+ok 442 - Additional context: OSSICLES_TRANSMIT / Der Hörnerv leitet Schwingungen weiter.
+  ---
+  duration_ms: 0.034401
+  type: 'test'
+  ...
+# Subtest: Additional context: COCHLEA_SIGNAL / Das Trommelfell erzeugt Nervensignale.
+ok 443 - Additional context: COCHLEA_SIGNAL / Das Trommelfell erzeugt Nervensignale.
+  ---
+  duration_ms: 0.055132
+  type: 'test'
+  ...
+# Subtest: Additional context: FOCUS_REASON / Fern rund, nah flach.
+ok 444 - Additional context: FOCUS_REASON / Fern rund, nah flach.
+  ---
+  duration_ms: 0.039309
+  type: 'test'
+  ...
+# Subtest: Additional context: FOCUS_REASON / Die Linse kann beide Formen gleichzeitig haben. Sie kann nicht beide Formen gleichzeitig haben.
+ok 445 - Additional context: FOCUS_REASON / Die Linse kann beide Formen gleichzeitig haben. Sie kann nicht beide Formen gleichzeitig haben.
+  ---
+  duration_ms: 0.051617
+  type: 'test'
+  ...
+# Subtest: Additional context: FOCUS_REASON / Die Linse kann nur eine Form gleichzeitig haben.
+ok 446 - Additional context: FOCUS_REASON / Die Linse kann nur eine Form gleichzeitig haben.
+  ---
+  duration_ms: 0.064646
+  type: 'test'
+  ...
+# Subtest: Additional context: BRAIN / Das Gehirn sendet die Signale zum Ohr.
+ok 447 - Additional context: BRAIN / Das Gehirn sendet die Signale zum Ohr.
+  ---
+  duration_ms: 0.024987
+  type: 'test'
+  ...
+# Subtest: Additional context: BRAIN / Das Gehirn steht im Kühlschrank.
+ok 448 - Additional context: BRAIN / Das Gehirn steht im Kühlschrank.
+  ---
+  duration_ms: 0.025458
+  type: 'test'
+  ...
+# Subtest: Additional context: NEAR_SHAPE / Die Linse ist rund. Die Erde ist flach.
+ok 449 - Additional context: NEAR_SHAPE / Die Linse ist rund. Die Erde ist flach.
+  ---
+  duration_ms: 0.048562
+  type: 'test'
+  ...
+# Subtest: Additional context: EARDRUM_MOVES / Die Banane schwingt.
+ok 450 - Additional context: EARDRUM_MOVES / Die Banane schwingt.
+  ---
+  duration_ms: 0.022224
+  type: 'test'
+  ...
+# Subtest: Additional context: CONE_DIFFERENCE / Die Bananen reagieren auf unterschiedliche Farben.
+ok 451 - Additional context: CONE_DIFFERENCE / Die Bananen reagieren auf unterschiedliche Farben.
+  ---
+  duration_ms: 0.027861
+  type: 'test'
+  ...
+# Subtest: The same BRAIN rule retains its actual question context
+ok 452 - The same BRAIN rule retains its actual question context
+  ---
+  duration_ms: 0.06685
+  type: 'test'
+  ...
+# Subtest: Anatomy checks all valid terms before typo correction
+ok 453 - Anatomy checks all valid terms before typo correction
+  ---
+  duration_ms: 0.042424
+  type: 'test'
+  ...
+# Subtest: Persistence is versioned, idempotent and excludes raw answers
+ok 454 - Persistence is versioned, idempotent and excludes raw answers
+  ---
+  duration_ms: 1.110278
+  type: 'test'
+  ...
+# Subtest: Blocked storage never prevents a session
+ok 455 - Blocked storage never prevents a session
+  ---
+  duration_ms: 0.088772
+  type: 'test'
+  ...
+# Subtest: Assignments can be swapped without duplicates
+ok 456 - Assignments can be swapped without duplicates
+  ---
+  duration_ms: 0.08013
+  type: 'test'
+  ...
+# Subtest: Option order is stable per item and varies across questions
+ok 457 - Option order is stable per item and varies across questions
+  ---
+  duration_ms: 0.139047
+  type: 'test'
+  ...
+# Subtest: SVG geometry shares scale, has exact comparison lengths and valid target definitions
+ok 458 - SVG geometry shares scale, has exact comparison lengths and valid target definitions
+  ---
+  duration_ms: 0.54231
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah nicht rund fern flach
+ok 459 - R2 FOCUS_REASON: nah nicht rund fern flach
+  ---
+  duration_ms: 2.768625
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah rund fern nicht flach
+ok 460 - R2 FOCUS_REASON: nah rund fern nicht flach
+  ---
+  duration_ms: 0.338927
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah nicht rund fern nicht flach
+ok 461 - R2 FOCUS_REASON: nah nicht rund fern nicht flach
+  ---
+  duration_ms: 0.077255
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah nicht flach sondern rund fern flach
+ok 462 - R2 FOCUS_REASON: nah nicht flach sondern rund fern flach
+  ---
+  duration_ms: 0.231696
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah rund fern nicht rund sondern flach
+ok 463 - R2 FOCUS_REASON: nah rund fern nicht rund sondern flach
+  ---
+  duration_ms: 0.12719
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: fern flach nah rund
+ok 464 - R2 FOCUS_REASON: fern flach nah rund
+  ---
+  duration_ms: 0.056685
+  type: 'test'
+  ...
+# Subtest: R2 FOCUS_REASON: nah rund und nicht rund fern flach
+ok 465 - R2 FOCUS_REASON: nah rund und nicht rund fern flach
+  ---
+  duration_ms: 0.062393
+  type: 'test'
+  ...
+# Subtest: R2 NEAR_SHAPE: Linse wird gewölbter
+ok 466 - R2 NEAR_SHAPE: Linse wird gewölbter
+  ---
+  duration_ms: 0.212438
+  type: 'test'
+  ...
+# Subtest: R2 NEAR_SHAPE: In der Nähe wird die Linse runder
+ok 467 - R2 NEAR_SHAPE: In der Nähe wird die Linse runder
+  ---
+  duration_ms: 0.087461
+  type: 'test'
+  ...
+# Subtest: R2 NEAR_SHAPE: Sie wirt dicker
+ok 468 - R2 NEAR_SHAPE: Sie wirt dicker
+  ---
+  duration_ms: 0.099609
+  type: 'test'
+  ...
+# Subtest: R2 EARDRUM_MOVES: Der Schall bringt das Trommelfell zum Schwingen
+ok 469 - R2 EARDRUM_MOVES: Der Schall bringt das Trommelfell zum Schwingen
+  ---
+  duration_ms: 0.349181
+  type: 'test'
+  ...
+# Subtest: R2 EARDRUM_MOVES: Das Tromelfel wakelt
+ok 470 - R2 EARDRUM_MOVES: Das Tromelfel wakelt
+  ---
+  duration_ms: 0.108552
+  type: 'test'
+  ...
+# Subtest: R2 OSSICLES_TRANSMIT: Die Gehörknöchelchen übertragen die Schwingungen
+ok 471 - R2 OSSICLES_TRANSMIT: Die Gehörknöchelchen übertragen die Schwingungen
+  ---
+  duration_ms: 0.285987
+  type: 'test'
+  ...
+# Subtest: R2 OSSICLES_TRANSMIT: Sie leiten die Schwingungen weiter
+ok 472 - R2 OSSICLES_TRANSMIT: Sie leiten die Schwingungen weiter
+  ---
+  duration_ms: 0.097817
+  type: 'test'
+  ...
+# Subtest: R2 COCHLEA_SIGNAL: Die Hörschnecke wandelt die Schwingungen in Nervensignale um
+ok 473 - R2 COCHLEA_SIGNAL: Die Hörschnecke wandelt die Schwingungen in Nervensignale um
+  ---
+  duration_ms: 0.496402
+  type: 'test'
+  ...
+# Subtest: R2 BRAIN: Die Signale werden zum Gehirn geleitet
+ok 474 - R2 BRAIN: Die Signale werden zum Gehirn geleitet
+  ---
+  duration_ms: 0.427489
+  type: 'test'
+  ...
+# Subtest: R2 CONE_DIFFERENCE: Die Zapfentypen reagieren unterschiedlich auf die Lichtstärke.
+ok 475 - R2 CONE_DIFFERENCE: Die Zapfentypen reagieren unterschiedlich auf die Lichtstärke.
+  ---
+  duration_ms: 0.438725
+  type: 'test'
+  ...
+# Subtest: R2 CONE_DIFFERENCE: Die Zapfentypen reagieren unterschiedlich auf Wellenlängen.
+ok 476 - R2 CONE_DIFFERENCE: Die Zapfentypen reagieren unterschiedlich auf Wellenlängen.
+  ---
+  duration_ms: 0.238196
+  type: 'test'
+  ...
+# Subtest: R2 CONE_DIFFERENCE: Sie reagieren nicht auf verschiedene Lichtfarben.
+ok 477 - R2 CONE_DIFFERENCE: Sie reagieren nicht auf verschiedene Lichtfarben.
+  ---
+  duration_ms: 0.028112
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Zapfen
+ok 478 - R2 COLOR_CELLS: Zapfen
+  ---
+  duration_ms: 0.203584
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Zapfn
+ok 479 - R2 COLOR_CELLS: Zapfn
+  ---
+  duration_ms: 0.103535
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Stäbchen
+ok 480 - R2 COLOR_CELLS: Stäbchen
+  ---
+  duration_ms: 0.030726
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Nicht Stäbchen, sondern Zapfen.
+ok 481 - R2 COLOR_CELLS: Nicht Stäbchen, sondern Zapfen.
+  ---
+  duration_ms: 0.057787
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Keine Zapfen
+ok 482 - R2 COLOR_CELLS: Keine Zapfen
+  ---
+  duration_ms: 0.035303
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Zapfen und keine Zapfen
+ok 483 - R2 COLOR_CELLS: Zapfen und keine Zapfen
+  ---
+  duration_ms: 0.023796
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Zellen
+ok 484 - R2 COLOR_CELLS: Zellen
+  ---
+  duration_ms: 0.042965
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Banane
+ok 485 - R2 COLOR_CELLS: Banane
+  ---
+  duration_ms: 0.031307
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Gleichgewicht
+ok 486 - R2 BALANCE_FUNCTION: Gleichgewicht
+  ---
+  duration_ms: 0.162543
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Gleichgewich
+ok 487 - R2 BALANCE_FUNCTION: Gleichgewich
+  ---
+  duration_ms: 0.076545
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Drehungen erkennen
+ok 488 - R2 BALANCE_FUNCTION: Drehungen erkennen
+  ---
+  duration_ms: 0.027812
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Aufrecht stehen
+ok 489 - R2 BALANCE_FUNCTION: Aufrecht stehen
+  ---
+  duration_ms: 0.023525
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Das Scharfstellen der Linse
+ok 490 - R2 BALANCE_FUNCTION: Das Scharfstellen der Linse
+  ---
+  duration_ms: 0.043595
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Kein Gleichgewicht
+ok 491 - R2 BALANCE_FUNCTION: Kein Gleichgewicht
+  ---
+  duration_ms: 0.030616
+  type: 'test'
+  ...
+# Subtest: R2 BALANCE_FUNCTION: Gleichgewicht oder Farben
+ok 492 - R2 BALANCE_FUNCTION: Gleichgewicht oder Farben
+  ---
+  duration_ms: 0.017897
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Sinneszellen
+ok 493 - R2 BLIND_SPOT_CELLS: Sinneszellen
+  ---
+  duration_ms: 0.490633
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Lichtsinneszellen
+ok 494 - R2 BLIND_SPOT_CELLS: Lichtsinneszellen
+  ---
+  duration_ms: 0.208091
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Sineszellen
+ok 495 - R2 BLIND_SPOT_CELLS: Sineszellen
+  ---
+  duration_ms: 0.034201
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Stäbchen und Zapfen
+ok 496 - R2 BLIND_SPOT_CELLS: Stäbchen und Zapfen
+  ---
+  duration_ms: 0.108793
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Sehnerv
+ok 497 - R2 BLIND_SPOT_CELLS: Sehnerv
+  ---
+  duration_ms: 0.025157
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Zapfen
+ok 498 - R2 BLIND_SPOT_CELLS: Zapfen
+  ---
+  duration_ms: 0.020831
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Keine Sinneszellen
+ok 499 - R2 BLIND_SPOT_CELLS: Keine Sinneszellen
+  ---
+  duration_ms: 0.022524
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Dort sind keine Sinneszellen.
+ok 500 - R2 BLIND_SPOT_CELLS: Dort sind keine Sinneszellen.
+  ---
+  duration_ms: 0.025428
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Es fehlen keine Sinneszellen.
+ok 501 - R2 BLIND_SPOT_CELLS: Es fehlen keine Sinneszellen.
+  ---
+  duration_ms: 0.048262
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Lichtsinneszellen fehlen nicht.
+ok 502 - R2 BLIND_SPOT_CELLS: Lichtsinneszellen fehlen nicht.
+  ---
+  duration_ms: 0.032829
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Lichtsinneszellen fehlen.
+ok 503 - R2 BLIND_SPOT_CELLS: Lichtsinneszellen fehlen.
+  ---
+  duration_ms: 0.028793
+  type: 'test'
+  ...
+# Subtest: R2 BLIND_SPOT_CELLS: Lichtsinneszellen sind vorhanden.
+ok 504 - R2 BLIND_SPOT_CELLS: Lichtsinneszellen sind vorhanden.
+  ---
+  duration_ms: 0.020791
+  type: 'test'
+  ...
+# Subtest: R2 COLOR_CELLS: Zapfen nicht Stäbchen
+ok 505 - R2 COLOR_CELLS: Zapfen nicht Stäbchen
+  ---
+  duration_ms: 0.020441
+  type: 'test'
+  ...
+# Subtest: R2 DUST_PROTECTION: Wimpern
+ok 506 - R2 DUST_PROTECTION: Wimpern
+  ---
+  duration_ms: 0.145437
+  type: 'test'
+  ...
+# Subtest: R2 DUST_PROTECTION: Wimpen
+ok 507 - R2 DUST_PROTECTION: Wimpen
+  ---
+  duration_ms: 0.072298
+  type: 'test'
+  ...
+# Subtest: R2 DUST_PROTECTION: Das Augenlid
+ok 508 - R2 DUST_PROTECTION: Das Augenlid
+  ---
+  duration_ms: 0.02027
+  type: 'test'
+  ...
+# Subtest: R2 DUST_PROTECTION: Sehnerv
+ok 509 - R2 DUST_PROTECTION: Sehnerv
+  ---
+  duration_ms: 0.016926
+  type: 'test'
+  ...
+# Subtest: R2 DUST_PROTECTION: Nicht Wimpern
+ok 510 - R2 DUST_PROTECTION: Nicht Wimpern
+  ---
+  duration_ms: 0.017486
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Mehr Licht
+ok 511 - R2 PUPIL_PURPOSE: Mehr Licht
+  ---
+  duration_ms: 0.369742
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Damit mehr Licht reinkommt
+ok 512 - R2 PUPIL_PURPOSE: Damit mehr Licht reinkommt
+  ---
+  duration_ms: 0.151947
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Damit das Auge mehr Licht bekommt
+ok 513 - R2 PUPIL_PURPOSE: Damit das Auge mehr Licht bekommt
+  ---
+  duration_ms: 0.697061
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: mer liht
+ok 514 - R2 PUPIL_PURPOSE: mer liht
+  ---
+  duration_ms: 0.035573
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: mehr Licht reinkomt
+ok 515 - R2 PUPIL_PURPOSE: mehr Licht reinkomt
+  ---
+  duration_ms: 0.025027
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Weniger Licht
+ok 516 - R2 PUPIL_PURPOSE: Weniger Licht
+  ---
+  duration_ms: 0.020831
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Nicht mehr Licht
+ok 517 - R2 PUPIL_PURPOSE: Nicht mehr Licht
+  ---
+  duration_ms: 0.021171
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: mehr Licht und weniger Licht
+ok 518 - R2 PUPIL_PURPOSE: mehr Licht und weniger Licht
+  ---
+  duration_ms: 0.024066
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: mehr Licht oder weniger Licht
+ok 519 - R2 PUPIL_PURPOSE: mehr Licht oder weniger Licht
+  ---
+  duration_ms: 0.042784
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Mehr Licht aus dem Auge
+ok 520 - R2 PUPIL_PURPOSE: Mehr Licht aus dem Auge
+  ---
+  duration_ms: 0.018758
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Die Iris macht mehr Licht
+ok 521 - R2 PUPIL_PURPOSE: Die Iris macht mehr Licht
+  ---
+  duration_ms: 0.018848
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_PURPOSE: Die Pupille wird größer
+ok 522 - R2 PUPIL_PURPOSE: Die Pupille wird größer
+  ---
+  duration_ms: 0.079569
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Muskeln
+ok 523 - R2 IRIS_CONTROL: Muskeln
+  ---
+  duration_ms: 0.169002
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Muskeln in der Iris
+ok 524 - R2 IRIS_CONTROL: Muskeln in der Iris
+  ---
+  duration_ms: 0.112919
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Iris
+ok 525 - R2 IRIS_CONTROL: Iris
+  ---
+  duration_ms: 0.020821
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Der Ziliarmuskel
+ok 526 - R2 IRIS_CONTROL: Der Ziliarmuskel
+  ---
+  duration_ms: 0.015043
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Die Linse
+ok 527 - R2 IRIS_CONTROL: Die Linse
+  ---
+  duration_ms: 0.066749
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Ringmuskel
+ok 528 - R2 IRIS_CONTROL: Ringmuskel
+  ---
+  duration_ms: 0.051487
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Nicht die Iris
+ok 529 - R2 IRIS_CONTROL: Nicht die Iris
+  ---
+  duration_ms: 0.021472
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_CONTROL: Iris oder Linse
+ok 530 - R2 IRIS_CONTROL: Iris oder Linse
+  ---
+  duration_ms: 0.01339
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: ziehen sich zusammen
+ok 531 - R2 IRIS_DILATOR_ACTION: ziehen sich zusammen
+  ---
+  duration_ms: 0.34825
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: zusammenziehen
+ok 532 - R2 IRIS_DILATOR_ACTION: zusammenziehen
+  ---
+  duration_ms: 0.121782
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: sie spannen sich an
+ok 533 - R2 IRIS_DILATOR_ACTION: sie spannen sich an
+  ---
+  duration_ms: 0.022824
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Muskeln ziehen sich zusammen
+ok 534 - R2 IRIS_DILATOR_ACTION: Muskeln ziehen sich zusammen
+  ---
+  duration_ms: 0.017897
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: zihen sich zusamen
+ok 535 - R2 IRIS_DILATOR_ACTION: zihen sich zusamen
+  ---
+  duration_ms: 0.016615
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: entspannen sich
+ok 536 - R2 IRIS_DILATOR_ACTION: entspannen sich
+  ---
+  duration_ms: 0.015323
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Sie ziehen sich nicht zusammen
+ok 537 - R2 IRIS_DILATOR_ACTION: Sie ziehen sich nicht zusammen
+  ---
+  duration_ms: 0.015012
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Der Ziliarmuskel macht die Pupille größer
+ok 538 - R2 IRIS_DILATOR_ACTION: Der Ziliarmuskel macht die Pupille größer
+  ---
+  duration_ms: 0.015052
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Der ringförmige Schließmuskel zieht sich zusammen und macht die Pupille größer
+ok 539 - R2 IRIS_DILATOR_ACTION: Der ringförmige Schließmuskel zieht sich zusammen und macht die Pupille größer
+  ---
+  duration_ms: 0.017797
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Sie ziehen sich zusammen und entspannen sich
+ok 540 - R2 IRIS_DILATOR_ACTION: Sie ziehen sich zusammen und entspannen sich
+  ---
+  duration_ms: 0.022083
+  type: 'test'
+  ...
+# Subtest: R2 IRIS_DILATOR_ACTION: Iris
+ok 541 - R2 IRIS_DILATOR_ACTION: Iris
+  ---
+  duration_ms: 0.017035
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Damit mehr Licht ins Auge kommt. Muskeln in der Iris machen die Pupille größer.
+ok 542 - R2 PUPIL_DARK_MECHANISM: Damit mehr Licht ins Auge kommt. Muskeln in der Iris machen die Pupille größer.
+  ---
+  duration_ms: 0.271145
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Mehr Licht. Iris.
+ok 543 - R2 PUPIL_DARK_MECHANISM: Mehr Licht. Iris.
+  ---
+  duration_ms: 0.031677
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Damit mehr Licht ins Auge kommt. Der Erweiterungsmuskel zieht sich zusammen.
+ok 544 - R2 PUPIL_DARK_MECHANISM: Damit mehr Licht ins Auge kommt. Der Erweiterungsmuskel zieht sich zusammen.
+  ---
+  duration_ms: 0.027481
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Der Schließmuskel entspannt sich. Der Erweiterungsmuskel zieht sich zusammen. Mehr Licht kommt ins Auge.
+ok 545 - R2 PUPIL_DARK_MECHANISM: Der Schließmuskel entspannt sich. Der Erweiterungsmuskel zieht sich zusammen. Mehr Licht kommt ins Auge.
+  ---
+  duration_ms: 0.02727
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Mehr Licht
+ok 546 - R2 PUPIL_DARK_MECHANISM: Mehr Licht
+  ---
+  duration_ms: 0.029574
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Muskeln in der Iris
+ok 547 - R2 PUPIL_DARK_MECHANISM: Muskeln in der Iris
+  ---
+  duration_ms: 0.031187
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Mehr Licht. Der Ziliarmuskel macht die Pupille größer.
+ok 548 - R2 PUPIL_DARK_MECHANISM: Mehr Licht. Der Ziliarmuskel macht die Pupille größer.
+  ---
+  duration_ms: 0.015844
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Mehr Licht. Die Iris macht die Pupille kleiner.
+ok 549 - R2 PUPIL_DARK_MECHANISM: Mehr Licht. Die Iris macht die Pupille kleiner.
+  ---
+  duration_ms: 0.014812
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Weniger Licht. Muskeln in der Iris.
+ok 550 - R2 PUPIL_DARK_MECHANISM: Weniger Licht. Muskeln in der Iris.
+  ---
+  duration_ms: 0.016094
+  type: 'test'
+  ...
+# Subtest: R2 PUPIL_DARK_MECHANISM: Mehr Licht. Iris oder Linse.
+ok 551 - R2 PUPIL_DARK_MECHANISM: Mehr Licht. Iris oder Linse.
+  ---
+  duration_ms: 0.014141
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_EAR: Ohr
+ok 552 - R2 CHAIN_EAR: Ohr
+  ---
+  duration_ms: 0.048603
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_EAR: Auge
+ok 553 - R2 CHAIN_EAR: Auge
+  ---
+  duration_ms: 0.061382
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_MOTOR_NERVES: Nerven zu den Beinmuskeln
+ok 554 - R2 CHAIN_MOTOR_NERVES: Nerven zu den Beinmuskeln
+  ---
+  duration_ms: 0.017957
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_MOTOR_NERVES: motorische Nerven
+ok 555 - R2 CHAIN_MOTOR_NERVES: motorische Nerven
+  ---
+  duration_ms: 0.012629
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_MOTOR_NERVES: Hörnerv
+ok 556 - R2 CHAIN_MOTOR_NERVES: Hörnerv
+  ---
+  duration_ms: 0.022554
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_MOTOR_NERVES: Nerven
+ok 557 - R2 CHAIN_MOTOR_NERVES: Nerven
+  ---
+  duration_ms: 0.02005
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_LEG_MUSCLES: Beinmusklen
+ok 558 - R2 CHAIN_LEG_MUSCLES: Beinmusklen
+  ---
+  duration_ms: 0.012749
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_LEG_MUSCLES: Muskeln
+ok 559 - R2 CHAIN_LEG_MUSCLES: Muskeln
+  ---
+  duration_ms: 0.011657
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_LEG_MUSCLES: Gehirn
+ok 560 - R2 CHAIN_LEG_MUSCLES: Gehirn
+  ---
+  duration_ms: 0.018517
+  type: 'test'
+  ...
+# Subtest: R2 CHAIN_LEG_MUSCLES: nicht Beinmuskeln
+ok 561 - R2 CHAIN_LEG_MUSCLES: nicht Beinmuskeln
+  ---
+  duration_ms: 0.01359
+  type: 'test'
+  ...
+# Subtest: Exactly two complete themes partition all task IDs
+ok 562 - Exactly two complete themes partition all task IDs
+  ---
+  duration_ms: 0.533357
+  type: 'test'
+  ...
+# Subtest: Level requirements: zero Förder fields, one ESA field, additional typed MSA/AHR recall
+ok 563 - Level requirements: zero Förder fields, one ESA field, additional typed MSA/AHR recall
+  ---
+  duration_ms: 0.205978
+  type: 'test'
+  ...
+# Subtest: Legacy completion survives the two themes without fabricating new answers
+ok 564 - Legacy completion survives the two themes without fabricating new answers
+  ---
+  duration_ms: 0.917801
+  type: 'test'
+  ...
+# Subtest: A partial legacy task stays partial and cannot acquire a fabricated completion flag
+ok 565 - A partial legacy task stays partial and cannot acquire a fabricated completion flag
+  ---
+  duration_ms: 0.17424
+  type: 'test'
+  ...
+# Subtest: The selected level is validated and retained without affecting progress
+ok 566 - The selected level is validated and retained without affecting progress
+  ---
+  duration_ms: 0.050686
+  type: 'test'
+  ...
+# Subtest: Side and brightness changes update the actual question and stable answer IDs
+ok 567 - Side and brightness changes update the actual question and stable answer IDs
+  ---
+  duration_ms: 0.292607
+  type: 'test'
+  ...
+1..567
+# tests 567
+# suites 0
+# pass 567
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 169.052696

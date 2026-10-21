@@ -1,0 +1,896 @@
+[
+  {
+    "id": "BLIND-T22_MSA_1-01",
+    "stepId": "T22_MSA_1",
+    "answer": "Es gibt keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-02",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort gibt es gar keine Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-03",
+    "stepId": "T22_MSA_1",
+    "answer": "keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-04",
+    "stepId": "T22_MSA_1",
+    "answer": "Keine Sinneszellen am blinden Fleck",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-05",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort gibt es Stäbchen und Zapfen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-06",
+    "stepId": "T22_MSA_1",
+    "answer": "Am blinden Fleck sind Stäbchen und Zapfen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-07",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen und Zapfen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-08",
+    "stepId": "T22_MSA_1",
+    "answer": "Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-09",
+    "stepId": "T22_MSA_1",
+    "answer": "Am blinden Fleck gibt es keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-10",
+    "stepId": "T22_MSA_1",
+    "answer": "Sinneszellen gibt es dort nicht",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-11",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen und Zapfen sind dort nicht vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-12",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort sind weder Stäbchen noch Zapfen vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-13",
+    "stepId": "T22_MSA_1",
+    "answer": "Am blinden Fleck fehlen Stäbchen und Zapfen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-14",
+    "stepId": "T22_MSA_1",
+    "answer": "Es fehlen dort die Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-15",
+    "stepId": "T22_MSA_1",
+    "answer": "Sinneszellen sind am blinden Fleck nicht vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-16",
+    "stepId": "T22_MSA_1",
+    "answer": "Es gibt Sinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-17",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort gibt es Lichtsinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-18",
+    "stepId": "T22_MSA_1",
+    "answer": "Sinneszellen sind am blinden Fleck vorhanden",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-19",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen und Zapfen sind dort vorhanden",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-20",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen und Zapfen fehlen dort nicht",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-21",
+    "stepId": "T22_MSA_1",
+    "answer": "Es fehlen keine Sinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-22",
+    "stepId": "T22_MSA_1",
+    "answer": "Es fehlen dort gar keine Lichtsinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-23",
+    "stepId": "T22_MSA_1",
+    "answer": "Lichtsinneszellen fehlen nicht",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-24",
+    "stepId": "T22_MSA_1",
+    "answer": "Keine Sinneszellen fehlen am blinden Fleck",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-25",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort sind nicht keine Sinneszellen",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-26",
+    "stepId": "T22_MSA_1",
+    "answer": "Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden.",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-27",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden.",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-28",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen oder Zapfen",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-29",
+    "stepId": "T22_MSA_1",
+    "answer": "Zapfen",
+    "expected": "partial"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-30",
+    "stepId": "T22_MSA_1",
+    "answer": "Sehnerv",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-31",
+    "stepId": "T22_MSA_1",
+    "answer": "Kein Sehnerv",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_MSA_1-32",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort gibt es keine Bananen und Sinneszellen",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-01",
+    "stepId": "T22_AHR_1",
+    "answer": "Es gibt keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-02",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort gibt es gar keine Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-03",
+    "stepId": "T22_AHR_1",
+    "answer": "keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-04",
+    "stepId": "T22_AHR_1",
+    "answer": "Keine Sinneszellen am blinden Fleck",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-05",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort gibt es Stäbchen und Zapfen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-06",
+    "stepId": "T22_AHR_1",
+    "answer": "Am blinden Fleck sind Stäbchen und Zapfen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-07",
+    "stepId": "T22_AHR_1",
+    "answer": "Stäbchen und Zapfen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-08",
+    "stepId": "T22_AHR_1",
+    "answer": "Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-09",
+    "stepId": "T22_AHR_1",
+    "answer": "Am blinden Fleck gibt es keine Sinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-10",
+    "stepId": "T22_AHR_1",
+    "answer": "Sinneszellen gibt es dort nicht",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-11",
+    "stepId": "T22_AHR_1",
+    "answer": "Stäbchen und Zapfen sind dort nicht vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-12",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort sind weder Stäbchen noch Zapfen vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-13",
+    "stepId": "T22_AHR_1",
+    "answer": "Am blinden Fleck fehlen Stäbchen und Zapfen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-14",
+    "stepId": "T22_AHR_1",
+    "answer": "Es fehlen dort die Lichtsinneszellen",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-15",
+    "stepId": "T22_AHR_1",
+    "answer": "Sinneszellen sind am blinden Fleck nicht vorhanden",
+    "expected": "correct"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-16",
+    "stepId": "T22_AHR_1",
+    "answer": "Es gibt Sinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-17",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort gibt es Lichtsinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-18",
+    "stepId": "T22_AHR_1",
+    "answer": "Sinneszellen sind am blinden Fleck vorhanden",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-19",
+    "stepId": "T22_AHR_1",
+    "answer": "Stäbchen und Zapfen sind dort vorhanden",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-20",
+    "stepId": "T22_AHR_1",
+    "answer": "Stäbchen und Zapfen fehlen dort nicht",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-21",
+    "stepId": "T22_AHR_1",
+    "answer": "Es fehlen keine Sinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-22",
+    "stepId": "T22_AHR_1",
+    "answer": "Es fehlen dort gar keine Lichtsinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-23",
+    "stepId": "T22_AHR_1",
+    "answer": "Lichtsinneszellen fehlen nicht",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-24",
+    "stepId": "T22_AHR_1",
+    "answer": "Keine Sinneszellen fehlen am blinden Fleck",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-25",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort sind nicht keine Sinneszellen",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-26",
+    "stepId": "T22_AHR_1",
+    "answer": "Es gibt keine Sinneszellen. Dort sind Sinneszellen vorhanden.",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-27",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort fehlen Sinneszellen. Stäbchen und Zapfen sind aber vorhanden.",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-28",
+    "stepId": "T22_AHR_1",
+    "answer": "Stäbchen oder Zapfen",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-29",
+    "stepId": "T22_AHR_1",
+    "answer": "Zapfen",
+    "expected": "partial"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-30",
+    "stepId": "T22_AHR_1",
+    "answer": "Sehnerv",
+    "expected": "incorrect"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-31",
+    "stepId": "T22_AHR_1",
+    "answer": "Kein Sehnerv",
+    "expected": "clarify"
+  },
+  {
+    "id": "BLIND-T22_AHR_1-32",
+    "stepId": "T22_AHR_1",
+    "answer": "Dort gibt es keine Bananen und Sinneszellen",
+    "expected": "clarify"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-01",
+    "stepId": "T15_AHR_2",
+    "answer": "nah rund fern flach. Die Linse kann aber gleichzeitig beide Formen haben.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-02",
+    "stepId": "T15_AHR_2",
+    "answer": "nah rund fern flach; und sie kann beides gleichzeitig",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-03",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach, und beide sind gleichzeitig scharf",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-04",
+    "stepId": "T15_AHR_2",
+    "answer": "nah rund fern flach",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-05",
+    "stepId": "T15_AHR_2",
+    "answer": "Die Linse kann nicht gleichzeitig rund und flach sein",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-06",
+    "stepId": "T15_AHR_2",
+    "answer": "Bei nah wird die Linse runder, bei fern flacher",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-07",
+    "stepId": "T15_AHR_2",
+    "answer": "Die Linse kann gleichzeitig rund und flach sein",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-08",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah flach, fern rund",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-09",
+    "stepId": "T15_AHR_2",
+    "answer": "Bei nah wird die Linse flacher, bei fern runder",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-10",
+    "stepId": "T15_AHR_2",
+    "answer": "Beide sind gleichzeitig scharf. Nah rund, fern flach.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-11",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach. Beides geht gleichzeitig.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-12",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach. Die Linse kann zugleich beide Formen haben.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-13",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach. Beide sind nicht gleichzeitig scharf.",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-14",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach; und sie kann nicht beides gleichzeitig",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-15",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach beides zusammen geht nicht",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-16",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund, fern flach. Die Linse kann nicht beide Formen zugleich haben.",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-17",
+    "stepId": "T15_AHR_2",
+    "answer": "Die Linse kann beide Formen gleichzeitig haben. Sie kann nicht beide Formen gleichzeitig haben.",
+    "expected": "clarify"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-18",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Beides geht nicht gleichzeitig. Beides geht gleichzeitig.",
+    "expected": "clarify"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-19",
+    "stepId": "T15_AHR_2",
+    "answer": "Die Linse kann nur eine Form gleichzeitig haben",
+    "expected": "correct"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-20",
+    "stepId": "T15_AHR_2",
+    "answer": "Die Linse kann nicht nur eine Form gleichzeitig haben",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-21",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Die Linse kann beide Formen haben, gleichzeitig.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-22",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Beides ist zugleich scharf.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FOCUS-T15_AHR_2-23",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Beides ist nicht zugleich scharf.",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-01",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln ziehen sich zusammen und die Pupille wird kleiner.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-02",
+    "stepId": "T18_ESA_5",
+    "answer": "ziehen sich zusammen",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-03",
+    "stepId": "T18_ESA_5",
+    "answer": "die Muskeln ziehen sich zusammen",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-04",
+    "stepId": "T18_ESA_5",
+    "answer": "sie spannen sich an",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-05",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln ziehen sich zusammen und die Pupille wird größer.",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-06",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Pupille wird kleiner, weil sich die Muskeln zusammenziehen.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-07",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln ziehen sich zusammen. Kleiner wird dadurch die Pupille.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-08",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie spannen sich an und verengen die Pupille",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-09",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie spannen sich an und die Pupille verengt sich",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-10",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie spannen sich an und verkleinern die Pupille",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-11",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie ziehen sich zusammen und die Pupille wird nicht kleiner",
+    "expected": "correct"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-12",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie ziehen sich zusammen und die Pupille wird nicht größer",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-13",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie ziehen sich nicht zusammen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-14",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln entspannen sich",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-15",
+    "stepId": "T18_ESA_5",
+    "answer": "Der Ziliarmuskel zieht sich zusammen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-16",
+    "stepId": "T18_ESA_5",
+    "answer": "Der ringförmige Schließmuskel zieht sich zusammen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "IRIS-T18_ESA_5-17",
+    "stepId": "T18_ESA_5",
+    "answer": "Der ringförmige Schließmuskel zieht sich nicht zusammen. Die Erweiterungsmuskeln ziehen sich zusammen.",
+    "expected": "correct"
+  },
+  {
+    "id": "DUST-T23_MSA_1-01",
+    "stepId": "T23_MSA_1",
+    "answer": "Augenlider",
+    "expected": "correct"
+  },
+  {
+    "id": "DUST-T23_MSA_1-02",
+    "stepId": "T23_MSA_1",
+    "answer": "Die Augenlider schützen das Auge vor Staub",
+    "expected": "correct"
+  },
+  {
+    "id": "DUST-T23_MSA_1-03",
+    "stepId": "T23_MSA_1",
+    "answer": "Nicht die Augenlider",
+    "expected": "incorrect"
+  },
+  {
+    "id": "DUST-T23_MSA_1-04",
+    "stepId": "T23_MSA_1",
+    "answer": "Die Augenlider schützen das Auge nicht vor Staub",
+    "expected": "incorrect"
+  },
+  {
+    "id": "DUST-T23_MSA_1-05",
+    "stepId": "T23_MSA_1",
+    "answer": "Sehnerv",
+    "expected": "incorrect"
+  },
+  {
+    "id": "DUST-T23_MSA_1-06",
+    "stepId": "T23_MSA_1",
+    "answer": "Augenlider und Sehnerv",
+    "expected": "clarify"
+  },
+  {
+    "id": "LIGHT-T18_MSA_1-01",
+    "stepId": "T18_MSA_1",
+    "answer": "mehr Licht hineinlassen",
+    "expected": "correct"
+  },
+  {
+    "id": "LIGHT-T18_MSA_1-02",
+    "stepId": "T18_MSA_1",
+    "answer": "weniger Licht hineinlassen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "LIGHT-T18_MSA_1-03",
+    "stepId": "T18_MSA_1",
+    "answer": "nicht mehr Licht hineinlassen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "LIGHT-T18_MSA_1-04",
+    "stepId": "T18_MSA_1",
+    "answer": "Mehr Licht aus dem Auge hinauslassen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "LIGHT-T18_MSA_1-05",
+    "stepId": "T18_MSA_1",
+    "answer": "mehr Licht hineinlassen und weniger Licht hineinlassen",
+    "expected": "clarify"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-01",
+    "stepId": "T20_AHR_3",
+    "answer": "Hörschnecke wandelt Bewegung in elektrische Signale um",
+    "expected": "correct"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-02",
+    "stepId": "T20_AHR_3",
+    "answer": "Hörschnecke wandelt elektrische Signale in Bewegung um",
+    "expected": "incorrect"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-03",
+    "stepId": "T20_AHR_3",
+    "answer": "Hörschnecke wandelt Bewegung nicht in elektrische Signale um",
+    "expected": "incorrect"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-04",
+    "stepId": "T20_AHR_3",
+    "answer": "Bewegungen werden in der Hörschnecke in elektrische Impulse umgewandelt",
+    "expected": "correct"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-05",
+    "stepId": "T20_AHR_3",
+    "answer": "Elektrische Signale werden in der Hörschnecke in Bewegungen umgewandelt",
+    "expected": "incorrect"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-06",
+    "stepId": "T20_AHR_3",
+    "answer": "Die Hörschnecke wandelt die Schwingungen in Nervensignale um",
+    "expected": "correct"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-07",
+    "stepId": "T20_AHR_3",
+    "answer": "Die Hörschnecke wandelt Nervensignale in Schwingungen um",
+    "expected": "incorrect"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-08",
+    "stepId": "T20_AHR_3",
+    "answer": "In der Hörschnecke entstehen elektrische Signale aus Bewegung",
+    "expected": "correct"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-09",
+    "stepId": "T20_AHR_3",
+    "answer": "In der Hörschnecke entstehen Bewegungen aus elektrischen Signalen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "COCHLEA-T20_AHR_3-10",
+    "stepId": "T20_AHR_3",
+    "answer": "Trommelfell wandelt Bewegung in elektrische Signale um",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-01",
+    "stepId": "T22_MSA_1",
+    "answer": "Es gibt keine Sinneszellen und Stäbchen und Zapfen sind vorhanden",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-02",
+    "stepId": "T22_MSA_1",
+    "answer": "Stäbchen und Zapfen sind vorhanden und Sinneszellen fehlen",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-03",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort gibt es nicht nur Sinneszellen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-04",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort sind nicht alle Lichtsinneszellen vorhanden",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-05",
+    "stepId": "T22_MSA_1",
+    "answer": "Sinneszellen fehlen nicht nicht",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T22_MSA_1-06",
+    "stepId": "T22_MSA_1",
+    "answer": "Dort fehlen Sinneszellen, aber keine Stäbchen und Zapfen",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-01",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Die Linse kann nicht beide Formen gleichzeitig haben, sie kann beide Formen gleichzeitig haben.",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-02",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Die Linse kann beide Formen gleichzeitig haben, sie kann nicht beide Formen gleichzeitig haben.",
+    "expected": "clarify"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-03",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Nah wird die Linse nicht rund.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-04",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Fern wird die Linse nicht flach.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-05",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Die Linse kann zugleich rund und flach sein.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T15_AHR_2-06",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Beide sind scharf gleichzeitig.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T18_ESA_5-01",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln ziehen sich zusammen und die Pupille wird größer und dann kleiner",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T18_ESA_5-02",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie ziehen sich zusammen und die Pupille wird größer. Danach wird sie kleiner.",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T18_ESA_5-03",
+    "stepId": "T18_ESA_5",
+    "answer": "Sie ziehen sich zusammen und die Pupille wird größer und nicht kleiner",
+    "expected": "correct"
+  },
+  {
+    "id": "CONTRA-T18_ESA_5-04",
+    "stepId": "T18_ESA_5",
+    "answer": "Die Muskeln ziehen sich zusammen und die Pupille wird nicht größer sondern kleiner",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T20_AHR_3-01",
+    "stepId": "T20_AHR_3",
+    "answer": "Elektrische Signale werden Bewegungen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "CONTRA-T20_AHR_3-02",
+    "stepId": "T20_AHR_3",
+    "answer": "Aus Bewegungen werden elektrische Signale",
+    "expected": "correct"
+  },
+  {
+    "id": "CONTRA-T20_AHR_3-03",
+    "stepId": "T20_AHR_3",
+    "answer": "Elektrische Signale werden aus Bewegungen",
+    "expected": "correct"
+  },
+  {
+    "id": "FULL-01",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Die Linse kann nicht rund sein.",
+    "expected": "clarify"
+  },
+  {
+    "id": "FULL-02",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Flach wird die Linse bei fern nicht.",
+    "expected": "clarify"
+  },
+  {
+    "id": "FULL-03",
+    "stepId": "T15_AHR_2",
+    "answer": "Nah rund fern flach. Nicht rund sondern flach.",
+    "expected": "clarify"
+  },
+  {
+    "id": "FULL-04",
+    "stepId": "T18_ESA_5",
+    "answer": "Der ringförmige Muskel zieht sich zusammen",
+    "expected": "incorrect"
+  },
+  {
+    "id": "FULL-05",
+    "stepId": "T18_ESA_5",
+    "answer": "Die radial angeordneten Muskeln ziehen sich zusammen",
+    "expected": "correct"
+  }
+]

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "2.0-review-2026-10-21",
-  "status": "didaktische_Spezifikation_nicht_implementiertes_Spiel",
+  "schemaVersion": "3.0-round2-2026-10-21",
+  "status": "implementierte_Inhalte_Entwicklungsrunde_2",
   "levels": [
     "Foerder",
     "ESA",
@@ -60,7 +60,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T01_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -101,7 +104,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T01_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -142,7 +148,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T01_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -183,7 +192,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T01_AHR_1"
+          ]
         }
       }
     },
@@ -290,7 +302,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T02_Foerder_1",
+            "T02_Foerder_2",
+            "T02_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -407,7 +424,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T02_ESA_1",
+            "T02_ESA_2",
+            "T02_ESA_3",
+            "T02_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -524,7 +547,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T02_MSA_1",
+            "T02_MSA_2",
+            "T02_MSA_3",
+            "T02_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -641,14 +670,20 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T02_AHR_1",
+            "T02_AHR_2",
+            "T02_AHR_3",
+            "T02_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T03",
       "number": 3,
-      "title": "Das Ohr untersuchen",
+      "title": "Das Ohr beschriften",
       "area": 1,
       "classification": "P",
       "knowledgeFocus": [
@@ -743,7 +778,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T03_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -853,7 +891,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T03_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -963,7 +1004,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 7,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T03_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -1073,7 +1117,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 7,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T03_AHR_1"
+          ]
         }
       }
     },
@@ -1180,7 +1227,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T04_Foerder_1",
+            "T04_Foerder_2",
+            "T04_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -1297,7 +1349,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T04_ESA_1",
+            "T04_ESA_2",
+            "T04_ESA_3",
+            "T04_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -1367,7 +1425,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe der Augen"
+                  "text": "Die Signale nur eines Ohrs"
                 }
               ],
               "correctOptionId": "o1",
@@ -1394,7 +1452,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe des Schalls"
+                  "text": "Die Größe des Trommelfells"
                 }
               ],
               "correctOptionId": "o1",
@@ -1414,7 +1472,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T04_MSA_1",
+            "T04_MSA_2",
+            "T04_MSA_3",
+            "T04_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -1484,7 +1548,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe der Augen"
+                  "text": "Die Signale nur eines Ohrs"
                 }
               ],
               "correctOptionId": "o1",
@@ -1511,7 +1575,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe des Schalls"
+                  "text": "Die Größe des Trommelfells"
                 }
               ],
               "correctOptionId": "o1",
@@ -1531,14 +1595,20 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T04_AHR_1",
+            "T04_AHR_2",
+            "T04_AHR_3",
+            "T04_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T05",
       "number": 5,
-      "title": "Die Reise des Schalls",
+      "title": "Wie hören wir?",
       "area": 1,
       "classification": "P",
       "knowledgeFocus": [
@@ -1599,7 +1669,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T05_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -1649,7 +1722,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T05_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -1699,7 +1775,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T05_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -1749,7 +1828,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T05_AHR_1"
+          ]
         }
       }
     },
@@ -1856,7 +1938,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T06_Foerder_1",
+            "T06_Foerder_2",
+            "T06_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -1973,7 +2060,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T06_ESA_1",
+            "T06_ESA_2",
+            "T06_ESA_3",
+            "T06_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -2090,7 +2183,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T06_MSA_1",
+            "T06_MSA_2",
+            "T06_MSA_3",
+            "T06_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -2207,14 +2306,20 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T06_AHR_1",
+            "T06_AHR_2",
+            "T06_AHR_3",
+            "T06_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T07",
       "number": 7,
-      "title": "Das Auge untersuchen",
+      "title": "Das Auge beschriften",
       "area": 2,
       "classification": "P",
       "knowledgeFocus": [
@@ -2309,7 +2414,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T07_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -2419,7 +2527,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T07_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -2529,7 +2640,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 7,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T07_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -2639,7 +2753,10 @@
           ],
           "assessedUnits": 7,
           "mandatoryTextFields": 7,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T07_AHR_1"
+          ]
         }
       }
     },
@@ -2746,7 +2863,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T08_Foerder_1",
+            "T08_Foerder_2",
+            "T08_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -2863,7 +2985,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T08_ESA_1",
+            "T08_ESA_2",
+            "T08_ESA_3",
+            "T08_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -2960,7 +3088,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Der Sehnerv"
+                  "text": "Die Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -2980,7 +3108,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T08_MSA_1",
+            "T08_MSA_2",
+            "T08_MSA_3",
+            "T08_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -3077,7 +3211,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Der Sehnerv"
+                  "text": "Die Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -3097,7 +3231,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T08_AHR_1",
+            "T08_AHR_2",
+            "T08_AHR_3",
+            "T08_AHR_4"
+          ]
         }
       }
     },
@@ -3168,7 +3308,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T09_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -3221,45 +3364,53 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T09_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 60,
+          "targetSeconds": 75,
           "steps": [
             {
-              "type": "matching",
+              "type": "term_fill",
               "prompt": "Setze die Namen in den Lichtweg ein.",
               "pairs": [
                 {
                   "targetId": "first",
                   "targetLabel": "Das Licht trifft zuerst auf die …",
                   "answerId": "a1",
-                  "answerText": "Hornhaut"
+                  "answerText": "Hornhaut",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "opening",
                   "targetLabel": "Dann fällt es durch die Öffnung in der Iris: die …",
                   "answerId": "a2",
-                  "answerText": "Pupille"
+                  "answerText": "Pupille",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "focusing",
                   "targetLabel": "Die … bündelt das Licht auf die Netzhaut.",
                   "answerId": "a3",
-                  "answerText": "Linse"
+                  "answerText": "Linse",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "middle",
                   "targetLabel": "Danach durchquert das Licht den …",
                   "answerId": "a4",
-                  "answerText": "Glaskörper"
+                  "answerText": "Glaskörper",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "image",
                   "targetLabel": "Das optische Bild entsteht auf der …",
                   "answerId": "a5",
-                  "answerText": "Netzhaut"
+                  "answerText": "Netzhaut",
+                  "ruleId": "ANATOMY"
                 }
               ],
               "hints": [
@@ -3269,50 +3420,59 @@
               "feedbackCorrect": "Hornhaut → Pupille → Linse → Glaskörper → Netzhaut. Auch die Hornhaut bricht Licht.",
               "feedbackIncorrect": "Einige Zuordnungen passen noch nicht. Beginne an der Vorderseite des Auges.",
               "units": 5,
-              "id": "T09_MSA_1"
+              "id": "T09_MSA_1",
+              "wordBankOnRequest": true
             }
           ],
           "assessedUnits": 5,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 5,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T09_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 55,
+          "targetSeconds": 70,
           "steps": [
             {
-              "type": "matching",
+              "type": "term_fill",
               "prompt": "Setze die Namen in den Lichtweg ein.",
               "pairs": [
                 {
                   "targetId": "first",
                   "targetLabel": "Das Licht trifft zuerst auf die …",
                   "answerId": "a1",
-                  "answerText": "Hornhaut"
+                  "answerText": "Hornhaut",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "opening",
                   "targetLabel": "Dann fällt es durch die Öffnung in der Iris: die …",
                   "answerId": "a2",
-                  "answerText": "Pupille"
+                  "answerText": "Pupille",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "focusing",
                   "targetLabel": "Die … bündelt das Licht auf die Netzhaut.",
                   "answerId": "a3",
-                  "answerText": "Linse"
+                  "answerText": "Linse",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "middle",
                   "targetLabel": "Danach durchquert das Licht den …",
                   "answerId": "a4",
-                  "answerText": "Glaskörper"
+                  "answerText": "Glaskörper",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "image",
                   "targetLabel": "Das optische Bild entsteht auf der …",
                   "answerId": "a5",
-                  "answerText": "Netzhaut"
+                  "answerText": "Netzhaut",
+                  "ruleId": "ANATOMY"
                 }
               ],
               "hints": [
@@ -3322,12 +3482,16 @@
               "feedbackCorrect": "Hornhaut → Pupille → Linse → Glaskörper → Netzhaut. Auch die Hornhaut bricht Licht.",
               "feedbackIncorrect": "Einige Zuordnungen passen noch nicht. Beginne an der Vorderseite des Auges.",
               "units": 5,
-              "id": "T09_AHR_1"
+              "id": "T09_AHR_1",
+              "wordBankOnRequest": true
             }
           ],
           "assessedUnits": 5,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 5,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T09_AHR_1"
+          ]
         }
       }
     },
@@ -3436,7 +3600,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T10_Foerder_1",
+            "T10_Foerder_2",
+            "T10_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -3555,7 +3724,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T10_ESA_1",
+            "T10_ESA_2",
+            "T10_ESA_3",
+            "T10_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -3674,7 +3849,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T10_MSA_1",
+            "T10_MSA_2",
+            "T10_MSA_3",
+            "T10_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -3793,7 +3974,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T10_AHR_1",
+            "T10_AHR_2",
+            "T10_AHR_3",
+            "T10_AHR_4"
+          ]
         }
       }
     },
@@ -3872,7 +4059,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T11_Foerder_1",
+            "T11_Foerder_2"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -3935,38 +4126,55 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T11_ESA_1",
+            "T11_ESA_2"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 40,
+          "targetSeconds": 45,
           "steps": [
             {
-              "type": "single_choice",
+              "id": "T11_MSA_1",
+              "type": "bounded_text",
               "prompt": "Welche Zellen helfen beim Farbensehen?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Zapfen"
-                },
-                {
-                  "id": "o2",
-                  "text": "Stäbchen"
-                }
-              ],
-              "correctOptionId": "o1",
+              "ruleId": "COLOR_CELLS",
+              "modelAnswer": "Zapfen",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
               "hints": [
-                "Denke an die zwei Arten von Lichtsinneszellen.",
+                "Denke an die Situation in der Frage.",
                 "Zapfen helfen beim Farbensehen."
               ],
               "feedbackCorrect": "Zapfen helfen beim Farbensehen.",
-              "feedbackIncorrect": "Noch nicht. Denke an die zwei Arten von Lichtsinneszellen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T11_MSA_1_clarify",
+                "type": "single_choice",
+                "prompt": "Welche Zellen helfen beim Farbensehen?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Zapfen"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Stäbchen"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Zapfen helfen beim Farbensehen."
+                ],
+                "feedbackCorrect": "Zapfen helfen beim Farbensehen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
               "units": 1,
-              "id": "T11_MSA_1",
-              "feedbackByOption": {
-                "o1": "Zapfen helfen beim Farbensehen.",
-                "o2": "Noch nicht. Denke an die zwei Arten von Lichtsinneszellen."
-              }
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -3997,8 +4205,12 @@
             }
           ],
           "assessedUnits": 2,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T11_MSA_1",
+            "T11_MSA_2"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -4095,7 +4307,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 2,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T11_AHR_1",
+            "T11_AHR_2"
+          ]
         }
       }
     },
@@ -4202,7 +4418,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T12_Foerder_1",
+            "T12_Foerder_2",
+            "T12_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -4319,7 +4540,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T12_ESA_1",
+            "T12_ESA_2",
+            "T12_ESA_3",
+            "T12_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -4389,7 +4616,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Beim Hören leiser Töne"
+                  "text": "Beim Scharfstellen der Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -4436,7 +4663,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T12_MSA_1",
+            "T12_MSA_2",
+            "T12_MSA_3",
+            "T12_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -4506,7 +4739,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Beim Hören leiser Töne"
+                  "text": "Beim Scharfstellen der Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -4553,14 +4786,20 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T12_AHR_1",
+            "T12_AHR_2",
+            "T12_AHR_3",
+            "T12_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T13",
       "number": 13,
-      "title": "Drei kleine Knochen",
+      "title": "Die drei Gehörknöchelchen",
       "area": 3,
       "classification": "P",
       "knowledgeFocus": [
@@ -4604,7 +4843,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T13_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -4644,34 +4886,18 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T13_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 35,
+          "targetSeconds": 45,
           "steps": [
             {
-              "type": "ordering",
-              "prompt": "Ordne die drei Knochen ab dem Trommelfell.",
-              "cards": [
-                {
-                  "id": "c1",
-                  "text": "Hammer"
-                },
-                {
-                  "id": "c2",
-                  "text": "Amboss"
-                },
-                {
-                  "id": "c3",
-                  "text": "Steigbügel"
-                }
-              ],
-              "correctOrder": [
-                "c1",
-                "c2",
-                "c3"
-              ],
+              "type": "term_fill",
+              "prompt": "Schreibe die drei Knochen ab dem Trommelfell in die richtige Reihenfolge.",
               "hints": [
                 "Der Hammer liegt direkt am Trommelfell.",
                 "Hammer → Amboss → Steigbügel."
@@ -4679,39 +4905,47 @@
               "feedbackCorrect": "Hammer → Amboss → Steigbügel.",
               "feedbackIncorrect": "Einige Schritte stehen noch nicht richtig. Der Hammer liegt direkt am Trommelfell.",
               "units": 3,
-              "id": "T13_MSA_1"
+              "id": "T13_MSA_1",
+              "wordBankOnRequest": true,
+              "pairs": [
+                {
+                  "targetId": "first",
+                  "targetLabel": "Vom Trommelfell aus: Platz 1",
+                  "answerId": "a1",
+                  "answerText": "Hammer",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "second",
+                  "targetLabel": "Vom Trommelfell aus: Platz 2",
+                  "answerId": "a2",
+                  "answerText": "Amboss",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "third",
+                  "targetLabel": "Vom Trommelfell aus: Platz 3",
+                  "answerId": "a3",
+                  "answerText": "Steigbügel",
+                  "ruleId": "ANATOMY"
+                }
+              ]
             }
           ],
           "assessedUnits": 3,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 3,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T13_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 35,
+          "targetSeconds": 45,
           "steps": [
             {
-              "type": "ordering",
-              "prompt": "Ordne die drei Knochen ab dem Trommelfell.",
-              "cards": [
-                {
-                  "id": "c1",
-                  "text": "Hammer"
-                },
-                {
-                  "id": "c2",
-                  "text": "Amboss"
-                },
-                {
-                  "id": "c3",
-                  "text": "Steigbügel"
-                }
-              ],
-              "correctOrder": [
-                "c1",
-                "c2",
-                "c3"
-              ],
+              "type": "term_fill",
+              "prompt": "Schreibe die drei Knochen ab dem Trommelfell in die richtige Reihenfolge.",
               "hints": [
                 "Der Hammer liegt direkt am Trommelfell.",
                 "Hammer → Amboss → Steigbügel."
@@ -4719,12 +4953,39 @@
               "feedbackCorrect": "Hammer → Amboss → Steigbügel.",
               "feedbackIncorrect": "Einige Schritte stehen noch nicht richtig. Der Hammer liegt direkt am Trommelfell.",
               "units": 3,
-              "id": "T13_AHR_1"
+              "id": "T13_AHR_1",
+              "wordBankOnRequest": true,
+              "pairs": [
+                {
+                  "targetId": "first",
+                  "targetLabel": "Vom Trommelfell aus: Platz 1",
+                  "answerId": "a1",
+                  "answerText": "Hammer",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "second",
+                  "targetLabel": "Vom Trommelfell aus: Platz 2",
+                  "answerId": "a2",
+                  "answerText": "Amboss",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "third",
+                  "targetLabel": "Vom Trommelfell aus: Platz 3",
+                  "answerId": "a3",
+                  "answerText": "Steigbügel",
+                  "ruleId": "ANATOMY"
+                }
+              ]
             }
           ],
           "assessedUnits": 3,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 3,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T13_AHR_1"
+          ]
         }
       }
     },
@@ -4831,7 +5092,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T14_Foerder_1",
+            "T14_Foerder_2",
+            "T14_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -4948,38 +5214,57 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T14_ESA_1",
+            "T14_ESA_2",
+            "T14_ESA_3",
+            "T14_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 60,
+          "targetSeconds": 65,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Welcher Sinn hilft dir, aufrecht zu bleiben?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Der Gleichgewichtssinn"
-                },
-                {
-                  "id": "o2",
-                  "text": "Der Geschmackssinn"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Es geht um Lage und Bewegung des Körpers.",
-                "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht."
-              ],
-              "feedbackCorrect": "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht.",
-              "feedbackIncorrect": "Noch nicht. Es geht um Lage und Bewegung des Körpers.",
-              "units": 1,
               "id": "T14_MSA_1",
-              "feedbackByOption": {
-                "o1": "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht.",
-                "o2": "Noch nicht. Es geht um Lage und Bewegung des Körpers."
-              }
+              "type": "bounded_text",
+              "prompt": "Wobei hilft das Gleichgewichtsorgan?",
+              "ruleId": "BALANCE_FUNCTION",
+              "modelAnswer": "Gleichgewicht",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen."
+              ],
+              "feedbackCorrect": "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T14_MSA_1_clarify",
+                "type": "single_choice",
+                "prompt": "Wobei hilft das Gleichgewichtsorgan?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Beim Gleichgewicht und Erkennen von Drehungen"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Beim Scharfstellen der Linse"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen."
+                ],
+                "feedbackCorrect": "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -5018,7 +5303,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe einer Lampe"
+                  "text": "Das Scharfstellen der Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -5045,7 +5330,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Zur Pupille"
+                  "text": "Zur Hörschnecke"
                 }
               ],
               "correctOptionId": "o1",
@@ -5064,39 +5349,58 @@
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T14_MSA_1",
+            "T14_MSA_2",
+            "T14_MSA_3",
+            "T14_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 60,
+          "targetSeconds": 65,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Welcher Sinn hilft dir, aufrecht zu bleiben?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Der Gleichgewichtssinn"
-                },
-                {
-                  "id": "o2",
-                  "text": "Der Geschmackssinn"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Es geht um Lage und Bewegung des Körpers.",
-                "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht."
-              ],
-              "feedbackCorrect": "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht.",
-              "feedbackIncorrect": "Noch nicht. Es geht um Lage und Bewegung des Körpers.",
-              "units": 1,
               "id": "T14_AHR_1",
-              "feedbackByOption": {
-                "o1": "Der Gleichgewichtssinn hilft bei der Orientierung und beim Gleichgewicht.",
-                "o2": "Noch nicht. Es geht um Lage und Bewegung des Körpers."
-              }
+              "type": "bounded_text",
+              "prompt": "Wobei hilft das Gleichgewichtsorgan?",
+              "ruleId": "BALANCE_FUNCTION",
+              "modelAnswer": "Gleichgewicht",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen."
+              ],
+              "feedbackCorrect": "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T14_AHR_1_clarify",
+                "type": "single_choice",
+                "prompt": "Wobei hilft das Gleichgewichtsorgan?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Beim Gleichgewicht und Erkennen von Drehungen"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Beim Scharfstellen der Linse"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen."
+                ],
+                "feedbackCorrect": "Das Gleichgewichtsorgan hilft beim Gleichgewicht und beim Erkennen von Kopfbewegungen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -5135,7 +5439,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Farbe einer Lampe"
+                  "text": "Das Scharfstellen der Linse"
                 }
               ],
               "correctOptionId": "o1",
@@ -5162,7 +5466,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Zur Pupille"
+                  "text": "Zur Hörschnecke"
                 }
               ],
               "correctOptionId": "o1",
@@ -5181,8 +5485,14 @@
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T14_AHR_1",
+            "T14_AHR_2",
+            "T14_AHR_3",
+            "T14_AHR_4"
+          ]
         }
       }
     },
@@ -5233,7 +5543,10 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T15_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -5322,7 +5635,12 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T15_ESA_1",
+            "T15_ESA_2",
+            "T15_ESA_3"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -5425,7 +5743,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 1,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T15_MSA_1",
+            "T15_MSA_2",
+            "T15_MSA_3"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -5531,7 +5854,12 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 1,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T15_AHR_1",
+            "T15_AHR_2",
+            "T15_AHR_3"
+          ]
         }
       }
     },
@@ -5638,7 +5966,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T16_Foerder_1",
+            "T16_Foerder_2",
+            "T16_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -5755,7 +6088,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T16_ESA_1",
+            "T16_ESA_2",
+            "T16_ESA_3",
+            "T16_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -5798,7 +6137,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Augen wechseln ihre Farbe."
+                  "text": "Die Hörsinneszellen funktionieren immer unverändert."
                 }
               ],
               "correctOptionId": "o1",
@@ -5872,7 +6211,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T16_MSA_1",
+            "T16_MSA_2",
+            "T16_MSA_3",
+            "T16_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -5915,7 +6260,7 @@
                 },
                 {
                   "id": "o2",
-                  "text": "Die Augen wechseln ihre Farbe."
+                  "text": "Die Hörsinneszellen funktionieren immer unverändert."
                 }
               ],
               "correctOptionId": "o1",
@@ -5989,14 +6334,20 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T16_AHR_1",
+            "T16_AHR_2",
+            "T16_AHR_3",
+            "T16_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T17",
       "number": 17,
-      "title": "Zwei Wege zum Gehirn",
+      "title": "Hörnerv oder Sehnerv?",
       "area": 3,
       "classification": "P",
       "knowledgeFocus": [
@@ -6039,7 +6390,10 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T17_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -6074,27 +6428,32 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T17_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 30,
+          "targetSeconds": 40,
           "steps": [
             {
-              "type": "matching",
+              "type": "term_fill",
               "prompt": "Ordne den passenden Nerv zu.",
               "pairs": [
                 {
                   "targetId": "ear",
                   "targetLabel": "Signale vom Ohr zum Gehirn",
                   "answerId": "a1",
-                  "answerText": "Hörnerv"
+                  "answerText": "Hörnerv",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "eye",
                   "targetLabel": "Signale vom Auge zum Gehirn",
                   "answerId": "a2",
-                  "answerText": "Sehnerv"
+                  "answerText": "Sehnerv",
+                  "ruleId": "ANATOMY"
                 }
               ],
               "hints": [
@@ -6104,32 +6463,38 @@
               "feedbackCorrect": "Hörnerv: Hören. Sehnerv: Sehen. Beide leiten Signale zum Gehirn.",
               "feedbackIncorrect": "Einige Zuordnungen passen noch nicht. Die Namen verraten, zu welchem Sinn sie gehören.",
               "units": 2,
-              "id": "T17_MSA_1"
+              "id": "T17_MSA_1",
+              "wordBankOnRequest": true
             }
           ],
           "assessedUnits": 2,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 2,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T17_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 30,
+          "targetSeconds": 40,
           "steps": [
             {
-              "type": "matching",
+              "type": "term_fill",
               "prompt": "Ordne den passenden Nerv zu.",
               "pairs": [
                 {
                   "targetId": "ear",
                   "targetLabel": "Signale vom Ohr zum Gehirn",
                   "answerId": "a1",
-                  "answerText": "Hörnerv"
+                  "answerText": "Hörnerv",
+                  "ruleId": "ANATOMY"
                 },
                 {
                   "targetId": "eye",
                   "targetLabel": "Signale vom Auge zum Gehirn",
                   "answerId": "a2",
-                  "answerText": "Sehnerv"
+                  "answerText": "Sehnerv",
+                  "ruleId": "ANATOMY"
                 }
               ],
               "hints": [
@@ -6139,12 +6504,16 @@
               "feedbackCorrect": "Hörnerv: Hören. Sehnerv: Sehen. Beide leiten Signale zum Gehirn.",
               "feedbackIncorrect": "Einige Zuordnungen passen noch nicht. Die Namen verraten, zu welchem Sinn sie gehören.",
               "units": 2,
-              "id": "T17_AHR_1"
+              "id": "T17_AHR_1",
+              "wordBankOnRequest": true
             }
           ],
           "assessedUnits": 2,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 2,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T17_AHR_1"
+          ]
         }
       }
     },
@@ -6165,7 +6534,7 @@
       "variants": {
         "Foerder": {
           "level": "Foerder",
-          "targetSeconds": 55,
+          "targetSeconds": 65,
           "steps": [
             {
               "type": "single_choice",
@@ -6247,15 +6616,44 @@
                 "o1": "Auch angepasste Augen brauchen etwas Licht.",
                 "o2": "Noch nicht. Zum Sehen wird Licht benötigt."
               }
+            },
+            {
+              "id": "T18_Foerder_4",
+              "type": "single_choice",
+              "prompt": "Wozu wird die Pupille im Dunkeln größer?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Damit mehr Licht ins Auge kommt"
+                },
+                {
+                  "id": "o2",
+                  "text": "Damit weniger Licht ins Auge kommt"
+                }
+              ],
+              "correctOptionId": "o1",
+              "hints": [
+                "Schau dir die Hilfe an.",
+                "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+              ],
+              "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+              "feedbackIncorrect": "Schau noch einmal hin.",
+              "units": 1,
+              "introducedIn": "round2"
             }
           ],
-          "assessedUnits": 3,
+          "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T18_Foerder_1",
+            "T18_Foerder_2",
+            "T18_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
-          "targetSeconds": 65,
+          "targetSeconds": 80,
           "steps": [
             {
               "type": "single_choice",
@@ -6364,42 +6762,102 @@
                 "o1": "Stäbchen helfen besonders beim Sehen mit wenig Licht.",
                 "o2": "Noch nicht. Diese Zellen sind besonders lichtempfindlich."
               }
+            },
+            {
+              "id": "T18_ESA_5",
+              "type": "bounded_text",
+              "prompt": "In der Iris gibt es Muskeln, die die Pupille größer machen. Was machen diese Muskeln?",
+              "ruleId": "IRIS_DILATOR_ACTION",
+              "modelAnswer": "Sie ziehen sich zusammen.",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+              ],
+              "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T18_ESA_5_clarify",
+                "type": "single_choice",
+                "prompt": "In der Iris gibt es Muskeln, die die Pupille größer machen. Was machen diese Muskeln?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Sie ziehen sich zusammen."
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Sie entspannen sich."
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+                ],
+                "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800,
+              "introducedIn": "round2"
             }
           ],
-          "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "assessedUnits": 5,
+          "mandatoryTextFields": 1,
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T18_ESA_1",
+            "T18_ESA_2",
+            "T18_ESA_3",
+            "T18_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 60,
+          "targetSeconds": 70,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Nach einem hellen Raum ist es draußen dunkel. Was hilft zuerst?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Die Pupille wird größer."
-                },
-                {
-                  "id": "o2",
-                  "text": "Die Pupille wird kleiner."
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Mehr vom wenigen Licht soll ins Auge gelangen.",
-                "Im Dunkeln wird die Pupille größer."
-              ],
-              "feedbackCorrect": "Im Dunkeln wird die Pupille größer.",
-              "feedbackIncorrect": "Noch nicht. Mehr vom wenigen Licht soll ins Auge gelangen.",
-              "units": 1,
               "id": "T18_MSA_1",
-              "feedbackByOption": {
-                "o1": "Im Dunkeln wird die Pupille größer.",
-                "o2": "Noch nicht. Mehr vom wenigen Licht soll ins Auge gelangen."
-              }
+              "type": "bounded_text",
+              "prompt": "Warum wird die Pupille im Dunkeln größer?",
+              "ruleId": "PUPIL_PURPOSE",
+              "modelAnswer": "Mehr Licht",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+              ],
+              "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T18_MSA_1_clarify",
+                "type": "single_choice",
+                "prompt": "Warum wird die Pupille im Dunkeln größer?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Damit mehr Licht ins Auge kommt"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Damit weniger Licht ins Auge kommt"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+                ],
+                "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -6456,67 +6914,99 @@
               }
             },
             {
-              "type": "single_choice",
-              "prompt": "Welche Zellen sind bei sehr wenig Licht besonders wichtig?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Stäbchen"
-                },
-                {
-                  "id": "o2",
-                  "text": "Zapfen"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Diese Zellen sind besonders lichtempfindlich.",
-                "Stäbchen helfen besonders beim Sehen mit wenig Licht."
-              ],
-              "feedbackCorrect": "Stäbchen helfen besonders beim Sehen mit wenig Licht.",
-              "feedbackIncorrect": "Noch nicht. Diese Zellen sind besonders lichtempfindlich.",
-              "units": 1,
               "id": "T18_MSA_4",
-              "feedbackByOption": {
-                "o1": "Stäbchen helfen besonders beim Sehen mit wenig Licht.",
-                "o2": "Noch nicht. Diese Zellen sind besonders lichtempfindlich."
-              }
+              "type": "bounded_text",
+              "prompt": "Was verändert die Größe der Pupille?",
+              "ruleId": "IRIS_CONTROL",
+              "modelAnswer": "Muskeln in der Iris",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Muskeln in der Iris verändern die Größe der Pupille."
+              ],
+              "feedbackCorrect": "Muskeln in der Iris verändern die Größe der Pupille.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T18_MSA_4_clarify",
+                "type": "single_choice",
+                "prompt": "Was verändert die Größe der Pupille?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Muskeln in der Iris"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Der Ziliarmuskel des Linsenapparats"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Muskeln in der Iris verändern die Größe der Pupille."
+                ],
+                "feedbackCorrect": "Muskeln in der Iris verändern die Größe der Pupille.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 2,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T18_MSA_1",
+            "T18_MSA_2",
+            "T18_MSA_3",
+            "T18_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 60,
+          "targetSeconds": 75,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Nach einem hellen Raum ist es draußen dunkel. Was hilft zuerst?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Die Pupille wird größer."
-                },
-                {
-                  "id": "o2",
-                  "text": "Die Pupille wird kleiner."
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Mehr vom wenigen Licht soll ins Auge gelangen.",
-                "Im Dunkeln wird die Pupille größer."
-              ],
-              "feedbackCorrect": "Im Dunkeln wird die Pupille größer.",
-              "feedbackIncorrect": "Noch nicht. Mehr vom wenigen Licht soll ins Auge gelangen.",
-              "units": 1,
               "id": "T18_AHR_1",
-              "feedbackByOption": {
-                "o1": "Im Dunkeln wird die Pupille größer.",
-                "o2": "Noch nicht. Mehr vom wenigen Licht soll ins Auge gelangen."
-              }
+              "type": "bounded_text",
+              "prompt": "Warum wird die Pupille im Dunkeln größer und welcher Teil des Auges sorgt dafür?",
+              "ruleId": "PUPIL_DARK_MECHANISM",
+              "modelAnswer": "Damit mehr Licht ins Auge kommt. Muskeln in der Iris machen die Pupille größer.",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+              ],
+              "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T18_AHR_1_clarify",
+                "type": "single_choice",
+                "prompt": "Warum wird die Pupille im Dunkeln größer und welcher Teil des Auges sorgt dafür?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Mehr Licht kommt hinein. Muskeln in der Iris erweitern die Pupille."
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Der Ziliarmuskel macht die Pupille größer."
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe."
+                ],
+                "feedbackCorrect": "Im Dunkeln wird die Pupille größer. So kommt mehr Licht ins Auge. Muskeln in der Iris verändern ihre Größe.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -6601,8 +7091,14 @@
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T18_AHR_1",
+            "T18_AHR_2",
+            "T18_AHR_3",
+            "T18_AHR_4"
+          ]
         }
       }
     },
@@ -6673,7 +7169,10 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T19_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -6726,44 +7225,18 @@
           ],
           "assessedUnits": 5,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T19_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 70,
+          "targetSeconds": 85,
           "steps": [
             {
-              "type": "ordering",
-              "prompt": "Ordne den Weg zwischen Reiz und Reaktion.",
-              "cards": [
-                {
-                  "id": "c1",
-                  "text": "Ohr"
-                },
-                {
-                  "id": "c2",
-                  "text": "Hörnerv"
-                },
-                {
-                  "id": "c3",
-                  "text": "Gehirn"
-                },
-                {
-                  "id": "c4",
-                  "text": "Nerven zu den Beinmuskeln"
-                },
-                {
-                  "id": "c5",
-                  "text": "Beinmuskeln"
-                }
-              ],
-              "correctOrder": [
-                "c1",
-                "c2",
-                "c3",
-                "c4",
-                "c5"
-              ],
+              "type": "term_fill",
+              "prompt": "Ergänze die fünf Stationen. Einzelne Wörter reichen.",
               "hints": [
                 "Zuerst wird der Schall aufgenommen. Danach wird die Bewegung gesteuert.",
                 "Ohr → Hörnerv → Gehirn → Nerven zu den Beinmuskeln → Beinmuskeln."
@@ -6774,49 +7247,61 @@
               "fixedStart": "Reiz: Der Schulgong ertönt.",
               "fixedEnd": "Reaktion: Du stehst bewusst auf.",
               "fixedContext": "Du sitzt. Du hörst den Gong und entscheidest dich aufzustehen.",
-              "id": "T19_MSA_1"
+              "id": "T19_MSA_1",
+              "wordBankOnRequest": true,
+              "pairs": [
+                {
+                  "targetId": "ear",
+                  "targetLabel": "Station 1",
+                  "answerId": "a1",
+                  "answerText": "Ohr",
+                  "ruleId": "CHAIN_EAR"
+                },
+                {
+                  "targetId": "sensoryNerve",
+                  "targetLabel": "Station 2",
+                  "answerId": "a2",
+                  "answerText": "Hörnerv",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "brain",
+                  "targetLabel": "Station 3",
+                  "answerId": "a3",
+                  "answerText": "Gehirn",
+                  "ruleId": "BRAIN"
+                },
+                {
+                  "targetId": "motorNerves",
+                  "targetLabel": "Station 4",
+                  "answerId": "a4",
+                  "answerText": "Nerven zu den Beinmuskeln",
+                  "ruleId": "CHAIN_MOTOR_NERVES"
+                },
+                {
+                  "targetId": "muscle",
+                  "targetLabel": "Station 5",
+                  "answerId": "a5",
+                  "answerText": "Beinmuskeln",
+                  "ruleId": "CHAIN_LEG_MUSCLES"
+                }
+              ]
             }
           ],
           "assessedUnits": 5,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 5,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T19_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 70,
+          "targetSeconds": 85,
           "steps": [
             {
-              "type": "ordering",
-              "prompt": "Ordne den Weg zwischen Reiz und Reaktion.",
-              "cards": [
-                {
-                  "id": "c1",
-                  "text": "Ohr"
-                },
-                {
-                  "id": "c2",
-                  "text": "Hörnerv"
-                },
-                {
-                  "id": "c3",
-                  "text": "Gehirn"
-                },
-                {
-                  "id": "c4",
-                  "text": "Nerven zu den Beinmuskeln"
-                },
-                {
-                  "id": "c5",
-                  "text": "Beinmuskeln"
-                }
-              ],
-              "correctOrder": [
-                "c1",
-                "c2",
-                "c3",
-                "c4",
-                "c5"
-              ],
+              "type": "term_fill",
+              "prompt": "Ergänze die fünf Stationen. Einzelne Wörter reichen.",
               "hints": [
                 "Zuerst wird der Schall aufgenommen. Danach wird die Bewegung gesteuert.",
                 "Ohr → Hörnerv → Gehirn → Nerven zu den Beinmuskeln → Beinmuskeln."
@@ -6827,19 +7312,60 @@
               "fixedStart": "Reiz: Der Schulgong ertönt.",
               "fixedEnd": "Reaktion: Du stehst bewusst auf.",
               "fixedContext": "Du sitzt. Du hörst den Gong und entscheidest dich aufzustehen.",
-              "id": "T19_AHR_1"
+              "id": "T19_AHR_1",
+              "wordBankOnRequest": true,
+              "pairs": [
+                {
+                  "targetId": "ear",
+                  "targetLabel": "Station 1",
+                  "answerId": "a1",
+                  "answerText": "Ohr",
+                  "ruleId": "CHAIN_EAR"
+                },
+                {
+                  "targetId": "sensoryNerve",
+                  "targetLabel": "Station 2",
+                  "answerId": "a2",
+                  "answerText": "Hörnerv",
+                  "ruleId": "ANATOMY"
+                },
+                {
+                  "targetId": "brain",
+                  "targetLabel": "Station 3",
+                  "answerId": "a3",
+                  "answerText": "Gehirn",
+                  "ruleId": "BRAIN"
+                },
+                {
+                  "targetId": "motorNerves",
+                  "targetLabel": "Station 4",
+                  "answerId": "a4",
+                  "answerText": "Nerven zu den Beinmuskeln",
+                  "ruleId": "CHAIN_MOTOR_NERVES"
+                },
+                {
+                  "targetId": "muscle",
+                  "targetLabel": "Station 5",
+                  "answerId": "a5",
+                  "answerText": "Beinmuskeln",
+                  "ruleId": "CHAIN_LEG_MUSCLES"
+                }
+              ]
             }
           ],
           "assessedUnits": 5,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 5,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T19_AHR_1"
+          ]
         }
       }
     },
     {
       "id": "T20",
       "number": 20,
-      "title": "Erkläre das Hören",
+      "title": "Hören erklären",
       "area": 4,
       "classification": "P",
       "knowledgeFocus": [
@@ -6939,7 +7465,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T20_Foerder_1",
+            "T20_Foerder_2",
+            "T20_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -7029,7 +7560,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T20_ESA_1",
+            "T20_ESA_2",
+            "T20_ESA_3"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -7158,7 +7694,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 3,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T20_MSA_1",
+            "T20_MSA_2",
+            "T20_MSA_3"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -7331,7 +7872,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 4,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T20_AHR_1",
+            "T20_AHR_2",
+            "T20_AHR_3",
+            "T20_AHR_4"
+          ]
         }
       }
     },
@@ -7438,7 +7985,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T21_Foerder_1",
+            "T21_Foerder_2",
+            "T21_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -7555,7 +8107,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T21_ESA_1",
+            "T21_ESA_2",
+            "T21_ESA_3",
+            "T21_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -7672,7 +8230,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T21_MSA_1",
+            "T21_MSA_2",
+            "T21_MSA_3",
+            "T21_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -7789,7 +8353,13 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T21_AHR_1",
+            "T21_AHR_2",
+            "T21_AHR_3",
+            "T21_AHR_4"
+          ]
         }
       }
     },
@@ -7839,7 +8409,10 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T22_Foerder_1"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -7875,79 +8448,114 @@
           ],
           "assessedUnits": 1,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T22_ESA_1"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 30,
+          "targetSeconds": 35,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Was fehlt am blinden Fleck?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Lichtsinneszellen"
-                },
-                {
-                  "id": "o2",
-                  "text": "Der gesamte Sehnerv"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Hier verlässt der Sehnerv das Auge.",
-                "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge."
-              ],
-              "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge.",
-              "feedbackIncorrect": "Noch nicht. Hier verlässt der Sehnerv das Auge.",
-              "units": 1,
               "id": "T22_MSA_1",
-              "feedbackByOption": {
-                "o1": "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge.",
-                "o2": "Noch nicht. Hier verlässt der Sehnerv das Auge."
-              }
+              "type": "bounded_text",
+              "prompt": "Was fehlt am blinden Fleck?",
+              "ruleId": "BLIND_SPOT_CELLS",
+              "modelAnswer": "Lichtsinneszellen",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Am blinden Fleck fehlen Lichtsinneszellen."
+              ],
+              "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T22_MSA_1_clarify",
+                "type": "single_choice",
+                "prompt": "Was fehlt am blinden Fleck?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Lichtsinneszellen"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Nur Zapfen; Stäbchen sind dort vorhanden"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Am blinden Fleck fehlen Lichtsinneszellen."
+                ],
+                "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             }
           ],
           "assessedUnits": 1,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T22_MSA_1"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 30,
+          "targetSeconds": 35,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Was fehlt am blinden Fleck?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Lichtsinneszellen"
-                },
-                {
-                  "id": "o2",
-                  "text": "Der gesamte Sehnerv"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Hier verlässt der Sehnerv das Auge.",
-                "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge."
-              ],
-              "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge.",
-              "feedbackIncorrect": "Noch nicht. Hier verlässt der Sehnerv das Auge.",
-              "units": 1,
               "id": "T22_AHR_1",
-              "feedbackByOption": {
-                "o1": "Am blinden Fleck fehlen Lichtsinneszellen. Dort verlässt der Sehnerv das Auge.",
-                "o2": "Noch nicht. Hier verlässt der Sehnerv das Auge."
-              }
+              "type": "bounded_text",
+              "prompt": "Was fehlt am blinden Fleck?",
+              "ruleId": "BLIND_SPOT_CELLS",
+              "modelAnswer": "Lichtsinneszellen",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Am blinden Fleck fehlen Lichtsinneszellen."
+              ],
+              "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T22_AHR_1_clarify",
+                "type": "single_choice",
+                "prompt": "Was fehlt am blinden Fleck?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Lichtsinneszellen"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Nur Zapfen; Stäbchen sind dort vorhanden"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Am blinden Fleck fehlen Lichtsinneszellen."
+                ],
+                "feedbackCorrect": "Am blinden Fleck fehlen Lichtsinneszellen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             }
           ],
           "assessedUnits": 1,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T22_AHR_1"
+          ]
         }
       }
     },
@@ -8054,7 +8662,12 @@
           ],
           "assessedUnits": 3,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T23_Foerder_1",
+            "T23_Foerder_2",
+            "T23_Foerder_3"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -8171,38 +8784,57 @@
           ],
           "assessedUnits": 4,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T23_ESA_1",
+            "T23_ESA_2",
+            "T23_ESA_3",
+            "T23_ESA_4"
+          ]
         },
         "MSA": {
           "level": "MSA",
-          "targetSeconds": 60,
+          "targetSeconds": 65,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Ordne zu: Was schützt vor Staub?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Wimpern"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sehnerv"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Der gesuchte Teil liegt am Augenlid.",
-                "Wimpern helfen, Staub vom Auge fernzuhalten."
-              ],
-              "feedbackCorrect": "Wimpern helfen, Staub vom Auge fernzuhalten.",
-              "feedbackIncorrect": "Noch nicht. Der gesuchte Teil liegt am Augenlid.",
-              "units": 1,
               "id": "T23_MSA_1",
-              "feedbackByOption": {
-                "o1": "Wimpern helfen, Staub vom Auge fernzuhalten.",
-                "o2": "Noch nicht. Der gesuchte Teil liegt am Augenlid."
-              }
+              "type": "bounded_text",
+              "prompt": "Was schützt das Auge vor Staub?",
+              "ruleId": "DUST_PROTECTION",
+              "modelAnswer": "Wimpern",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen."
+              ],
+              "feedbackCorrect": "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T23_MSA_1_clarify",
+                "type": "single_choice",
+                "prompt": "Was schützt das Auge vor Staub?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Wimpern"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Sehnerv"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen."
+                ],
+                "feedbackCorrect": "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -8287,39 +8919,58 @@
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T23_MSA_1",
+            "T23_MSA_2",
+            "T23_MSA_3",
+            "T23_MSA_4"
+          ]
         },
         "AHR": {
           "level": "AHR",
-          "targetSeconds": 60,
+          "targetSeconds": 65,
           "steps": [
             {
-              "type": "single_choice",
-              "prompt": "Ordne zu: Was schützt vor Staub?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Wimpern"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sehnerv"
-                }
-              ],
-              "correctOptionId": "o1",
-              "hints": [
-                "Der gesuchte Teil liegt am Augenlid.",
-                "Wimpern helfen, Staub vom Auge fernzuhalten."
-              ],
-              "feedbackCorrect": "Wimpern helfen, Staub vom Auge fernzuhalten.",
-              "feedbackIncorrect": "Noch nicht. Der gesuchte Teil liegt am Augenlid.",
-              "units": 1,
               "id": "T23_AHR_1",
-              "feedbackByOption": {
-                "o1": "Wimpern helfen, Staub vom Auge fernzuhalten.",
-                "o2": "Noch nicht. Der gesuchte Teil liegt am Augenlid."
-              }
+              "type": "bounded_text",
+              "prompt": "Was schützt das Auge vor Staub?",
+              "ruleId": "DUST_PROTECTION",
+              "modelAnswer": "Wimpern",
+              "placeholder": "Ein Wort oder ein kurzer Satz reicht.",
+              "hints": [
+                "Denke an die Situation in der Frage.",
+                "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen."
+              ],
+              "feedbackCorrect": "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen.",
+              "feedbackIncorrect": "Das passt noch nicht. Schau dir die Hilfe an.",
+              "fallback": {
+                "id": "T23_AHR_1_clarify",
+                "type": "single_choice",
+                "prompt": "Was schützt das Auge vor Staub?",
+                "options": [
+                  {
+                    "id": "o1",
+                    "text": "Wimpern"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "Sehnerv"
+                  }
+                ],
+                "correctOptionId": "o1",
+                "hints": [
+                  "Schau dir die Hilfe an.",
+                  "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen."
+                ],
+                "feedbackCorrect": "Wimpern halten Staub ab. Auch das Augenlid schützt beim Schließen.",
+                "feedbackIncorrect": "Schau noch einmal hin.",
+                "units": 1
+              },
+              "units": 1,
+              "maxExpectedCharacters": 240,
+              "hardInputLimit": 800
             },
             {
               "type": "single_choice",
@@ -8404,15 +9055,21 @@
             }
           ],
           "assessedUnits": 4,
-          "mandatoryTextFields": 0,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "mandatoryTextFields": 1,
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T23_AHR_1",
+            "T23_AHR_2",
+            "T23_AHR_3",
+            "T23_AHR_4"
+          ]
         }
       }
     },
     {
       "id": "T24",
       "number": 24,
-      "title": "Die letzte Entdeckung",
+      "title": "Zum Schluss wiederholen",
       "area": 4,
       "classification": "P",
       "knowledgeFocus": [
@@ -8483,7 +9140,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Keine Texteingabe.",
+          "legacyStepIds": [
+            "T24_Foerder_1",
+            "T24_Foerder_2"
+          ]
         },
         "ESA": {
           "level": "ESA",
@@ -8546,7 +9207,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 0,
-          "languageNote": "Keine Texteingabe, auch nicht in Klärungen."
+          "languageNote": "Genau eine kurze Texteingabe in T18; sonst Auswahl und Zuordnung.",
+          "legacyStepIds": [
+            "T24_ESA_1",
+            "T24_ESA_2"
+          ]
         },
         "MSA": {
           "level": "MSA",
@@ -8635,7 +9300,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 2,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T24_MSA_1",
+            "T24_MSA_2"
+          ]
         },
         "AHR": {
           "level": "AHR",
@@ -8724,7 +9393,11 @@
           ],
           "assessedUnits": 2,
           "mandatoryTextFields": 2,
-          "languageNote": "Begriffsfelder getrennt von kurzen inhaltlichen Antwortfeldern; jederzeit Wortauswahl möglich."
+          "languageNote": "Begriffe selbst schreiben; Wortbank jederzeit öffnen und schließen.",
+          "legacyStepIds": [
+            "T24_AHR_1",
+            "T24_AHR_2"
+          ]
         }
       }
     }
@@ -8741,6 +9414,48 @@
     "Ringmuskel": "Ein Muskel, der über die Linsenbänder die Linsenform verändert.",
     "Hörschnecke": "Ein Teil des Innenohrs. Hier werden Schwingungen in Nervensignale umgewandelt.",
     "Gehörknöchelchen": "Drei kleine Knochen im Mittelohr: Hammer, Amboss und Steigbügel.",
-    "Gebärdensprache": "Eine Sprache, die unter anderem Hände und Gesicht nutzt."
-  }
+    "Gebärdensprache": "Eine Sprache, die unter anderem Hände und Gesicht nutzt.",
+    "Iris-Muskeln": "Muskeln in der Iris machen die Pupille größer oder kleiner.",
+    "Ziliarmuskel": "Er verändert über die Linsenbänder die Linsenform. Er ist nicht der Muskel zur Pupillenerweiterung."
+  },
+  "topics": [
+    {
+      "id": "hearing",
+      "title": "Hören mit den Ohren",
+      "symbol": "◖",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T13",
+        "T14",
+        "T16",
+        "T19",
+        "T20",
+        "T21"
+      ]
+    },
+    {
+      "id": "seeing",
+      "title": "Sehen mit den Augen",
+      "symbol": "◉",
+      "tasks": [
+        "T07",
+        "T08",
+        "T09",
+        "T10",
+        "T11",
+        "T12",
+        "T15",
+        "T17",
+        "T18",
+        "T22",
+        "T23",
+        "T24"
+      ]
+    }
+  ]
 }

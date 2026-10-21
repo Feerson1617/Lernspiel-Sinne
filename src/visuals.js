@@ -93,7 +93,7 @@ export function scene(taskId, mode = false) {
   if (['T01', 'T03', 'T05', 'T13', 'T20'].includes(taskId)) return ear();
   if (['T07', 'T09', 'T22', 'T24'].includes(taskId)) return eye([], taskId === 'T09');
   if (taskId === 'T10') return illusions(mode);
-  if (taskId === 'T15') return svg(`${text(330, 50, 'Scharfstellen bei gleichem Licht', 22)}
+  if (taskId === 'T15') return svg(`${text(330, 50, mode ? 'Scharfgestellt: ferner Baum' : 'Scharfgestellt: naher Stift', 22)}
     <path d="M102 290 L113 165 L128 165 L134 290Z" fill="#cc9470" stroke="#805c43" stroke-width="3"/>
     ${text(117, 335, 'Naher Stift', 19)}
     <path d="M520 290 L520 220" stroke="#896f50" stroke-width="13"/>
@@ -109,10 +109,11 @@ export function scene(taskId, mode = false) {
     ${dot(mode ? 65 : 590, 233, 23, '#e0bd5b')}${text(mode ? 65 : 590, 282, 'Hund', 17)}
     <path d="M${mode ? 90 : 565} 230 L${mode ? 195 : 450} 230" stroke="#ba9237" stroke-width="4" stroke-dasharray="8 7"/>
     ${text(330, 417, 'Modell: kürzerer Weg → meist früher; oft auch lauter', 15)}`, 'Draufsicht auf einen Kopf, Nase oben. Links und rechts sind die Seiten der Person.');
-  if (taskId === 'T08' || taskId === 'T18') return svg(`${text(330, 50, mode ? 'Wenig Licht' : 'Viel Licht', 24)}
+  if (taskId === 'T08' || taskId === 'T18') return svg(`${text(330, 50, taskId === 'T18' ? mode ? 'Nach einer Weile im Dunkeln' : 'Sofort im Dunkeln' : mode ? 'Wenig Licht' : 'Viel Licht', 24)}
     <path d="M85 221 Q330 42 575 221 Q330 400 85 221Z" fill="#fffdf4" stroke="#6c8878" stroke-width="5"/>
-    ${dot(330, 221, 83, '#6d9a7d')}${dot(330, 221, mode ? 54 : 24, '#213c34')}
-    ${text(330, 393, taskId === 'T18' ? 'Nach einer Weile passt sich auch die Netzhaut an.' : 'Die Iris verändert die Pupillenöffnung.', 18)}`, 'Modell der Pupillenöffnung bei unterschiedlicher Beleuchtung.');
+    ${dot(330, 221, 83, '#6d9a7d')}${dot(330, 221, taskId === 'T18' || mode ? 54 : 24, '#213c34')}
+    ${text(330, 366, taskId === 'T18' ? 'Wenig Licht: Die Pupille wird größer.' : 'Die Iris verändert die Pupillenöffnung.', 18)}
+    ${taskId === 'T18' ? text(330, 402, mode ? 'Mit der Zeit reagiert auch die Netzhaut empfindlicher.' : 'Muskeln in der Iris verändern die Öffnung.', 17) : ''}`, taskId === 'T18' ? 'Dunkler Raum: große Pupille. Auch die Netzhaut passt sich mit der Zeit an.' : 'Modell der Pupillenöffnung bei unterschiedlicher Beleuchtung.');
   if (taskId === 'T14') return svg(`${text(330, 45, 'Nur das Modell bewegt sich.', 22)}
     <path d="M294 300 C184 224 219 88 302 134 C389 184 409 298 294 300 M296 300 C358 196 466 122 473 205 C479 275 353 318 296 300" fill="none" stroke="#6f9d9b" stroke-width="23"/>
     ${dot(mode ? 272 : 235, mode ? 166 : 215, 11, '#e1bb60')}

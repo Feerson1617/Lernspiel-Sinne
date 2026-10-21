@@ -1,19 +1,27 @@
 {
-  "executed_at": "2026-10-21T08:59:11.704Z",
+  "round": 2,
+  "executed_at": "2026-10-21T10:24:41.640Z",
   "environment": {
     "node": "v24.19.0",
     "chromium": "154.0.8037.57",
-    "os": "Debian GNU/Linux 13",
-    "playwright": "1.58.2"
+    "playwright": "1.58.2",
+    "os": "Debian GNU/Linux 13"
   },
   "unit": {
-    "tests": 309,
-    "pass": 309,
+    "tests": 418,
+    "pass": 418,
     "fail": 0,
     "skipped": 0
   },
+  "golden": {
+    "unchanged_cases": 176,
+    "all_expected_results_matched": true,
+    "false_acceptances": 0,
+    "false_rejections": 0,
+    "false_clarifications": 0
+  },
   "browser": {
-    "passed": 23,
+    "passed": 33,
     "failed": 0,
     "skipped": 1,
     "flaky": 0,
@@ -22,155 +30,155 @@
         "title": "Full correct tour: Foerder / 24 missions",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 9945,
-        "notes": []
+        "duration_ms": 10801,
+        "skip_reasons": []
       },
       {
         "title": "Full correct tour: ESA / 24 missions",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 11979,
-        "notes": []
+        "duration_ms": 13115,
+        "skip_reasons": []
       },
       {
         "title": "Full correct tour: MSA / 24 missions",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 9920,
-        "notes": []
+        "duration_ms": 9986,
+        "skip_reasons": []
       },
       {
         "title": "Full correct tour: AHR / 24 missions",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 10255,
-        "notes": []
+        "duration_ms": 10200,
+        "skip_reasons": []
       },
       {
         "title": "Error, help and solution path for each of 24 missions: Foerder",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 10689,
-        "notes": []
+        "duration_ms": 12616,
+        "skip_reasons": []
       },
       {
         "title": "Error, help and solution path for each of 24 missions: ESA",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 11558,
-        "notes": []
+        "duration_ms": 13473,
+        "skip_reasons": []
       },
       {
         "title": "Error, help and solution path for each of 24 missions: MSA",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 10002,
-        "notes": []
+        "duration_ms": 11044,
+        "skip_reasons": []
       },
       {
         "title": "Error, help and solution path for each of 24 missions: AHR",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 10899,
-        "notes": []
+        "duration_ms": 11345,
+        "skip_reasons": []
       },
       {
         "title": "Clarification is usable once, preserves uncertainty and does not store raw text",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 723,
-        "notes": []
+        "duration_ms": 917,
+        "skip_reasons": []
       },
       {
         "title": "Edited input invalidates success; solution and errors are tracked separately",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 735,
-        "notes": []
+        "duration_ms": 942,
+        "skip_reasons": []
       },
       {
         "title": "Reload, level changes, restart and duplicate completion do not inflate progress",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1162,
-        "notes": []
+        "duration_ms": 1457,
+        "skip_reasons": []
       },
       {
         "title": "A physical double click only completes one step",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 621,
-        "notes": []
+        "duration_ms": 912,
+        "skip_reasons": []
       },
       {
         "title": "Anatomy word bank can be opened before any failure and counts as support",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1442,
-        "notes": []
+        "duration_ms": 1667,
+        "skip_reasons": []
       },
       {
         "title": "Moving a term out of a verified hidden group requires that group again",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1474,
-        "notes": []
+        "duration_ms": 1641,
+        "skip_reasons": []
       },
       {
         "title": "Blocked and corrupt storage still allow play; other application data survives",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 562,
-        "notes": []
+        "duration_ms": 710,
+        "skip_reasons": []
       },
       {
         "title": "Corrupt and stale progress are rejected",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 773,
-        "notes": []
+        "duration_ms": 1206,
+        "skip_reasons": []
       },
       {
         "title": "Tap, drag, swap, remove, keyboard sorting, cancellation and partial success",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 2006,
-        "notes": []
+        "duration_ms": 2328,
+        "skip_reasons": []
       },
       {
         "title": "Responsive layout and visible feedback 1440x900",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1225,
-        "notes": []
+        "duration_ms": 1614,
+        "skip_reasons": []
       },
       {
         "title": "Responsive layout and visible feedback 768x1024",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1378,
-        "notes": []
+        "duration_ms": 1688,
+        "skip_reasons": []
       },
       {
         "title": "Responsive layout and visible feedback 1024x768",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1290,
-        "notes": []
+        "duration_ms": 1661,
+        "skip_reasons": []
       },
       {
         "title": "Responsive layout and visible feedback 390x844",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 1288,
-        "notes": []
+        "duration_ms": 1584,
+        "skip_reasons": []
       },
       {
         "title": "Local multi-file and single-file exports work without network",
         "project": "chromium",
         "status": "skipped",
-        "duration_ms": 208,
-        "notes": [
+        "duration_ms": 206,
+        "skip_reasons": [
           "Cloud Chromium policy blocks file:// navigation; HTTP exports are tested separately."
         ]
       },
@@ -178,34 +186,181 @@
         "title": "Self-contained offline export plays a complete level after networking is blocked",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 8009,
-        "notes": []
+        "duration_ms": 10492,
+        "skip_reasons": []
       },
       {
         "title": "Touch interaction, reduced motion, keyboard navigation and safe raw text",
         "project": "chromium",
         "status": "passed",
-        "duration_ms": 678,
-        "notes": []
+        "duration_ms": 708,
+        "skip_reasons": []
+      },
+      {
+        "title": "Two dropdowns expose all tasks, close again and remain reachable inside an activity",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 997,
+        "skip_reasons": []
+      },
+      {
+        "title": "Word bank can open/close repeatedly in all six recall activities: MSA",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 4592,
+        "skip_reasons": []
+      },
+      {
+        "title": "Word bank can open/close repeatedly in all six recall activities: AHR",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 4714,
+        "skip_reasons": []
+      },
+      {
+        "title": "Correct/incorrect/partial/unclear and neutral part feedback use the same semantic colours",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1176,
+        "skip_reasons": []
+      },
+      {
+        "title": "Single-choice and ordering errors are red with symbols and clear on edit",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1294,
+        "skip_reasons": []
+      },
+      {
+        "title": "Dog and brightness controls keep prompts, model and grading synchronized",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1714,
+        "skip_reasons": []
+      },
+      {
+        "title": "The one ESA text field is usable with typo tolerance and real clarification",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1513,
+        "skip_reasons": []
+      },
+      {
+        "title": "Legacy progress retains 24 completions; new ESA question is available without a fake old answer",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 805,
+        "skip_reasons": []
+      },
+      {
+        "title": "Student Info is short, explains the colours and contains no developer notice",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 494,
+        "skip_reasons": []
+      },
+      {
+        "title": "Tablet portrait and landscape keep anatomy beside long input lists",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 881,
+        "skip_reasons": []
       }
     ]
   },
-  "golden": {
-    "cases": 176,
-    "all_expected_results_matched": true,
-    "false_acceptances": 0,
-    "false_rejections": 0,
-    "false_clarifications": 0
+  "tasks": 24,
+  "resolved_level_variants": 96,
+  "steps": 242,
+  "themes": [
+    {
+      "id": "hearing",
+      "title": "Hören mit den Ohren",
+      "symbol": "◖",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T13",
+        "T14",
+        "T16",
+        "T19",
+        "T20",
+        "T21"
+      ]
+    },
+    {
+      "id": "seeing",
+      "title": "Sehen mit den Augen",
+      "symbol": "◉",
+      "tasks": [
+        "T07",
+        "T08",
+        "T09",
+        "T10",
+        "T11",
+        "T12",
+        "T15",
+        "T17",
+        "T18",
+        "T22",
+        "T23",
+        "T24"
+      ]
+    }
+  ],
+  "level_summary": {
+    "Foerder": {
+      "P_units": 34,
+      "Z_units": 39,
+      "planned_task_seconds": 1265,
+      "planned_total_seconds_including_270s_buffer": 1535
+    },
+    "ESA": {
+      "P_units": 42,
+      "Z_units": 50,
+      "planned_task_seconds": 1435,
+      "planned_total_seconds_including_270s_buffer": 1705
+    },
+    "MSA": {
+      "P_units": 41,
+      "Z_units": 49,
+      "planned_task_seconds": 1510,
+      "planned_total_seconds_including_270s_buffer": 1780
+    },
+    "AHR": {
+      "P_units": 44,
+      "Z_units": 49,
+      "planned_task_seconds": 1580,
+      "planned_total_seconds_including_270s_buffer": 1850
+    }
   },
-  "original_data_sha256": {
-    "aufgabenbank.json": "7977c8d87c99113aaef67dfdd9aed190fad22a68f6cc14eabb30861968a2dbbf",
-    "korrekturregeln.json": "c88e08c5dc83009a92ce6064dbbb4596971990f437fee9b7c90b947ab39722dc",
-    "golden-tests.json": "6bc8c95413a9ffe28b664e25c049e8cfeb54e27f7f631420b2b781f2a86484bc"
+  "text_fields": {
+    "Foerder": 0,
+    "ESA": 1,
+    "MSA": 41,
+    "AHR": 42
+  },
+  "sha256": {
+    "index.html": "4ff17d95a86299e4347789b66631ca466de486d441c2c6ea094b1fa0cdc41a40",
+    "src/app.js": "1655df93954b11884b02ca3a6bb0f34f224d69b81c110f5ba60a23bddbf59a82",
+    "src/evaluate.js": "9153febce1a040655f1f764aac92fc5b91b8fdc603744acab5ce14914d0e129d",
+    "src/scoped-rules.js": "5537df3729139cffe1398fd48bbcef7dcc2f01ccfe2ed804735d26eda077e73a",
+    "src/state.js": "f46c65390be3f619842e12d1cf2269656489b0654c1cdff7188896d218abdacd",
+    "src/topics.js": "1af8cd442844fd1017e50784c0f101d5c66e71f42757b9e5495e9f5a6f890185",
+    "src/style.css": "6f126957c30983b90f050ef636d19454323114fab59d0ecfb74167b48e97555a",
+    "src/visuals.js": "ca80b589f818df6a3cf73d0cb014df15cc5f91d6546fd44fb5750607f13fb78b",
+    "spec/aufgabenbank.json": "a696b5e5a304c769d0ef408139441790946e40aedc519d0d247176a91fe2d757",
+    "spec/korrekturregeln.json": "5111f0b2c09cd8fa4141ae741d4880d8fae7943940593a51be8e2df73b456a47",
+    "spec/golden-tests.json": "6bc8c95413a9ffe28b664e25c049e8cfeb54e27f7f631420b2b781f2a86484bc",
+    "spiel/Mission-Sinneslabor-offline.html": "6b3d9a7c3108ec93bdee98333452067a2d192d2daa4cccc981d14321d8234233"
   },
   "limitations": [
-    "file:// is blocked by the managed Chromium policy",
-    "WebKit not installed in this cloud",
+    "file:// navigation blocked by managed Chromium policy",
+    "WebKit not installed",
     "No physical iPad/Safari or classroom timing tests",
-    "No remote CI or live Pages deployment verified"
+    "No remote CI or live deployment of this revision verified"
   ]
 }

@@ -1,0 +1,211 @@
+{
+  "executed_at": "2026-10-21T08:59:11.704Z",
+  "environment": {
+    "node": "v24.19.0",
+    "chromium": "154.0.8037.57",
+    "os": "Debian GNU/Linux 13",
+    "playwright": "1.58.2"
+  },
+  "unit": {
+    "tests": 309,
+    "pass": 309,
+    "fail": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "passed": 23,
+    "failed": 0,
+    "skipped": 1,
+    "flaky": 0,
+    "cases": [
+      {
+        "title": "Full correct tour: Foerder / 24 missions",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 9945,
+        "notes": []
+      },
+      {
+        "title": "Full correct tour: ESA / 24 missions",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 11979,
+        "notes": []
+      },
+      {
+        "title": "Full correct tour: MSA / 24 missions",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 9920,
+        "notes": []
+      },
+      {
+        "title": "Full correct tour: AHR / 24 missions",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 10255,
+        "notes": []
+      },
+      {
+        "title": "Error, help and solution path for each of 24 missions: Foerder",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 10689,
+        "notes": []
+      },
+      {
+        "title": "Error, help and solution path for each of 24 missions: ESA",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 11558,
+        "notes": []
+      },
+      {
+        "title": "Error, help and solution path for each of 24 missions: MSA",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 10002,
+        "notes": []
+      },
+      {
+        "title": "Error, help and solution path for each of 24 missions: AHR",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 10899,
+        "notes": []
+      },
+      {
+        "title": "Clarification is usable once, preserves uncertainty and does not store raw text",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 723,
+        "notes": []
+      },
+      {
+        "title": "Edited input invalidates success; solution and errors are tracked separately",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 735,
+        "notes": []
+      },
+      {
+        "title": "Reload, level changes, restart and duplicate completion do not inflate progress",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1162,
+        "notes": []
+      },
+      {
+        "title": "A physical double click only completes one step",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 621,
+        "notes": []
+      },
+      {
+        "title": "Anatomy word bank can be opened before any failure and counts as support",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1442,
+        "notes": []
+      },
+      {
+        "title": "Moving a term out of a verified hidden group requires that group again",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1474,
+        "notes": []
+      },
+      {
+        "title": "Blocked and corrupt storage still allow play; other application data survives",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 562,
+        "notes": []
+      },
+      {
+        "title": "Corrupt and stale progress are rejected",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 773,
+        "notes": []
+      },
+      {
+        "title": "Tap, drag, swap, remove, keyboard sorting, cancellation and partial success",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 2006,
+        "notes": []
+      },
+      {
+        "title": "Responsive layout and visible feedback 1440x900",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1225,
+        "notes": []
+      },
+      {
+        "title": "Responsive layout and visible feedback 768x1024",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1378,
+        "notes": []
+      },
+      {
+        "title": "Responsive layout and visible feedback 1024x768",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1290,
+        "notes": []
+      },
+      {
+        "title": "Responsive layout and visible feedback 390x844",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 1288,
+        "notes": []
+      },
+      {
+        "title": "Local multi-file and single-file exports work without network",
+        "project": "chromium",
+        "status": "skipped",
+        "duration_ms": 208,
+        "notes": [
+          "Cloud Chromium policy blocks file:// navigation; HTTP exports are tested separately."
+        ]
+      },
+      {
+        "title": "Self-contained offline export plays a complete level after networking is blocked",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 8009,
+        "notes": []
+      },
+      {
+        "title": "Touch interaction, reduced motion, keyboard navigation and safe raw text",
+        "project": "chromium",
+        "status": "passed",
+        "duration_ms": 678,
+        "notes": []
+      }
+    ]
+  },
+  "golden": {
+    "cases": 176,
+    "all_expected_results_matched": true,
+    "false_acceptances": 0,
+    "false_rejections": 0,
+    "false_clarifications": 0
+  },
+  "original_data_sha256": {
+    "aufgabenbank.json": "7977c8d87c99113aaef67dfdd9aed190fad22a68f6cc14eabb30861968a2dbbf",
+    "korrekturregeln.json": "c88e08c5dc83009a92ce6064dbbb4596971990f437fee9b7c90b947ab39722dc",
+    "golden-tests.json": "6bc8c95413a9ffe28b664e25c049e8cfeb54e27f7f631420b2b781f2a86484bc"
+  },
+  "limitations": [
+    "file:// is blocked by the managed Chromium policy",
+    "WebKit not installed in this cloud",
+    "No physical iPad/Safari or classroom timing tests",
+    "No remote CI or live Pages deployment verified"
+  ]
+}

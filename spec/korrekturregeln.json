@@ -315,6 +315,207 @@
       "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
       "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
       "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "COLOR_CELLS": {
+      "scope": "Welche Zellen helfen beim Farbensehen?",
+      "required": [
+        "Zapfen"
+      ],
+      "accept": [
+        "Zapfen"
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Welche Zellen helfen beim Farbensehen?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "BALANCE_FUNCTION": {
+      "scope": "Wobei hilft das Gleichgewichtsorgan?",
+      "required": [
+        "Gleichgewicht"
+      ],
+      "accept": [
+        "Gleichgewicht"
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Wobei hilft das Gleichgewichtsorgan?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "BLIND_SPOT_CELLS": {
+      "scope": "Was fehlt am blinden Fleck?",
+      "required": [
+        "Lichtsinneszellen"
+      ],
+      "accept": [
+        "Lichtsinneszellen"
+      ],
+      "notes": "Frage nach fehlenden Zellen: verneinte Anwesenheit und verneintes Fehlen unterscheiden. Auch die Kurzform „Keine Sinneszellen“ beantwortet die Frage ausreichend. Eine ausdrückliche Anwesenheit von Sinneszellen oder Stäbchen und Zapfen ist falsch; bloße Nennung der fehlenden Zellen ist richtig. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Was fehlt am blinden Fleck?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "DUST_PROTECTION": {
+      "scope": "Was schützt das Auge vor Staub?",
+      "required": [
+        "Wimpern"
+      ],
+      "accept": [
+        "Wimpern"
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Was schützt das Auge vor Staub?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "PUPIL_PURPOSE": {
+      "scope": "Warum wird die Pupille im Dunkeln größer?",
+      "required": [
+        "Mehr Licht"
+      ],
+      "accept": [
+        "Mehr Licht"
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Warum wird die Pupille im Dunkeln größer?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "IRIS_CONTROL": {
+      "scope": "Was verändert die Größe der Pupille?",
+      "required": [
+        "Muskeln in der Iris"
+      ],
+      "accept": [
+        "Muskeln in der Iris"
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Was verändert die Größe der Pupille?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "IRIS_DILATOR_ACTION": {
+      "scope": "In der Iris gibt es Muskeln, die die Pupille größer machen. Was machen diese Muskeln?",
+      "required": [
+        "Sie ziehen sich zusammen."
+      ],
+      "accept": [
+        "Sie ziehen sich zusammen."
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. In der Iris gibt es Muskeln, die die Pupille größer machen. Was machen diese Muskeln?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "PUPIL_DARK_MECHANISM": {
+      "scope": "Warum wird die Pupille im Dunkeln größer und welcher Teil des Auges sorgt dafür?",
+      "required": [
+        "Damit mehr Licht ins Auge kommt. Muskeln in der Iris machen die Pupille größer."
+      ],
+      "accept": [
+        "Damit mehr Licht ins Auge kommt. Muskeln in der Iris machen die Pupille größer."
+      ],
+      "notes": "Aufgabenspezifisch; unbekannte Aussagen klären. Keine allgemeine Textinterpretation.",
+      "feedbackPartial": "Ein Teil stimmt schon. Warum wird die Pupille im Dunkeln größer und welcher Teil des Auges sorgt dafür?",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Du kannst die Hilfe oder die Auswahl nutzen.",
+      "feedbackTooLong": "Bitte antworte kürzer oder nutze die Auswahl."
+    },
+    "CHAIN_EAR": {
+      "scope": "T19: passende Station der bewussten Reiz-Reaktionskette.",
+      "required": [
+        "Ohr"
+      ],
+      "accept": [
+        "gültige eindeutige Synonyme aus dem anatomischen Lexikon"
+      ],
+      "partial": [
+        "Bogengänge bei Ziel ganzes Gleichgewichtsorgan"
+      ],
+      "clarify": [
+        "Nerv",
+        "Haut",
+        "Knochen bei Einzelknöchelchen",
+        "mehrere alternative Begriffe"
+      ],
+      "reject": [
+        "anderer eindeutig erkannter anatomischer Begriff"
+      ],
+      "notes": "Zuerst gegen das GESAMTE Lexikon auf exakt gültigen Begriff prüfen, dann eingeschränkte Tippfehlerzuordnung. Nie einen korrekten falschen Begriff zum erwarteten Begriff hin korrigieren. Papille nicht zu Pupille umdeuten.",
+      "feedbackPartial": "Welche Station passt hier? Ein kurzer Begriff reicht.",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "CHAIN_MOTOR_NERVES": {
+      "scope": "T19: passende Station der bewussten Reiz-Reaktionskette.",
+      "required": [
+        "Nerven zu den Beinmuskeln"
+      ],
+      "accept": [
+        "gültige eindeutige Synonyme aus dem anatomischen Lexikon"
+      ],
+      "partial": [
+        "Bogengänge bei Ziel ganzes Gleichgewichtsorgan"
+      ],
+      "clarify": [
+        "Nerv",
+        "Haut",
+        "Knochen bei Einzelknöchelchen",
+        "mehrere alternative Begriffe"
+      ],
+      "reject": [
+        "anderer eindeutig erkannter anatomischer Begriff"
+      ],
+      "notes": "Zuerst gegen das GESAMTE Lexikon auf exakt gültigen Begriff prüfen, dann eingeschränkte Tippfehlerzuordnung. Nie einen korrekten falschen Begriff zum erwarteten Begriff hin korrigieren. Papille nicht zu Pupille umdeuten.",
+      "feedbackPartial": "Welche Station passt hier? Ein kurzer Begriff reicht.",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
+    },
+    "CHAIN_LEG_MUSCLES": {
+      "scope": "T19: passende Station der bewussten Reiz-Reaktionskette.",
+      "required": [
+        "Beinmuskeln"
+      ],
+      "accept": [
+        "gültige eindeutige Synonyme aus dem anatomischen Lexikon"
+      ],
+      "partial": [
+        "Bogengänge bei Ziel ganzes Gleichgewichtsorgan"
+      ],
+      "clarify": [
+        "Nerv",
+        "Haut",
+        "Knochen bei Einzelknöchelchen",
+        "mehrere alternative Begriffe"
+      ],
+      "reject": [
+        "anderer eindeutig erkannter anatomischer Begriff"
+      ],
+      "notes": "Zuerst gegen das GESAMTE Lexikon auf exakt gültigen Begriff prüfen, dann eingeschränkte Tippfehlerzuordnung. Nie einen korrekten falschen Begriff zum erwarteten Begriff hin korrigieren. Papille nicht zu Pupille umdeuten.",
+      "feedbackPartial": "Welche Station passt hier? Ein kurzer Begriff reicht.",
+      "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
+      "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",
+      "feedbackHelpRequested": "Kein Problem. Schau dir die Hilfe oder die Auswahl an.",
+      "feedbackTooLong": "Die Antwort ist für dieses Feld sehr lang. Antworte kurz oder nutze die Auswahl."
     }
   },
   "anatomyLexicon": {
@@ -413,5 +614,5 @@
     "help_requested",
     "too_long"
   ],
-  "notaBene": "Regeln und Testfälle spezifizieren erwartetes Verhalten. Es ist noch kein Korrektor implementiert."
+  "notaBene": "Aktuelle Regeldaten der Entwicklungsrunde 2. Die gemeinsame Laufzeitlogik steht in src/evaluate.js und src/scoped-rules.js. Ausgeführte Tests und verbleibende Grenzen stehen in docs/testbericht.md."
 }
