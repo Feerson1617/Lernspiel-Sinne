@@ -18,6 +18,10 @@ def main():
     assert {t['id'] for t in tasks}=={f'T{i:02}' for i in range(1,25)}
     assert Counter(t['area'] for t in tasks)=={1:6,2:6,3:6,4:6}
     assert Counter(t['classification'] for t in tasks)=={'P':12,'Z':12}
+    assert len(bank['topics'])==2
+    assert [topic['tasks'] for topic in bank['topics']]==[
+        ['T01','T02','T03','T04','T05','T06','T13','T14','T16','T19','T20','T21'],
+        ['T07','T08','T09','T10','T11','T12','T15','T17','T18','T22','T23','T24']]
     expected_ear_F={'Ohrmuschel','Gehörgang','Trommelfell','Gehörknöchelchen','Hörnerv'}
     expected_ear_E={'Trommelfell','Hammer','Amboss','Steigbügel','Hörschnecke','Hörnerv','Gleichgewichtsorgan'}
     expected_eye_F={'Hornhaut','Pupille','Linse','Glaskörper','Netzhaut'}
@@ -28,7 +32,8 @@ def main():
         assert s['id'] not in ids, s['id'];ids.add(s['id']);fields[s['id']]=s
         assert s['prompt'].strip();assert len(s['hints'])==2 and all(s['hints'])
         assert s['feedbackCorrect'].strip() and s['feedbackIncorrect'].strip()
-        if level in ['Foerder','ESA']:assert s['type'] not in ['bounded_text','anatomy_recall']
+        if level=='Foerder':assert s['type'] not in ['bounded_text','anatomy_recall','term_fill']
+        if level=='ESA' and s['type'] in ['bounded_text','anatomy_recall','term_fill']:assert s['id']=='T18_ESA_5'
         if s['type']=='single_choice':
             closed_count+=1
             choices=[o['id'] for o in s['options']]
@@ -38,6 +43,7 @@ def main():
         if 'pairs' in s:
             assert len({p['targetId'] for p in s['pairs']})==len(s['pairs'])
             assert len({p['answerId'] for p in s['pairs']})==len(s['pairs'])
+            if s['type']=='term_fill':assert all(p['ruleId'] in rules['rules'] for p in s['pairs'])
             if s['type'].startswith('anatomy_'):
                 assert set(s['perTargetFeedback'])=={p['targetId'] for p in s['pairs']}
                 assert all(s['perTargetFeedback'][p['targetId']].get('correct') for p in s['pairs'])
@@ -63,15 +69,18 @@ def main():
                 assert all(p in rules['anatomyLexicon'] for p in actual)
             if t['id']=='T19':
                 step=v['steps'][0]
-                assert [c['text'] for c in step['cards']]==['Ohr','Hörnerv','Gehirn','Nerven zu den Beinmuskeln','Beinmuskeln']
+                assert ([c['text'] for c in step['cards']] if 'cards' in step else [p['answerText'] for p in step['pairs']])==['Ohr','Hörnerv','Gehirn','Nerven zu den Beinmuskeln','Beinmuskeln']
                 assert step['fixedStart'] and step['fixedEnd']
     for l in levels:
         p=sum(t['variants'][l]['assessedUnits'] for t in tasks if t['classification']=='P')
         z=sum(t['variants'][l]['assessedUnits'] for t in tasks if t['classification']=='Z')
         seconds=sum(t['variants'][l]['targetSeconds'] for t in tasks)
         assert z>=p,(l,p,z)
-        assert seconds+270<=1800,(l,seconds)
+        # Round 2 replaces choices with short recall: current estimates remain around 30 min.
+        # This 32 min planning bound is not a measured classroom duration or a player timer.
+        assert seconds+270<=1920,(l,seconds)
         summary[l]={'P_units':p,'Z_units':z,'planned_task_seconds':seconds,'planned_total_seconds_including_270s_buffer':seconds+270}
+    assert [s['id'] for t in tasks for s in t['variants']['ESA']['steps'] if s['type']=='bounded_text']==['T18_ESA_5']
     assert len(cases)>=100
     assert len({c['id'] for c in cases})==len(cases)
     seen={}

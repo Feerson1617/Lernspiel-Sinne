@@ -13,6 +13,8 @@ const fixtures = {
   T09: { first: 'Hornhaut', opening: 'Pupille', focusing: 'Linse', middle: 'Glaskörper', image: 'Netzhaut' },
   T15: { near: 'Linse runder', far: 'Linse flacher' },
   T17: { ear: 'Hörnerv', eye: 'Sehnerv' },
+  T13: { first: 'Hammer', second: 'Amboss', third: 'Steigbügel' },
+  T19: { ear: 'Ohr', sensoryNerve: 'Hörnerv', brain: 'Gehirn', motorNerves: 'Nerven zu den Beinmuskeln', muscle: 'Beinmuskeln' },
   orders: { T05: ['c1', 'c2', 'c3', 'c4', 'c5'], T13: ['c1', 'c2', 'c3'], T19: ['c1', 'c2', 'c3', 'c4', 'c5'] }
 };
 for (const t of bank.tasks) for (const [level, variant] of Object.entries(t.variants)) {
@@ -31,7 +33,7 @@ for (const t of bank.tasks) for (const [level, variant] of Object.entries(t.vari
         assert.equal(evaluateStep(s, expected.map(() => expected[0])).state, 'empty');
       } else if (s.pairs) {
         const fixture = t.id === 'T03' ? fixtures[level === 'Foerder' ? 'earFoerder' : 'earOther'] : t.id === 'T07' ? fixtures.eye : fixtures[t.id];
-        const answer = Object.fromEntries(s.pairs.map(p => { const text = fixture[p.targetId]; assert.equal(p.answerText, text); return [p.targetId, s.type === 'anatomy_recall' ? text : s.pairs.find(x => x.answerText === text).answerId]; }));
+        const answer = Object.fromEntries(s.pairs.map(p => { const text = fixture[p.targetId]; assert.equal(p.answerText, text); return [p.targetId, ['anatomy_recall','term_fill'].includes(s.type) ? text : s.pairs.find(x => x.answerText === text).answerId]; }));
         assert.equal(evaluateStep(s, answer).state, 'correct');
         const keys = Object.keys(answer), bad = { ...answer }; [bad[keys[0]], bad[keys[1]]] = [bad[keys[1]], bad[keys[0]]];
         const result = evaluateStep(s, bad); assert.equal(result.state, 'incorrect');

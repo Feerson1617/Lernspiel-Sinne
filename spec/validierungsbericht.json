@@ -3,8 +3,8 @@
   "status": "passed",
   "task_count": 24,
   "resolved_level_variants": 96,
-  "top_level_steps": 240,
-  "closed_choice_steps_including_fallbacks": 210,
+  "top_level_steps": 242,
+  "closed_choice_steps_including_fallbacks": 212,
   "golden_expected_cases": 176,
   "exact_distinct_golden_inputs": 176,
   "expected_states": {
@@ -19,27 +19,27 @@
   "level_summary": {
     "Foerder": {
       "P_units": 34,
-      "Z_units": 38,
-      "planned_task_seconds": 1255,
-      "planned_total_seconds_including_270s_buffer": 1525
+      "Z_units": 39,
+      "planned_task_seconds": 1265,
+      "planned_total_seconds_including_270s_buffer": 1535
     },
     "ESA": {
       "P_units": 42,
-      "Z_units": 49,
-      "planned_task_seconds": 1420,
-      "planned_total_seconds_including_270s_buffer": 1690
+      "Z_units": 50,
+      "planned_task_seconds": 1435,
+      "planned_total_seconds_including_270s_buffer": 1705
     },
     "MSA": {
       "P_units": 41,
       "Z_units": 49,
-      "planned_task_seconds": 1430,
-      "planned_total_seconds_including_270s_buffer": 1700
+      "planned_task_seconds": 1510,
+      "planned_total_seconds_including_270s_buffer": 1780
     },
     "AHR": {
       "P_units": 44,
       "Z_units": 49,
-      "planned_task_seconds": 1500,
-      "planned_total_seconds_including_270s_buffer": 1770
+      "planned_task_seconds": 1580,
+      "planned_total_seconds_including_270s_buffer": 1850
     }
   },
   "not_tested": [

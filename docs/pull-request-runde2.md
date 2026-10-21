@@ -1,0 +1,11 @@
+Die bisherige Vierer-Navigation und die ähnlichen Auswahlaufgaben erschwerten Orientierung und selbstständigen Begriffsabruf. Das Spiel hat jetzt zwei aufklappbare Themen mit je zwölf Aufgaben; alle Aufgaben-IDs und die vorhandene statische Architektur bleiben erhalten.
+
+- Einheitliches Grün/Rot/Gelb mit Symbolen an globalem Feedback, einzelnen Begriffsfeldern, Radios und Sortierpositionen; kurze Schüler-Info und zurückgesetzte Fehlermarkierungen nach Änderungen.
+- MSA/AHR schreiben Begriffe zusätzlich in T09, T13, T17 und T19. MSA erhält kurze Inhaltsantworten in T11, T14, T18, T22 und T23. ESA bekommt ausschließlich in T18 ein kurzes Iris-Muskel-Feld; Förder bleibt ohne Textfelder. Die Wortbank lässt sich mit erhaltenen Eingaben beliebig öffnen und schließen.
+- `FOCUS_REASON` weist etwa „nah nicht rund fern flach“ zurück. Kontrollierte Schreibvarianten und Verbformen werden erkannt; Lichtstärke allein erfüllt die Farbempfindlichkeitsfrage nicht. Neue Regeln trennen Iris-/Pupillensteuerung vom Ziliarmuskel und berücksichtigen Negation und unklare Formulierungen.
+- Modell, Frage, Antwort-IDs und Feedback sind bei Richtungs- und Lichtwechseln synchron. Fest abgefragte Nah-/Fern-Einstellungen bleiben an die Abbildung gebunden. Auf Tablets bleibt das anatomische Bild neben langen Eingabelisten sichtbar.
+- Alte Fortschritte werden nach stabilen IDs übernommen. Frühere Abschlüsse bleiben markiert, ohne Antworten auf neue Teilfragen zu erfinden. Das gewählte Niveau bleibt auch nach Reload erhalten.
+
+Validierung: Spezifikationsprüfung bestanden; 418 Logiktests einschließlich aller 176 unveränderten Golden Tests; 33 Chromium-Browserprüfungen bestanden, ein `file://`-Test wegen der verwalteten Cloud-Browserrichtlinie ausdrücklich übersprungen. Vollständiger Durchlauf aller vier Niveaus, 96 Aufgabenvarianten, Wortbankumschaltung, Farben/Kontrast, Fortschrittsmigration, Synchronisierung, Tablet-Layouts und Offline-Einzeldatei geprüft. Details und Screenshots stehen in `docs/testbericht.md`.
+
+WebKit ist in dieser Cloud nicht installiert; echte iPad-/Safari- und Lerngruppentests stehen aus. Die neu geschätzten Zeiten mit Puffer liegen bei rund 26–31 Minuten; dies sind keine Messwerte einer Klasse. Remote-CI und Live-Veröffentlichung dieser Revision sind hier nicht belegt.

@@ -1,39 +1,49 @@
-# Umsetzung und prüfbare Grenzen
+# Umsetzung – Entwicklungsrunde 2
 
-Alle 24 gelieferten Missionen sind für Förder, ESA, MSA und AHR angebunden. Die 96 Varianten bestehen aus 240 Lernschritten. Die Original-JSON-Dateien sind unverändert übernommen. Ihre historischen Statusangaben beschreiben die Spezifikation vor der Programmierung; der Laufzeittestbericht steht separat in `testbericht.md`.
+Grundlage ist `spec/auftrag-runde-2.md`; die dort ausdrücklich geänderten Anforderungen ersetzen die entsprechenden Abschnitte des Ausgangsauftrags. Alle 24 Aufgaben-IDs und alle vier Niveaus sind erhalten. Die Anwendung bleibt statisches HTML/CSS/JavaScript mit eigenen SVGs und ohne Runtime-Dienste.
 
-Die vier Bereiche enthalten jeweils sechs Missionen. Die interne P/Z-Klassifikation und Teilantwortbilanz werden nicht auf Schülerbildschirmen angezeigt. Die bereitgestellte Abdeckungsmatrix gilt weiterhin. Der Validator berechnet die tatsächlichen Mengen; es wurden keine zusätzlichen Klicks als Fachleistungen gezählt.
+## Zwei Themen statt vier Laborbereiche
 
-## Antwortprüfung
+Die einzige Schülernavigation besteht aus „Hören mit den Ohren“ und „Sehen mit den Augen“. Die verbindlichen je zwölf IDs stehen in `aufgabenbank.json` unter `topics`; `src/topics.js` verwendet dieselben Daten für Zuordnung und Reihenfolge. Beide Dropdowns sind in Übersicht, Aufgabe und Abschluss erreichbar. Die nächste Aufgabe bleibt im aktuellen Thema. Zwei Themenabschlüsse ersetzen die vier Zwischenabzeichen; zusätzliche Abzeichenbildschirme entfallen.
 
-Geschlossene Antworten prüfen stabile IDs. Reihenfolgen müssen alle Karten genau einmal enthalten. Die Karten beginnen ohne vorbelegte Reihenfolge. Zuordnungen lassen sich tauschen und entfernen; richtige Teilzuordnungen bleiben stehen. Förder zeigt anatomische Markierungen in Gruppen von höchstens drei Feldern. MSA/AHR starten mit Einzelwortfeldern und können sofort zur Wortbank wechseln.
+Die ursprünglich gelieferten `area`-Nummern bleiben historische Daten der Spezifikation und werden nicht mehr zur Schülernavigation ausgewertet. Der interne P/Z-Mix bleibt erhalten und wird weiterhin nicht auf Schülerbildschirmen angezeigt.
 
-Der Fachwortkorrektor vergleicht zuerst das gesamte Lernlexikon. Ein richtig geschriebenes falsches Fachwort wird nicht in die gesuchte Lösung umgedeutet. Danach gelten begrenzte Edit-Distanzen mit Eindeutigkeitsabstand. „Papille“ bleibt ein Klärungsfall; „Bogengänge“ ist beim Ziel Gleichgewichtsorgan nur ein erkannter Teil.
+## Einheitliche Rückmeldung
 
-Inhaltsantworten verwenden eigene Regeln für Frage und Kontext. Satzteilgrenzen und Negation bleiben erhalten. Es gibt keine allgemeine Sprachinterpretation: unbekannte Grammatik, mehrdeutige Bezüge und nicht abgesicherte Ausdrucksweisen werden geklärt. Die Regeln erkennen begrenzte Begriffe und Beziehungen, keine beliebigen fachlichen Erklärungen. Die 176 synthetischen Vorgaben sind ausschließlich Testdaten und werden nicht in den Browser gebündelt.
+Alle Feedbackflächen und Teilantworten verwenden dieselben CSS-Variablen: Grün mit Häkchen = richtig, Rot mit Kreuz = sicher falsch, Gelb mit Symbol = teilweise, unklar oder Hilfe. Noch nicht geprüfte Felder bleiben neutral. Das gilt für kleine Rückmeldetexte, Eingaberänder, Zuordnungsfelder, ausgewählte Radios und Sortierpositionen. Änderungen setzen veraltete Farben und Rückmeldungen zurück. Der Browser prüft die tatsächlich berechneten Farben und mindestens 4,5:1 Kontrast der drei Feedbackpaletten.
 
-Die Zustände `empty`, `help_requested`, `too_long` und `clarify` zählen nicht als fachlicher Fehlversuch. Überlange Texte werden nicht abgeschnitten. Eine automatische Auswahlklärung wird höchstens einmal eingeblendet; Hilfe und vollständige Lösung bleiben jederzeit erreichbar. Die manuell gewünschte Auswahl ist ebenfalls jederzeit verfügbar. Nach erfolgreicher Auswahl erscheint „Mit Auswahl geklärt“. Bei Anatomie kann direkt mit der Wortbank geklärt werden. Bekannte Gegenbehauptungen verhindern „richtig“; unbekannte Fälle werden nicht rot als fehlendes Wissen ausgegeben.
+## Niveau und Eingabeformen
 
-## Bedienung und Fortschritt
+Förder bleibt vollständig ohne Textfeld. Die einfache Zweckfrage zur Pupillenerweiterung ergänzt T18. ESA hat genau eine sehr kurze Texteingabe (`T18_ESA_5`): Was tun die ausdrücklich gemeinten Muskeln zur Pupillenerweiterung? Alle anderen ESA-Aufgaben bleiben geschlossen.
 
-Jede Ziehhandlung hat eine Tippalternative. Native Radios, Textfelder und Buttons sind per Tastatur erreichbar; Reihenfolgen haben Pfeiltasten und große Auf-/Ab-Schaltflächen. Die Optionen werden pro Aufgabe deterministisch gemischt. Ein Ändern der Antwort entfernt veraltetes Feedback. Es gibt kein automatisches Weiterblättern.
+MSA und AHR beginnen T03/T07 weiter mit sieben anatomischen Einzelwörtern je Organ. T09, T13, T17 und T19 verwenden nun ebenfalls selbst geschriebene, eng begrenzte Begriffe. Der gemeinsame Aufgabentyp `term_fill` prüft jedes Feld mit der zum Ziel passenden Regel. T19 unterscheidet Hörnerv, Gehirn, motorische Nerven und Beinmuskeln; Reiz und bewusste Reaktion bleiben vorgegeben.
 
-Ein Lernschritt wird erst mit „Weiter“ bzw. „Mission abschließen“ eingetragen und höchstens einmal gezählt. Die Zustände ohne Hilfe / mit Hilfe / mit Auswahl geklärt / Lösung angesehen bleiben getrennt. Fehlerzähler beruhen auf tatsächlich erkannten falschen Antworten. Empfehlungen entstehen aus bestätigten Fehlern oder ausdrücklich genutzter Hilfe, nicht allein aus Softwareunsicherheit. Es gibt höchstens zwei freiwillige Hinweise.
+MSA erhält kurze Inhaltsantworten anstelle vorhandener Auswahlfragen in T11, T14, T18, T22 und T23. In T18 werden Zweck und regulierende Struktur getrennt gefragt. AHR behält Farbensehen und Nah-/Fern-Erklärung und verbindet in T18 Zweck und Iris-Beteiligung. Es werden keine langen Aufsätze verlangt. Die Abdeckungsmatrix weist die neue Zahl und die ausdrücklich geschätzten Zeiten aus.
 
-Gespeichert werden nur Inhaltsversion, Niveau, Missionsposition, abgeschlossene Schritt-IDs, Unterstützungsart und Fehlerzähler. Keine Namen, Texte, Zeitmessungen oder anderen personenbezogenen Daten. Die Textantworten im Hör-Protokoll bleiben nur im Arbeitsspeicher dieser Sitzung. Defekter oder fremder Speicher wird nicht als gültiger Fortschritt übernommen. Andere Anwendungen und Speicher-Keys bleiben unverändert.
+Die Wortbank lässt sich in allen sechs Begriffsaufgaben für MSA/AHR beliebig oft öffnen und schließen. Ein- und ausgeblendete Oberflächen verwenden dasselbe Antwortobjekt; selbst geschriebene Texte gehen dabei nicht verloren. Gewählte Bankbegriffe erscheinen nach dem Schließen im Textfeld. Unterstützung wird intern festgehalten und nicht als Fehler gezählt.
 
-Bei fachlich relevanten Inhalts- oder Bewertungsänderungen `CONTENT_VERSION` in `src/state.js` erhöhen, damit früherer Fortschritt nicht versehentlich zum neuen Inhalt passt.
+## Aufgabenspezifische Textkorrektur
 
-## Abbildungen
+Spiel und Tests verwenden dieselben Module `evaluate.js` und `scoped-rules.js`. Der Browser enthält keine Golden-Testantworten. Das anatomische Gesamtlexikon wird vor begrenzter Tippfehlerzuordnung geprüft; ein korrekt geschriebener falscher Begriff bleibt falsch. Keine unscharfe Korrektur von Negations- oder Gegensatzwörtern.
 
-Eigene SVG-Schemata, keine kopierten Bilder. Das Mittelohr ist vergrößert: Hammer am Trommelfell, Amboss dazwischen, Steigbügel vor dem Innenohr. Hörschnecke und Bogengänge sind getrennt; der eingezeichnete Hörnerv geht nur von der Hörschnecke aus. Das Modell beansprucht keine Maßstabstreue.
+`FOCUS_REASON` bindet die Form zunächst an ihre jeweilige Entfernung. „nah nicht rund fern flach“ und „nah rund fern nicht flach“ sind nicht mehr richtig. Korrekt verneinte Distraktoren und die verneinte Gleichzeitigkeit bleiben möglich. Die geforderten üblichen Verbformen und Schreibvarianten sind kontrolliert ergänzt. Eine unterschiedliche Reaktion auf „Lichtstärke“ allein ist beim Farbensehen nur ein unvollständiger Ansatz.
 
-Im Augenschnitt liegen Hornhaut, freie Pupillenöffnung und Linse vorne. Glaskörper, innere Netzhaut und Sehnerv liegen dahinter. Die Netzhaut-Markierung endet exakt auf der gezeichneten inneren Kurve. Ringmuskel und Linsenbänder werden als eigener Hilfeausschnitt gezeigt und nicht mit der Iris gleichgesetzt. Der blinde Fleck hat eine vergrößerte schematische Darstellung.
+Neue Kurzantworten besitzen eigene Regeln für Zapfen, Gleichgewicht, fehlende Lichtsinneszellen, Augenschutz, Pupillenzweck, Iris-Steuerung, Erweiterungsmuskel-Tätigkeit sowie die Stationen der Reiz-Reaktionskette. „Mehr Licht“, „Zapfn“ oder „zihen sich zusamen“ können in ihrem passenden Kontext vollständig reichen. Die gleichen Wörter im falschen fachlichen Zusammenhang sind kein automatischer Richtigkeitsnachweis.
 
-Beide Sehtricks verwenden dasselbe SVG-Koordinatensystem: zwei Linien von jeweils 160 Einheiten und mittlere Kreise mit jeweils Radius 18. Der Messmodus zeigt gleiche Maßstäbe und die deckungsgleiche Überlagerung. Subjektive Eindrücke bleiben unbewertet. Richtungshören ist eine Draufsicht mit Nase oben und ausgeschriebenen Seiten der dargestellten Person. Bogengänge werden ausschließlich am Modell erkundet.
+Beim blinden Fleck wird verneinte Anwesenheit von verneintem Fehlen unterschieden: „Dort sind keine Sinneszellen“ passt; „Es fehlen keine Sinneszellen“ passt nicht. Das verkürzte „Keine Sinneszellen“ wird wegen möglicher unterschiedlicher Bedeutung geklärt. Allgemein führen unbekannte Bezüge oder Formulierungen weiter zur bedienbaren Auswahl statt zu einer voreiligen Rot-Bewertung. Die Regeln verstehen keine beliebigen Schülertexte.
 
-## Quellen und Abweichungen
+Die Pupille ist eine Öffnung. Erweiterungsmuskeln der Iris ziehen sich zur Erweiterung zusammen; der ringförmige Schließmuskel verhält sich anders. Der Ziliarmuskel verändert über die Linsenbänder die Linsenform und ist nicht der Muskel zur Pupillenerweiterung. Die Regeln weisen ausdrückliche Verwechslungen zurück. Die allmähliche Empfindlichkeitsanpassung der Netzhaut bleibt als eigener Vorgang in T18 erhalten.
 
-Die Datei `spec/quellen-und-abweichungen.md` und der dortige Prüfbericht wurden vom Nutzer bereitgestellt. Die darin beschriebenen Original-PDFs und Unterrichtsbilder lagen diesem Implementierungslauf nicht vor und wurden von uns nicht erneut geprüft oder veröffentlicht. Die fachlichen Präzisierungen des gelieferten Auftrags wurden übernommen. Die JSON-Spezifikation und ihre Soll-Ergebnisse wurden nicht verändert, um Tests passend zu machen.
+## Abbildung und Frage
 
-Das Spiel nutzt klassische gebündelte Skripte, lokale CSS und eingebundene Daten, kein Runtime-fetch und keine externen Laufzeitdienste. HTTPS-Unterpfad und Einzeldatei sind unterschiedliche Bereitstellungsformen. Ein fehlender WebKit-Browser, ein administrativ gesperrtes `file://` oder noch ausstehende echte Gerätetests werden im Testbericht getrennt ausgewiesen.
+In T04 und den situationsabhängigen Fragen von T08 verwendet die Antwortprüfung eine aus dem aktuellen Modellzustand abgeleitete Frage mit passenden stabilen Antwort-IDs und Hinweisen. Eine Zustandsänderung entfernt die vorherige Antwort und Erfolgsmeldung, wenn sich die Frage ändert. In T15 ist die Abbildung bei fest vorgegebenem Nah-/Fern-Fokus an die Frage gebunden; Vergleiche bleiben erkundbar. T18 zeigt in beiden Zeitstufen einen dunklen Raum und eine große Pupille; der Wechsel erklärt die zusätzliche Anpassung der Netzhaut.
+
+Auf Tablets stehen Modell und Eingaben nebeneinander. Die Abbildung bleibt beim Bearbeiten langer Begriffsfelder sichtbar. Kleine Details können zusätzlich vergrößert werden. Alle Ziehhandlungen besitzen weiterhin eine Tippalternative und Tastaturbedienung. Der kurze Schüler-Infotext beschreibt nur Bedienung und Farben; technische und didaktische Grenzen stehen in dieser Dokumentation.
+
+## Fortschritt ohne stillen Verlust
+
+Der Speicher-Key bleibt `mission-sinneslabor.progress.v1`. `state.js` migriert die exakt bekannte vorherige Inhaltsversion `sinneslabor-2.0-2026-10-21-1` in die neue Version. Unveränderte Schritt-IDs behalten ihre Unterstützungsart und Fehlerzahlen. Früher vollständig bearbeitete Aufgaben werden zusätzlich als `legacyCompleted` übernommen. Für neue Teilfragen werden keine Antwortdatensätze erfunden: Ein alter ESA-Abschluss von T18 bleibt sichtbar, während die neue Iris-Frage beim freiwilligen Öffnen erreichbar ist.
+
+Ein altes „bearbeitet“ ist keine Aussage, dass neue Inhalte bereits selbstständig beherrscht werden. Die Übernahme wird kurz und sichtbar mitgeteilt. Unbekannte Versionen oder beschädigte Daten werden mit Meldung abgewiesen; eine zuverlässige Migration beliebiger unbekannter Formate wird nicht behauptet. Fremde Browserdaten werden nicht gelöscht. Nach wie vor werden keine Namen, Rohtexte oder Zeitmessungen dauerhaft gespeichert oder übertragen.
+
+Die ursprünglichen Quellen-/Prüfdokumente beschreiben die bereitgestellte didaktische Basis. Original-Klassenarbeiten und Schulbuchbilder wurden nicht veröffentlicht. Aktuelle Anwendungstests und offene Geräte-/Lerngruppenprüfungen stehen getrennt im Testbericht und in der Restliste.

@@ -2,21 +2,26 @@ import { test, expect } from '@playwright/test';
 import { pathToFileURL } from 'node:url';
 import { resolve } from 'node:path';
 import bank from '../../spec/aufgabenbank.json' with { type: 'json' };
-import { STORAGE_KEY, CONTENT_VERSION } from '../../src/state.js';
+import { STORAGE_KEY, CONTENT_VERSION, LEGACY_VERSION } from '../../src/state.js';
+import { TOPICS, isRecall } from '../../src/topics.js';
 
-const action = (page, name) => page.locator(`[data-action="${name}"]`);
+const action = (page, name) => page.locator(`[data-action="${name}"]`).first();
 async function start(page, level = 'Foerder') {
   await page.goto('./');
   await page.locator(`[data-level="${level}"]`).click();
   await action(page, 'start').click();
+  await openMission(page, 0);
 }
 async function openMission(page, index) {
   await action(page, 'map').click();
-  await page.locator(`[data-action="mission"][data-index="${index}"]`).click();
+  const topic = TOPICS.find(t => t.tasks.includes(bank.tasks[index].id));
+  const menu = page.locator(`.topic-menu[data-topic="${topic.id}"]`);
+  if (!(await menu.getAttribute('open')) && !(await menu.evaluate(el => el.open))) await menu.locator('summary').click();
+  await menu.locator(`[data-action="mission"][data-index="${index}"]`).click();
 }
 async function fillPairs(page, s, pairs) {
   for (const p of pairs) {
-    if (s.type === 'anatomy_recall') await page.locator(`[data-term="${p.targetId}"]`).fill(p.answerText);
+    if (isRecall(s)) await page.locator(`[data-term="${p.targetId}"]`).fill(p.answerText);
     else {
       await page.locator(`[data-action="token"][data-id="${p.answerId}"]`).click();
       await page.locator(`[data-action="assign"][data-target="${p.targetId}"]`).click();
@@ -57,14 +62,16 @@ for (const level of bank.levels) test(`Full correct tour: ${level} / 24 missions
   page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
   page.on('request', r => { if (!r.url().startsWith('http://127.0.0.1:4173/') && !r.url().startsWith('data:')) requests.push(r.url()); });
   await start(page, level);
-  for (const t of bank.tasks) {
+  for (const t of TOPICS.flatMap(topic => topic.tasks.map(id => bank.tasks.find(t => t.id === id)))) {
+    if (!await page.locator('.mission-title').count()) await openMission(page, t.number - 1);
     await expect(page.locator('.mission-title')).toHaveText(t.title);
     if (['Foerder', 'ESA'].includes(level)) await expect(page.locator('textarea,input[type="text"]')).toHaveCount(0);
-    for (const s of t.variants[level].steps) await solve(page, s);
-    if (t.id === 'T20') { await expect(page.locator('.protocol li')).toHaveCount(t.variants[level].steps.length); await action(page, 'after-protocol').click(); }
-    if (t.number % 6 === 0) { await expect(page.locator('.badge-large')).toBeVisible(); await action(page, 'after-badge').click(); }
+    for (const s of t.variants[level].steps) {
+      if (level === 'ESA') await expect(page.locator('textarea,input[type="text"]')).toHaveCount(s.id === 'T18_ESA_5' ? 1 : 0);
+      await solve(page, s);
+    }
   }
-  await expect(page.locator('h1')).toHaveText('Mission geschafft.');
+  await expect(page.locator('h1')).toHaveText('Alles bearbeitet!');
   const saved = await page.evaluate(key => JSON.parse(localStorage.getItem(key)), STORAGE_KEY);
   expect(Object.keys(saved.levels[level].records)).toHaveLength(bank.tasks.flatMap(t => t.variants[level].steps).length);
   expect(errors).toEqual([]); expect(requests).toEqual([]);
@@ -85,11 +92,11 @@ for (const level of bank.levels) test(`Error, help and solution path for each of
       const pairs = s.pairs.slice(0, s.pageSize || s.pairs.length);
       for (const [i, p] of pairs.entries()) {
         const wrong = s.pairs[(i + 1) % s.pairs.length];
-        if (s.type === 'anatomy_recall') await page.locator(`[data-term="${p.targetId}"]`).fill(wrong.answerText);
+        if (isRecall(s)) await page.locator(`[data-term="${p.targetId}"]`).fill(wrong.answerText);
         else { await page.locator(`[data-action="token"][data-id="${wrong.answerId}"]`).click(); await page.locator(`[data-action="assign"][data-target="${p.targetId}"]`).click(); }
       }
     } else {
-      const wrong = { CONE_DIFFERENCE: 'alle reagieren gleich', BRAIN: 'zur Linse', NEAR_SHAPE: 'flach', EARDRUM_MOVES: 'bleibt still', OSSICLES_TRANSMIT: 'Licht', COCHLEA_SIGNAL: 'Licht', TERM_LENS: 'Pupille', TERM_RETINA: 'Linse', FOCUS_REASON: 'nah flach fern rund' };
+      const wrong = { CONE_DIFFERENCE: 'alle reagieren gleich', BRAIN: 'zur Linse', NEAR_SHAPE: 'flach', EARDRUM_MOVES: 'bleibt still', OSSICLES_TRANSMIT: 'Licht', COCHLEA_SIGNAL: 'Licht', TERM_LENS: 'Pupille', TERM_RETINA: 'Linse', FOCUS_REASON: 'nah flach fern rund', COLOR_CELLS: 'Stäbchen', BALANCE_FUNCTION: 'Scharfstellen der Linse', BLIND_SPOT_CELLS: 'Sehnerv', DUST_PROTECTION: 'Sehnerv', PUPIL_PURPOSE: 'Weniger Licht', IRIS_CONTROL: 'Ziliarmuskel', PUPIL_DARK_MECHANISM: 'Mehr Licht. Der Ziliarmuskel macht die Pupille größer.' };
       await page.locator('[data-text]').fill(wrong[s.ruleId]);
     }
     await action(page, 'check').click(); await expect(page.locator('.feedback.incorrect')).toBeVisible();
@@ -127,7 +134,8 @@ test('Edited input invalidates success; solution and errors are tracked separate
 test('Reload, level changes, restart and duplicate completion do not inflate progress', async ({ page }) => {
   await start(page, 'ESA'); await solve(page, bank.tasks[0].variants.ESA.steps[0]);
   await page.reload(); await page.locator('[data-level="ESA"]').click(); await action(page, 'continue').click();
-  await expect(page.locator('.mission-title')).toHaveText(bank.tasks[1].title);
+  await expect(page.locator('.topic-menu')).toHaveCount(2);
+  await openMission(page, 1); await expect(page.locator('.mission-title')).toHaveText(bank.tasks[1].title);
   await openMission(page, 0); await solve(page, bank.tasks[0].variants.ESA.steps[0]);
   expect(await page.evaluate(key => Object.keys(JSON.parse(localStorage.getItem(key)).levels.ESA.records).length, STORAGE_KEY)).toBe(1);
   await action(page, 'home').click(); await page.locator('[data-level="MSA"]').click(); await expect(action(page, 'start')).toBeVisible();
@@ -177,7 +185,7 @@ test('Corrupt and stale progress are rejected', async ({ page }) => {
     await page.evaluate(([key, value]) => { localStorage.setItem(key, value); localStorage.setItem('other-app', 'preserve'); }, [STORAGE_KEY, value]);
     await page.reload(); await expect(page.locator('.storage-notice')).toBeVisible();
     expect(await page.evaluate(() => localStorage.getItem('other-app'))).toBe('preserve');
-    await action(page, 'start').click(); await expect(page.locator('.mission-title')).toBeVisible();
+    await action(page, 'start').click(); await openMission(page, 0); await expect(page.locator('.mission-title')).toBeVisible();
   }
 });
 
@@ -209,7 +217,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 768, height: 1024
   await page.setViewportSize(viewport); await page.goto('./');
   await page.screenshot({ path: `test-results/screenshots/home-${viewport.width}.png`, fullPage: true });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await action(page, 'start').click(); await action(page, 'help').click();
+  await action(page, 'start').click(); await openMission(page, 0); await action(page, 'help').click();
   await expect(page.locator('.help-note')).toBeInViewport();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await openMission(page, 2); await page.screenshot({ path: `test-results/screenshots/ear-${viewport.width}.png`, fullPage: true });
@@ -234,7 +242,7 @@ test('Local multi-file and single-file exports work without network', async ({ p
     await expect(page.locator('h1')).toContainText('Sinneslabor');
     await page.route(/^https?:/, route => route.abort());
     if (await action(page, 'start').count()) await action(page, 'start').click(); else await action(page, 'continue').click();
-    await action(page, 'solution').click(); await expect(action(page, 'next')).toBeEnabled();
+    await openMission(page, 0); await action(page, 'solution').click(); await expect(action(page, 'next')).toBeEnabled();
     await page.unroute(/^https?:/);
   }
   expect(errors).toEqual([]);
@@ -244,12 +252,12 @@ test('Self-contained offline export plays a complete level after networking is b
   await page.goto('./Mission-Sinneslabor-offline.html');
   await page.route('**/*', route => route.abort());
   await page.locator('[data-level="Foerder"]').click(); await action(page, 'start').click();
-  for (const t of bank.tasks) {
+  await openMission(page, 0);
+  for (const t of TOPICS.flatMap(topic => topic.tasks.map(id => bank.tasks.find(t => t.id === id)))) {
+    if (!await page.locator('.mission-title').count()) await openMission(page, t.number - 1);
     for (const s of t.variants.Foerder.steps) await solve(page, s);
-    if (t.id === 'T20') await action(page, 'after-protocol').click();
-    if (t.number % 6 === 0) await action(page, 'after-badge').click();
   }
-  await expect(page.locator('h1')).toHaveText('Mission geschafft.');
+  await expect(page.locator('h1')).toHaveText('Alles bearbeitet!');
 });
 
 test('Touch interaction, reduced motion, keyboard navigation and safe raw text', async ({ browser }) => {

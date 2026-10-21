@@ -21,48 +21,60 @@
 | Alle: optische Täuschungen | M6 | T10 | Zwei neue eigene Beispiele; subjektive Vermutung unbewertet |
 | Alle: Hörbeeinträchtigung und Gebärdensprache | M6 | T06, T16, T21 | Sprache, Hörmöglichkeiten und situationsbezogene Kommunikation |
 
-## Mengen- und Zeitplanung
+## Entwicklungsrunde 2: Menge und geschätzte Zeit
 
-Eine Teilantwort ist eine fachlich auswertbare Auswahl, Zuordnung, Kartenposition oder klar abgegrenzte Aussage. Sie ist kein Punktwert und kein Beweis für einen neuen unabhängigen Lerninhalt. Eine textliche Begründung kann mehrere Aussagen enthalten. Die P/Z-Zuordnung bezieht sich auf die überwiegende Leistung, nicht auf exklusive Themengebiete.
+Die neue Aufgaben- und Antwortstruktur folgt `auftrag-runde-2.md`. Die 24 Aufgaben-IDs und fachlichen Kernthemen bleiben erhalten. Die frühere Vierer-Einteilung ist keine Schülernavigation mehr; die Themenzuordnung steht in `aufgabenbank.json` unter `topics`.
 
-| Niveau | P-Missionen | Z-Missionen | P-Teilantworten | Z-Teilantworten | Aufgabenzeit geschätzt | Mit 1,5 Min Einstieg/Abschluss + 3 Min Hilfe |
-|---|---:|---:|---:|---:|---:|---:|
-| Förder | 12 | 12 | 34 | 38 | 20.9 Min | 25.4 Min |
-| ESA | 12 | 12 | 42 | 49 | 23.7 Min | 28.2 Min |
-| MSA | 12 | 12 | 41 | 49 | 23.8 Min | 28.3 Min |
-| AHR | 12 | 12 | 44 | 49 | 25.0 Min | 29.5 Min |
+| Niveau | P-Teilantworten | Z-Teilantworten | Aufgabenzeit geschätzt | Mit 4,5 Minuten Einstieg/Abschluss und Hilfe |
+|---|---:|---:|---:|---:|
+| Förder | 34 | 39 | 21.1 Min. | 25.6 Min. |
+| ESA | 42 | 50 | 23.9 Min. | 28.4 Min. |
+| MSA | 41 | 49 | 25.2 Min. | 29.7 Min. |
+| AHR | 44 | 49 | 26.3 Min. | 30.8 Min. |
 
-Keine dieser Zeiten wurde mit einer Lerngruppe gemessen. Mehr Hilfebedarf kann den Puffer überschreiten. Es gibt keinen erzwungenen Abbruch.
+Die Zeiten sind neu geschätzt und nicht mit einer Lerngruppe gemessen. Zusätzlicher Begriffsabruf ersetzt bisheriges Zuordnen; neue kurze Inhalte ersetzen überwiegend vorhandene Auswahlfragen. Die AHR-Schätzung liegt knapp über 30 Minuten. Der Spezifikationsvalidator prüft eine transparente Planungsobergrenze von 32 Minuten statt einer angeblich garantierten 30-Minuten-Dauer. Es gibt keinen Timer oder erzwungenen Abbruch.
 
-## Inhaltsfelder und Begriffsfelder
+## Eingabeformen
 
-MSA: 14 anatomische Einzelwörter + zwei Funktionsbegriffe + vier eng geführte Inhaltsantworten. AHR: 14 anatomische Einzelwörter + zwei Funktionsbegriffe + sieben eng geführte Inhaltsantworten. Förder/ESA: null Texteingaben. Eine jederzeit wählbare Wortbank ist Unterstützung, kein Fehler.
+- Förder: keine Textfelder; unveränderte Grundstruktur mit einer zusätzlichen sehr einfachen Zweck-Auswahl in T18.
+- ESA: genau ein Textfeld, `T18_ESA_5`, zur Tätigkeit der ausdrücklich benannten Erweiterungsmuskeln der Iris. Alle übrigen Aufgaben bleiben ohne Texteingaben.
+- MSA: 31 kurze Begriffsfelder einschließlich der zwei abschließenden Funktionsbegriffe, außerdem zehn eng geführte Inhaltsfelder. Neue Inhalte ersetzen Auswahlfragen in T11, T14, T18, T22, T23.
+- AHR: dieselben 31 Begriffsfelder plus elf kurze Inhaltsfelder, darunter Farbensehen, Nah-/Fern-Einstellung und Zweck/Iris-Beteiligung bei Dunkelheit. Keine frei bewerteten Aufsätze.
 
-## Missionsverteilung
+Die Wortbank ist bei MSA/AHR freiwillig, beliebig oft zu öffnen und zu schließen. Eingegebene Begriffe bleiben erhalten. Unterstützung führt zu keinem Punktabzug.
 
-| Nr. | Bereich | Mission | Schwerpunkt |
-|---|---|---|---|
-| 01 | 1 | Der Schall kommt an | P |
-| 02 | 1 | Das laute Konzert | Z |
-| 03 | 1 | Das Ohr untersuchen | P |
-| 04 | 1 | Woher kommt das Geräusch? | Z |
-| 05 | 1 | Die Reise des Schalls | P |
-| 06 | 1 | Sprache sehen | Z |
-| 07 | 2 | Das Auge untersuchen | P |
-| 08 | 2 | Licht an, Licht aus | Z |
-| 09 | 2 | Die Reise des Lichts | P |
-| 10 | 2 | Dein Eindruck und die Messung | Z |
-| 11 | 2 | Farben und wenig Licht | P |
-| 12 | 2 | Zwei Augen, zwei Ansichten | Z |
-| 13 | 3 | Drei kleine Knochen | P |
-| 14 | 3 | Im Gleichgewicht | Z |
-| 15 | 3 | Nah und fern | P |
-| 16 | 3 | Hören ist unterschiedlich | Z |
-| 17 | 3 | Zwei Wege zum Gehirn | P |
-| 18 | 3 | Im dunklen Raum | Z |
-| 19 | 4 | Vom Reiz zur Reaktion | Z |
-| 20 | 4 | Erkläre das Hören | P |
-| 21 | 4 | Eine Nachricht für alle | Z |
-| 22 | 4 | Der blinde Fleck | P |
-| 23 | 4 | Schutz für das Auge | Z |
-| 24 | 4 | Die letzte Entdeckung | P |
+## Zwei Themenbereiche
+
+### Hören mit den Ohren
+
+| ID | Aufgabe |
+|---|---|
+| T01 | Der Schall kommt an |
+| T02 | Das laute Konzert |
+| T03 | Das Ohr beschriften |
+| T04 | Woher kommt das Geräusch? |
+| T05 | Wie hören wir? |
+| T06 | Sprache sehen |
+| T13 | Die drei Gehörknöchelchen |
+| T14 | Im Gleichgewicht |
+| T16 | Hören ist unterschiedlich |
+| T19 | Vom Reiz zur Reaktion |
+| T20 | Hören erklären |
+| T21 | Eine Nachricht für alle |
+
+### Sehen mit den Augen
+
+| ID | Aufgabe |
+|---|---|
+| T07 | Das Auge beschriften |
+| T08 | Licht an, Licht aus |
+| T09 | Die Reise des Lichts |
+| T10 | Dein Eindruck und die Messung |
+| T11 | Farben und wenig Licht |
+| T12 | Zwei Augen, zwei Ansichten |
+| T15 | Nah und fern |
+| T17 | Hörnerv oder Sehnerv? |
+| T18 | Im dunklen Raum |
+| T22 | Der blinde Fleck |
+| T23 | Schutz für das Auge |
+| T24 | Zum Schluss wiederholen |
