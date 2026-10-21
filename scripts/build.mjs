@@ -1,0 +1,14 @@
+import { build } from 'esbuild';
+import { mkdir, readFile, writeFile, copyFile } from 'node:fs/promises';
+await mkdir('dist', { recursive: true });
+await build({ entryPoints: ['src/app.js'], bundle: true, format: 'iife', target: ['es2020'], outfile: 'dist/game.js', minify: true, legalComments: 'none' });
+await copyFile('src/style.css', 'dist/game.css');
+await copyFile('index.html', 'dist/index.html');
+const html = await readFile('index.html', 'utf8');
+const css = await readFile('dist/game.css', 'utf8');
+const js = await readFile('dist/game.js', 'utf8');
+const offline = html.replace('<link rel="stylesheet" href="./game.css">', () => `<style>${css}</style>`).replace('<script src="./game.js" defer></script>', () => `<script>${js.replace(/<\/script/gi, '<\\/script')}</script>`);
+await writeFile('dist/Mission-Sinneslabor-offline.html', offline);
+await mkdir('spiel', { recursive: true });
+await writeFile('spiel/Mission-Sinneslabor-offline.html', offline);
+console.log('Gebaut: dist/index.html und dist/Mission-Sinneslabor-offline.html');
