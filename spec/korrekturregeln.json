@@ -354,7 +354,7 @@
       "accept": [
         "Lichtsinneszellen"
       ],
-      "notes": "Frage nach fehlenden Zellen: verneinte Anwesenheit und verneintes Fehlen unterscheiden. Die Kurzform „Keine Sinneszellen“ klären. Keine allgemeine Textinterpretation.",
+      "notes": "Frage nach fehlenden Zellen: verneinte Anwesenheit und verneintes Fehlen unterscheiden. Auch die Kurzform „Keine Sinneszellen“ beantwortet die Frage ausreichend. Eine ausdrückliche Anwesenheit von Sinneszellen oder Stäbchen und Zapfen ist falsch; bloße Nennung der fehlenden Zellen ist richtig. Keine allgemeine Textinterpretation.",
       "feedbackPartial": "Ein Teil stimmt schon. Was fehlt am blinden Fleck?",
       "feedbackClarify": "Ich bin nicht sicher, was du meinst. Wähle die passende Antwort.",
       "feedbackInputEmpty": "Gib eine Antwort ein oder nutze die Hilfe.",

@@ -1,3 +1,5 @@
+Aktuelle Nachprüfung der Freitextkorrektur: [Korrektorbericht](testbericht-korrektor.md). Der folgende Bericht dokumentiert den ursprünglichen Stand von Entwicklungsrunde 2.
+
 # Tatsächlich ausgeführte Prüfungen – Entwicklungsrunde 2
 
 Abschließender Browserlauf: 21.10.2026, 12:24 Uhr (Europe/Berlin). Linux-Cloud mit Node.js v24.19.0, Chromium 154.0.8037.57 und Playwright 1.58.2. Ergebnisse gelten für diese Revision. Die neuen fachlich relevanten Fälle verwenden dieselbe Korrekturlogik wie der Browser.

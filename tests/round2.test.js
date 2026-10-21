@@ -46,7 +46,7 @@ const cases = [
   ['BLIND_SPOT_CELLS', 'Stäbchen und Zapfen', 'correct'],
   ['BLIND_SPOT_CELLS', 'Sehnerv', 'incorrect'],
   ['BLIND_SPOT_CELLS', 'Zapfen', 'partial'],
-  ['BLIND_SPOT_CELLS', 'Keine Sinneszellen', 'clarify'],
+  ['BLIND_SPOT_CELLS', 'Keine Sinneszellen', 'correct'],
   ['BLIND_SPOT_CELLS', 'Dort sind keine Sinneszellen.', 'correct'],
   ['BLIND_SPOT_CELLS', 'Es fehlen keine Sinneszellen.', 'incorrect'],
   ['BLIND_SPOT_CELLS', 'Lichtsinneszellen fehlen nicht.', 'incorrect'],

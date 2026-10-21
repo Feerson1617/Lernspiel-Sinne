@@ -1,0 +1,1066 @@
+TAP version 13
+# Subtest: G001 NEAR_SHAPE: correct
+ok 1 - G001 NEAR_SHAPE: correct
+  ---
+  duration_ms: 1.783604
+  type: 'test'
+  ...
+# Subtest: G002 NEAR_SHAPE: correct
+ok 2 - G002 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.256824
+  type: 'test'
+  ...
+# Subtest: G003 NEAR_SHAPE: correct
+ok 3 - G003 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.063164
+  type: 'test'
+  ...
+# Subtest: G004 NEAR_SHAPE: correct
+ok 4 - G004 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.067981
+  type: 'test'
+  ...
+# Subtest: G005 NEAR_SHAPE: correct
+ok 5 - G005 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.093861
+  type: 'test'
+  ...
+# Subtest: G006 NEAR_SHAPE: correct
+ok 6 - G006 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.067241
+  type: 'test'
+  ...
+# Subtest: G007 NEAR_SHAPE: correct
+ok 7 - G007 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.082514
+  type: 'test'
+  ...
+# Subtest: G008 NEAR_SHAPE: correct
+ok 8 - G008 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.049765
+  type: 'test'
+  ...
+# Subtest: G009 NEAR_SHAPE: correct
+ok 9 - G009 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.105928
+  type: 'test'
+  ...
+# Subtest: G010 NEAR_SHAPE: correct
+ok 10 - G010 NEAR_SHAPE: correct
+  ---
+  duration_ms: 0.129854
+  type: 'test'
+  ...
+# Subtest: G011 NEAR_SHAPE: incorrect
+ok 11 - G011 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.07421
+  type: 'test'
+  ...
+# Subtest: G012 NEAR_SHAPE: incorrect
+ok 12 - G012 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.045278
+  type: 'test'
+  ...
+# Subtest: G013 NEAR_SHAPE: incorrect
+ok 13 - G013 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.030966
+  type: 'test'
+  ...
+# Subtest: G014 NEAR_SHAPE: incorrect
+ok 14 - G014 NEAR_SHAPE: incorrect
+  ---
+  duration_ms: 0.022874
+  type: 'test'
+  ...
+# Subtest: G015 NEAR_SHAPE: partial
+ok 15 - G015 NEAR_SHAPE: partial
+  ---
+  duration_ms: 0.022904
+  type: 'test'
+  ...
+# Subtest: G016 NEAR_SHAPE: partial
+ok 16 - G016 NEAR_SHAPE: partial
+  ---
+  duration_ms: 0.071227
+  type: 'test'
+  ...
+# Subtest: G017 NEAR_SHAPE: clarify
+ok 17 - G017 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.097736
+  type: 'test'
+  ...
+# Subtest: G018 NEAR_SHAPE: clarify
+ok 18 - G018 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.034762
+  type: 'test'
+  ...
+# Subtest: G019 NEAR_SHAPE: clarify
+ok 19 - G019 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.026519
+  type: 'test'
+  ...
+# Subtest: G020 NEAR_SHAPE: clarify
+ok 20 - G020 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.047602
+  type: 'test'
+  ...
+# Subtest: G021 NEAR_SHAPE: clarify
+ok 21 - G021 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.021682
+  type: 'test'
+  ...
+# Subtest: G022 NEAR_SHAPE: clarify
+ok 22 - G022 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.023746
+  type: 'test'
+  ...
+# Subtest: G023 CONE_DIFFERENCE: correct
+ok 23 - G023 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.470253
+  type: 'test'
+  ...
+# Subtest: G024 CONE_DIFFERENCE: correct
+ok 24 - G024 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.16074
+  type: 'test'
+  ...
+# Subtest: G025 CONE_DIFFERENCE: correct
+ok 25 - G025 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.058908
+  type: 'test'
+  ...
+# Subtest: G026 CONE_DIFFERENCE: correct
+ok 26 - G026 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.030275
+  type: 'test'
+  ...
+# Subtest: G027 CONE_DIFFERENCE: correct
+ok 27 - G027 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.069013
+  type: 'test'
+  ...
+# Subtest: G028 CONE_DIFFERENCE: correct
+ok 28 - G028 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.032779
+  type: 'test'
+  ...
+# Subtest: G029 CONE_DIFFERENCE: partial
+ok 29 - G029 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.097856
+  type: 'test'
+  ...
+# Subtest: G030 CONE_DIFFERENCE: partial
+ok 30 - G030 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.042874
+  type: 'test'
+  ...
+# Subtest: G031 CONE_DIFFERENCE: partial
+ok 31 - G031 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.044286
+  type: 'test'
+  ...
+# Subtest: G032 CONE_DIFFERENCE: partial
+ok 32 - G032 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.028513
+  type: 'test'
+  ...
+# Subtest: G033 CONE_DIFFERENCE: partial
+ok 33 - G033 CONE_DIFFERENCE: partial
+  ---
+  duration_ms: 0.01989
+  type: 'test'
+  ...
+# Subtest: G034 CONE_DIFFERENCE: incorrect
+ok 34 - G034 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.016785
+  type: 'test'
+  ...
+# Subtest: G035 CONE_DIFFERENCE: incorrect
+ok 35 - G035 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.073429
+  type: 'test'
+  ...
+# Subtest: G036 CONE_DIFFERENCE: incorrect
+ok 36 - G036 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.023145
+  type: 'test'
+  ...
+# Subtest: G037 CONE_DIFFERENCE: incorrect
+ok 37 - G037 CONE_DIFFERENCE: incorrect
+  ---
+  duration_ms: 0.017236
+  type: 'test'
+  ...
+# Subtest: G038 CONE_DIFFERENCE: clarify
+ok 38 - G038 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.016705
+  type: 'test'
+  ...
+# Subtest: G039 CONE_DIFFERENCE: clarify
+ok 39 - G039 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.015463
+  type: 'test'
+  ...
+# Subtest: G040 CONE_DIFFERENCE: clarify
+ok 40 - G040 CONE_DIFFERENCE: clarify
+  ---
+  duration_ms: 0.017656
+  type: 'test'
+  ...
+# Subtest: G041 BRAIN: correct
+ok 41 - G041 BRAIN: correct
+  ---
+  duration_ms: 0.467689
+  type: 'test'
+  ...
+# Subtest: G042 BRAIN: correct
+ok 42 - G042 BRAIN: correct
+  ---
+  duration_ms: 0.191125
+  type: 'test'
+  ...
+# Subtest: G043 BRAIN: correct
+ok 43 - G043 BRAIN: correct
+  ---
+  duration_ms: 0.028623
+  type: 'test'
+  ...
+# Subtest: G044 BRAIN: correct
+ok 44 - G044 BRAIN: correct
+  ---
+  duration_ms: 0.021202
+  type: 'test'
+  ...
+# Subtest: G045 BRAIN: correct
+ok 45 - G045 BRAIN: correct
+  ---
+  duration_ms: 0.023035
+  type: 'test'
+  ...
+# Subtest: G046 BRAIN: correct
+ok 46 - G046 BRAIN: correct
+  ---
+  duration_ms: 0.022003
+  type: 'test'
+  ...
+# Subtest: G047 BRAIN: correct
+ok 47 - G047 BRAIN: correct
+  ---
+  duration_ms: 0.038017
+  type: 'test'
+  ...
+# Subtest: G048 BRAIN: partial
+ok 48 - G048 BRAIN: partial
+  ---
+  duration_ms: 0.048583
+  type: 'test'
+  ...
+# Subtest: G049 BRAIN: clarify
+ok 49 - G049 BRAIN: clarify
+  ---
+  duration_ms: 0.0337
+  type: 'test'
+  ...
+# Subtest: G050 BRAIN: clarify
+ok 50 - G050 BRAIN: clarify
+  ---
+  duration_ms: 0.03346
+  type: 'test'
+  ...
+# Subtest: G051 BRAIN: clarify
+ok 51 - G051 BRAIN: clarify
+  ---
+  duration_ms: 0.025408
+  type: 'test'
+  ...
+# Subtest: G052 BRAIN: incorrect
+ok 52 - G052 BRAIN: incorrect
+  ---
+  duration_ms: 0.018798
+  type: 'test'
+  ...
+# Subtest: G053 BRAIN: incorrect
+ok 53 - G053 BRAIN: incorrect
+  ---
+  duration_ms: 0.016935
+  type: 'test'
+  ...
+# Subtest: G054 BRAIN: incorrect
+ok 54 - G054 BRAIN: incorrect
+  ---
+  duration_ms: 0.017987
+  type: 'test'
+  ...
+# Subtest: G055 BRAIN: incorrect
+ok 55 - G055 BRAIN: incorrect
+  ---
+  duration_ms: 0.04678
+  type: 'test'
+  ...
+# Subtest: G056 BRAIN: correct
+ok 56 - G056 BRAIN: correct
+  ---
+  duration_ms: 0.084195
+  type: 'test'
+  ...
+# Subtest: G057 BRAIN: correct
+ok 57 - G057 BRAIN: correct
+  ---
+  duration_ms: 0.042894
+  type: 'test'
+  ...
+# Subtest: G058 BRAIN: incorrect
+ok 58 - G058 BRAIN: incorrect
+  ---
+  duration_ms: 0.016895
+  type: 'test'
+  ...
+# Subtest: G059 BRAIN: incorrect
+ok 59 - G059 BRAIN: incorrect
+  ---
+  duration_ms: 0.015913
+  type: 'test'
+  ...
+# Subtest: G060 EARDRUM_MOVES: correct
+ok 60 - G060 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.232057
+  type: 'test'
+  ...
+# Subtest: G061 EARDRUM_MOVES: correct
+ok 61 - G061 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.098908
+  type: 'test'
+  ...
+# Subtest: G062 EARDRUM_MOVES: correct
+ok 62 - G062 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.020872
+  type: 'test'
+  ...
+# Subtest: G063 EARDRUM_MOVES: correct
+ok 63 - G063 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.018177
+  type: 'test'
+  ...
+# Subtest: G064 EARDRUM_MOVES: correct
+ok 64 - G064 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.052088
+  type: 'test'
+  ...
+# Subtest: G065 EARDRUM_MOVES: correct
+ok 65 - G065 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.025178
+  type: 'test'
+  ...
+# Subtest: G066 EARDRUM_MOVES: correct
+ok 66 - G066 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.016545
+  type: 'test'
+  ...
+# Subtest: G067 EARDRUM_MOVES: partial
+ok 67 - G067 EARDRUM_MOVES: partial
+  ---
+  duration_ms: 0.075703
+  type: 'test'
+  ...
+# Subtest: G068 EARDRUM_MOVES: incorrect
+ok 68 - G068 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.020821
+  type: 'test'
+  ...
+# Subtest: G069 EARDRUM_MOVES: incorrect
+ok 69 - G069 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.03379
+  type: 'test'
+  ...
+# Subtest: G070 EARDRUM_MOVES: incorrect
+ok 70 - G070 EARDRUM_MOVES: incorrect
+  ---
+  duration_ms: 0.021472
+  type: 'test'
+  ...
+# Subtest: G071 EARDRUM_MOVES: clarify
+ok 71 - G071 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.049835
+  type: 'test'
+  ...
+# Subtest: G072 EARDRUM_MOVES: clarify
+ok 72 - G072 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.017706
+  type: 'test'
+  ...
+# Subtest: G073 EARDRUM_MOVES: clarify
+ok 73 - G073 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.06669
+  type: 'test'
+  ...
+# Subtest: G074 EARDRUM_MOVES: clarify
+ok 74 - G074 EARDRUM_MOVES: clarify
+  ---
+  duration_ms: 0.02016
+  type: 'test'
+  ...
+# Subtest: G075 OSSICLES_TRANSMIT: correct
+ok 75 - G075 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.413137
+  type: 'test'
+  ...
+# Subtest: G076 OSSICLES_TRANSMIT: correct
+ok 76 - G076 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.119248
+  type: 'test'
+  ...
+# Subtest: G077 OSSICLES_TRANSMIT: correct
+ok 77 - G077 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.020931
+  type: 'test'
+  ...
+# Subtest: G078 OSSICLES_TRANSMIT: correct
+ok 78 - G078 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.018337
+  type: 'test'
+  ...
+# Subtest: G079 OSSICLES_TRANSMIT: correct
+ok 79 - G079 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.021943
+  type: 'test'
+  ...
+# Subtest: G080 OSSICLES_TRANSMIT: correct
+ok 80 - G080 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.018638
+  type: 'test'
+  ...
+# Subtest: G081 OSSICLES_TRANSMIT: correct
+ok 81 - G081 OSSICLES_TRANSMIT: correct
+  ---
+  duration_ms: 0.016174
+  type: 'test'
+  ...
+# Subtest: G082 OSSICLES_TRANSMIT: partial
+ok 82 - G082 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.06666
+  type: 'test'
+  ...
+# Subtest: G083 OSSICLES_TRANSMIT: partial
+ok 83 - G083 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.068913
+  type: 'test'
+  ...
+# Subtest: G084 OSSICLES_TRANSMIT: partial
+ok 84 - G084 OSSICLES_TRANSMIT: partial
+  ---
+  duration_ms: 0.043445
+  type: 'test'
+  ...
+# Subtest: G085 OSSICLES_TRANSMIT: incorrect
+ok 85 - G085 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.03318
+  type: 'test'
+  ...
+# Subtest: G086 OSSICLES_TRANSMIT: incorrect
+ok 86 - G086 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.022954
+  type: 'test'
+  ...
+# Subtest: G087 OSSICLES_TRANSMIT: incorrect
+ok 87 - G087 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.022534
+  type: 'test'
+  ...
+# Subtest: G088 OSSICLES_TRANSMIT: incorrect
+ok 88 - G088 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.017666
+  type: 'test'
+  ...
+# Subtest: G089 OSSICLES_TRANSMIT: incorrect
+ok 89 - G089 OSSICLES_TRANSMIT: incorrect
+  ---
+  duration_ms: 0.023996
+  type: 'test'
+  ...
+# Subtest: G090 OSSICLES_TRANSMIT: clarify
+ok 90 - G090 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.016866
+  type: 'test'
+  ...
+# Subtest: G091 OSSICLES_TRANSMIT: clarify
+ok 91 - G091 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.014722
+  type: 'test'
+  ...
+# Subtest: G092 OSSICLES_TRANSMIT: clarify
+ok 92 - G092 OSSICLES_TRANSMIT: clarify
+  ---
+  duration_ms: 0.036354
+  type: 'test'
+  ...
+# Subtest: G093 COCHLEA_SIGNAL: correct
+ok 93 - G093 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.46227
+  type: 'test'
+  ...
+# Subtest: G094 COCHLEA_SIGNAL: correct
+ok 94 - G094 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.20056
+  type: 'test'
+  ...
+# Subtest: G095 COCHLEA_SIGNAL: correct
+ok 95 - G095 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.031006
+  type: 'test'
+  ...
+# Subtest: G096 COCHLEA_SIGNAL: correct
+ok 96 - G096 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.043074
+  type: 'test'
+  ...
+# Subtest: G097 COCHLEA_SIGNAL: correct
+ok 97 - G097 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.019038
+  type: 'test'
+  ...
+# Subtest: G098 COCHLEA_SIGNAL: correct
+ok 98 - G098 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.035823
+  type: 'test'
+  ...
+# Subtest: G099 COCHLEA_SIGNAL: correct
+ok 99 - G099 COCHLEA_SIGNAL: correct
+  ---
+  duration_ms: 0.024657
+  type: 'test'
+  ...
+# Subtest: G100 COCHLEA_SIGNAL: partial
+ok 100 - G100 COCHLEA_SIGNAL: partial
+  ---
+  duration_ms: 0.04711
+  type: 'test'
+  ...
+# Subtest: G101 COCHLEA_SIGNAL: partial
+ok 101 - G101 COCHLEA_SIGNAL: partial
+  ---
+  duration_ms: 0.034452
+  type: 'test'
+  ...
+# Subtest: G102 COCHLEA_SIGNAL: incorrect
+ok 102 - G102 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.02706
+  type: 'test'
+  ...
+# Subtest: G103 COCHLEA_SIGNAL: incorrect
+ok 103 - G103 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.020341
+  type: 'test'
+  ...
+# Subtest: G104 COCHLEA_SIGNAL: incorrect
+ok 104 - G104 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.020211
+  type: 'test'
+  ...
+# Subtest: G105 COCHLEA_SIGNAL: incorrect
+ok 105 - G105 COCHLEA_SIGNAL: incorrect
+  ---
+  duration_ms: 0.021883
+  type: 'test'
+  ...
+# Subtest: G106 COCHLEA_SIGNAL: clarify
+ok 106 - G106 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.019168
+  type: 'test'
+  ...
+# Subtest: G107 COCHLEA_SIGNAL: clarify
+ok 107 - G107 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.018888
+  type: 'test'
+  ...
+# Subtest: G108 COCHLEA_SIGNAL: clarify
+ok 108 - G108 COCHLEA_SIGNAL: clarify
+  ---
+  duration_ms: 0.0202
+  type: 'test'
+  ...
+# Subtest: G109 FOCUS_REASON: correct
+ok 109 - G109 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.786094
+  type: 'test'
+  ...
+# Subtest: G110 FOCUS_REASON: correct
+ok 110 - G110 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.221701
+  type: 'test'
+  ...
+# Subtest: G111 FOCUS_REASON: correct
+ok 111 - G111 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.294139
+  type: 'test'
+  ...
+# Subtest: G112 FOCUS_REASON: correct
+ok 112 - G112 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.096885
+  type: 'test'
+  ...
+# Subtest: G113 FOCUS_REASON: correct
+ok 113 - G113 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.150344
+  type: 'test'
+  ...
+# Subtest: G114 FOCUS_REASON: correct
+ok 114 - G114 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.061051
+  type: 'test'
+  ...
+# Subtest: G115 FOCUS_REASON: correct
+ok 115 - G115 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.055704
+  type: 'test'
+  ...
+# Subtest: G116 FOCUS_REASON: partial
+ok 116 - G116 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.059369
+  type: 'test'
+  ...
+# Subtest: G117 FOCUS_REASON: partial
+ok 117 - G117 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.063855
+  type: 'test'
+  ...
+# Subtest: G118 FOCUS_REASON: partial
+ok 118 - G118 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.025148
+  type: 'test'
+  ...
+# Subtest: G119 FOCUS_REASON: partial
+ok 119 - G119 FOCUS_REASON: partial
+  ---
+  duration_ms: 0.025377
+  type: 'test'
+  ...
+# Subtest: G120 FOCUS_REASON: incorrect
+ok 120 - G120 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.032338
+  type: 'test'
+  ...
+# Subtest: G121 FOCUS_REASON: incorrect
+ok 121 - G121 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.021152
+  type: 'test'
+  ...
+# Subtest: G122 FOCUS_REASON: incorrect
+ok 122 - G122 FOCUS_REASON: incorrect
+  ---
+  duration_ms: 0.017266
+  type: 'test'
+  ...
+# Subtest: G123 FOCUS_REASON: clarify
+ok 123 - G123 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.02018
+  type: 'test'
+  ...
+# Subtest: G124 FOCUS_REASON: clarify
+ok 124 - G124 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.01964
+  type: 'test'
+  ...
+# Subtest: G125 FOCUS_REASON: clarify
+ok 125 - G125 FOCUS_REASON: clarify
+  ---
+  duration_ms: 0.01944
+  type: 'test'
+  ...
+# Subtest: G126 TERM_LENS: correct
+ok 126 - G126 TERM_LENS: correct
+  ---
+  duration_ms: 0.210183
+  type: 'test'
+  ...
+# Subtest: G127 TERM_LENS: correct
+ok 127 - G127 TERM_LENS: correct
+  ---
+  duration_ms: 0.084316
+  type: 'test'
+  ...
+# Subtest: G128 TERM_LENS: correct
+ok 128 - G128 TERM_LENS: correct
+  ---
+  duration_ms: 0.400658
+  type: 'test'
+  ...
+# Subtest: G129 TERM_LENS: correct
+ok 129 - G129 TERM_LENS: correct
+  ---
+  duration_ms: 0.036504
+  type: 'test'
+  ...
+# Subtest: G130 TERM_LENS: incorrect
+ok 130 - G130 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.021823
+  type: 'test'
+  ...
+# Subtest: G131 TERM_LENS: incorrect
+ok 131 - G131 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.019359
+  type: 'test'
+  ...
+# Subtest: G132 TERM_LENS: incorrect
+ok 132 - G132 TERM_LENS: incorrect
+  ---
+  duration_ms: 0.035183
+  type: 'test'
+  ...
+# Subtest: G133 TERM_LENS: clarify
+ok 133 - G133 TERM_LENS: clarify
+  ---
+  duration_ms: 0.16005
+  type: 'test'
+  ...
+# Subtest: G134 TERM_LENS: clarify
+ok 134 - G134 TERM_LENS: clarify
+  ---
+  duration_ms: 0.024717
+  type: 'test'
+  ...
+# Subtest: G135 TERM_RETINA: correct
+ok 135 - G135 TERM_RETINA: correct
+  ---
+  duration_ms: 0.053079
+  type: 'test'
+  ...
+# Subtest: G136 TERM_RETINA: correct
+ok 136 - G136 TERM_RETINA: correct
+  ---
+  duration_ms: 0.036504
+  type: 'test'
+  ...
+# Subtest: G137 TERM_RETINA: correct
+ok 137 - G137 TERM_RETINA: correct
+  ---
+  duration_ms: 0.023334
+  type: 'test'
+  ...
+# Subtest: G138 TERM_RETINA: correct
+ok 138 - G138 TERM_RETINA: correct
+  ---
+  duration_ms: 0.140029
+  type: 'test'
+  ...
+# Subtest: G139 TERM_RETINA: partial
+ok 139 - G139 TERM_RETINA: partial
+  ---
+  duration_ms: 0.031537
+  type: 'test'
+  ...
+# Subtest: G140 TERM_RETINA: incorrect
+ok 140 - G140 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.017596
+  type: 'test'
+  ...
+# Subtest: G141 TERM_RETINA: incorrect
+ok 141 - G141 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.018978
+  type: 'test'
+  ...
+# Subtest: G142 TERM_RETINA: incorrect
+ok 142 - G142 TERM_RETINA: incorrect
+  ---
+  duration_ms: 0.01993
+  type: 'test'
+  ...
+# Subtest: G143 TERM_RETINA: clarify
+ok 143 - G143 TERM_RETINA: clarify
+  ---
+  duration_ms: 0.105528
+  type: 'test'
+  ...
+# Subtest: G144 TERM_RETINA: clarify
+ok 144 - G144 TERM_RETINA: clarify
+  ---
+  duration_ms: 0.024287
+  type: 'test'
+  ...
+# Subtest: G145 ANATOMY: correct
+ok 145 - G145 ANATOMY: correct
+  ---
+  duration_ms: 0.054211
+  type: 'test'
+  ...
+# Subtest: G146 ANATOMY: correct
+ok 146 - G146 ANATOMY: correct
+  ---
+  duration_ms: 0.019309
+  type: 'test'
+  ...
+# Subtest: G147 ANATOMY: correct
+ok 147 - G147 ANATOMY: correct
+  ---
+  duration_ms: 0.016004
+  type: 'test'
+  ...
+# Subtest: G148 ANATOMY: incorrect
+ok 148 - G148 ANATOMY: incorrect
+  ---
+  duration_ms: 0.016544
+  type: 'test'
+  ...
+# Subtest: G149 ANATOMY: incorrect
+ok 149 - G149 ANATOMY: incorrect
+  ---
+  duration_ms: 0.015303
+  type: 'test'
+  ...
+# Subtest: G150 ANATOMY: clarify
+ok 150 - G150 ANATOMY: clarify
+  ---
+  duration_ms: 0.016394
+  type: 'test'
+  ...
+# Subtest: G151 ANATOMY: clarify
+ok 151 - G151 ANATOMY: clarify
+  ---
+  duration_ms: 0.018648
+  type: 'test'
+  ...
+# Subtest: G152 ANATOMY: correct
+ok 152 - G152 ANATOMY: correct
+  ---
+  duration_ms: 0.015263
+  type: 'test'
+  ...
+# Subtest: G153 ANATOMY: correct
+ok 153 - G153 ANATOMY: correct
+  ---
+  duration_ms: 0.016465
+  type: 'test'
+  ...
+# Subtest: G154 ANATOMY: partial
+ok 154 - G154 ANATOMY: partial
+  ---
+  duration_ms: 0.031497
+  type: 'test'
+  ...
+# Subtest: G155 ANATOMY: correct
+ok 155 - G155 ANATOMY: correct
+  ---
+  duration_ms: 0.016805
+  type: 'test'
+  ...
+# Subtest: G156 ANATOMY: correct
+ok 156 - G156 ANATOMY: correct
+  ---
+  duration_ms: 0.017596
+  type: 'test'
+  ...
+# Subtest: G157 ANATOMY: correct
+ok 157 - G157 ANATOMY: correct
+  ---
+  duration_ms: 0.017997
+  type: 'test'
+  ...
+# Subtest: G158 ANATOMY: incorrect
+ok 158 - G158 ANATOMY: incorrect
+  ---
+  duration_ms: 0.018057
+  type: 'test'
+  ...
+# Subtest: G159 ANATOMY: clarify
+ok 159 - G159 ANATOMY: clarify
+  ---
+  duration_ms: 0.018878
+  type: 'test'
+  ...
+# Subtest: G160 ANATOMY: correct
+ok 160 - G160 ANATOMY: correct
+  ---
+  duration_ms: 0.04011
+  type: 'test'
+  ...
+# Subtest: G161 NEAR_SHAPE: empty
+ok 161 - G161 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.032318
+  type: 'test'
+  ...
+# Subtest: G162 NEAR_SHAPE: empty
+ok 162 - G162 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.025418
+  type: 'test'
+  ...
+# Subtest: G163 NEAR_SHAPE: empty
+ok 163 - G163 NEAR_SHAPE: empty
+  ---
+  duration_ms: 0.016044
+  type: 'test'
+  ...
+# Subtest: G164 NEAR_SHAPE: help_requested
+ok 164 - G164 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.018577
+  type: 'test'
+  ...
+# Subtest: G165 NEAR_SHAPE: help_requested
+ok 165 - G165 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.030426
+  type: 'test'
+  ...
+# Subtest: G166 NEAR_SHAPE: help_requested
+ok 166 - G166 NEAR_SHAPE: help_requested
+  ---
+  duration_ms: 0.017957
+  type: 'test'
+  ...
+# Subtest: G167 NEAR_SHAPE: clarify
+ok 167 - G167 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.050245
+  type: 'test'
+  ...
+# Subtest: G168 NEAR_SHAPE: clarify
+ok 168 - G168 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.019169
+  type: 'test'
+  ...
+# Subtest: G169 NEAR_SHAPE: clarify
+ok 169 - G169 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.03307
+  type: 'test'
+  ...
+# Subtest: G170 NEAR_SHAPE: clarify
+ok 170 - G170 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.037696
+  type: 'test'
+  ...
+# Subtest: G171 NEAR_SHAPE: clarify
+ok 171 - G171 NEAR_SHAPE: clarify
+  ---
+  duration_ms: 0.054712
+  type: 'test'
+  ...
+# Subtest: G172 NEAR_SHAPE: too_long
+ok 172 - G172 NEAR_SHAPE: too_long
+  ---
+  duration_ms: 0.059719
+  type: 'test'
+  ...
+# Subtest: G173 BRAIN: incorrect
+ok 173 - G173 BRAIN: incorrect
+  ---
+  duration_ms: 0.029213
+  type: 'test'
+  ...
+# Subtest: G174 EARDRUM_MOVES: correct
+ok 174 - G174 EARDRUM_MOVES: correct
+  ---
+  duration_ms: 0.025708
+  type: 'test'
+  ...
+# Subtest: G175 CONE_DIFFERENCE: correct
+ok 175 - G175 CONE_DIFFERENCE: correct
+  ---
+  duration_ms: 0.028342
+  type: 'test'
+  ...
+# Subtest: G176 FOCUS_REASON: correct
+ok 176 - G176 FOCUS_REASON: correct
+  ---
+  duration_ms: 0.051777
+  type: 'test'
+  ...
+1..176
+# tests 176
+# suites 0
+# pass 176
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 75.642915

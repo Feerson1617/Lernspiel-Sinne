@@ -64,4 +64,4 @@ Die geschätzten Gesamtzeiten mit Hilfepuffer sind Förder 25,6, ESA 28,4, MSA 2
 
 Bei unbekannten Formulierungen fragt die Software nach. Eine Auswahlklärung wird nicht als automatische Bestätigung des ursprünglichen Textes gespeichert. „Lösung angesehen“ bedeutet bearbeitet, nicht eigenständig beherrscht. Die Anwendung ist ein Übungsangebot und kein diagnostisch validierter Test. Die ungefähr 30 Minuten sind eine Planungsschätzung, keine mit Kindern gemessene Dauer.
 
-[Abdeckung und Zeitplanung](spec/abdeckungsmatrix.md) · [Quellen und fachliche Präzisierungen](spec/quellen-und-abweichungen.md) · [Umsetzung](docs/umsetzung.md) · [tatsächliche Tests](docs/testbericht.md) · [offene Erprobung](docs/restliste.md)
+[Abdeckung und Zeitplanung](spec/abdeckungsmatrix.md) · [Quellen und fachliche Präzisierungen](spec/quellen-und-abweichungen.md) · [Umsetzung](docs/umsetzung.md) · [tatsächliche Tests](docs/testbericht.md) · [Korrektor-Nachprüfung](docs/testbericht-korrektor.md) · [offene Erprobung](docs/restliste.md)
