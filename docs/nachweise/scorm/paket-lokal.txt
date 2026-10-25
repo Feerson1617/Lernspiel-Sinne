@@ -1,0 +1,35 @@
+
+> mission-sinneslabor@1.0.0 test:scorm:package
+> python3 -m unittest discover -s tests -p "test_scorm_package.py" -v
+
+test_case_collision (test_scorm_package.PackageValidation.test_case_collision) ... ok
+test_changed_schema (test_scorm_package.PackageValidation.test_changed_schema) ... ok
+test_external_font (test_scorm_package.PackageValidation.test_external_font) ... ok
+test_external_image (test_scorm_package.PackageValidation.test_external_image) ... ok
+test_game_modified (test_scorm_package.PackageValidation.test_game_modified) ... ok
+test_local_export_modified (test_scorm_package.PackageValidation.test_local_export_modified) ... ok
+test_missing_internal_resource (test_scorm_package.PackageValidation.test_missing_internal_resource) ... ok
+test_missing_launch (test_scorm_package.PackageValidation.test_missing_launch) ... ok
+test_missing_schema (test_scorm_package.PackageValidation.test_missing_schema) ... ok
+test_profile_required_title (test_scorm_package.PackageValidation.test_profile_required_title) ... ok
+test_real_zip (test_scorm_package.PackageValidation.test_real_zip) ... ok
+test_remote_launch (test_scorm_package.PackageValidation.test_remote_launch) ... ok
+test_remote_xsd (test_scorm_package.PackageValidation.test_remote_xsd) ... ok
+test_scorm_2004_is_not_12 (test_scorm_package.PackageValidation.test_scorm_2004_is_not_12) ... ok
+test_traversal (test_scorm_package.PackageValidation.test_traversal) ... ok
+test_undefined_organization (test_scorm_package.PackageValidation.test_undefined_organization) ... ok
+test_undefined_resource (test_scorm_package.PackageValidation.test_undefined_resource) ... ok
+test_wrong_2004_attribute (test_scorm_package.PackageValidation.test_wrong_2004_attribute) ... ok
+test_wrong_root (test_scorm_package.PackageValidation.test_wrong_root) ... ok
+test_xsd_adl_enum (test_scorm_package.PackageValidation.test_xsd_adl_enum) ... ok
+test_xsd_required_resource_type (test_scorm_package.PackageValidation.test_xsd_required_resource_type) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.172s
+
+OK
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

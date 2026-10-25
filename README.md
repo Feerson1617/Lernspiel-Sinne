@@ -2,6 +2,8 @@
 
 Ein Biologie-Lernspiel für Klasse 8: **24 Aufgaben, zwei Themenbereiche und vier gleichwertige Niveaus, eigene SVG-Modelle**. Keine Anmeldung, keine kostenpflichtigen Dienste, keine Werbung und kein Zeitlimit. Förder bleibt vollständig ohne Texteingaben. ESA hat genau ein sehr kurzes Textfeld zur Iris-Muskulatur in T18. MSA und AHR üben Fachbegriffe und eng geführte Kurzantworten; ihre Wortbank lässt sich jederzeit öffnen und schließen.
 
+Für Lernplattformen: [SCORM-1.2-Paket, Download ohne Terminal und Importprüfung in itslearning](docs/SCORM-1.2.md). Die SCORM-Verpackung ist von der bisherigen Website und dem Einzeldatei-Export getrennt.
+
 ## Direkt am Desktop spielen
 
 1. Lade [Mission-Sinneslabor-offline.html](spiel/Mission-Sinneslabor-offline.html) herunter (auf GitHub: Datei öffnen → „Download raw file“).

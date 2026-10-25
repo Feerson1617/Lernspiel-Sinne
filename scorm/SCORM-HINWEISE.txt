@@ -1,0 +1,36 @@
+Mission Sinneslabor – SCORM 1.2
+
+In itslearning das vollständige ZIP als SCORM-Lernpaket importieren; nicht entpacken
+und nicht als bloße ZIP-Datei für Lernende ablegen. Startdatei: index.html.
+Das Paket enthält alle Ressourcen. JavaScript muss erlaubt sein.
+
+Es werden keine Noten, Antworten, Namen oder Lernenden-IDs an die Plattform
+übertragen oder daraus ausgelesen. Ein neuer Versuch wird nur als incomplete
+angelegt, um den SCORM-1.2-Standardabschluss beim Beenden zu verhindern.
+Das Spiel setzt niemals completed/passed/failed, auch nach allen 24 Aufgaben nicht.
+itslearning kann aufgrund eigener Kursregeln dennoch einen Abschluss markieren:
+Diese Einstellung muss beim echten Import geprüft werden.
+
+Der Fortschritt bleibt wie bisher lokal im Browser. Er wird nicht über Geräte,
+Konten oder Browser hinweg synchronisiert und kann durch Browser-/LMS-Richtlinien
+oder Löschen der Websitedaten verloren gehen. Bei gesperrtem Speicher bleibt das
+Spiel bedienbar; es gibt dann keine dauerhafte lokale Fortschrittsspeicherung.
+
+Zum geordneten Verlassen oben 'Sitzung beenden' verwenden und danach den Player
+schließen. Navigation/Schließen löst zusätzlich LMSFinish aus. Hintergrundwechsel
+speichert lediglich den Sitzungsstatus; er beendet die Sitzung nicht. Ein hartes
+Beenden von Safari/iPadOS oder ein Absturz kann keine Browser-Abschlussfunktion
+garantieren. Bei Rückkehr aus dem Seitencache wird die Sitzung wieder initialisiert;
+falls die Plattform dies ablehnt, den Lerninhalt aus itslearning neu öffnen.
+
+SCORM 1.2 benötigt eine für JavaScript erreichbare API im aktuellen Fenster, in
+einem übergeordneten Fenster oder im öffnenden Fenster. Same-Origin-/Sandbox-
+Beschränkungen können den Zugriff verhindern. Keine fremden Fenster werden
+umgeleitet und keine Zugriffsbeschränkungen umgangen. Ein Hinweis zeigt fehlende
+oder fehlerhafte LMS-Kommunikation; das Spiel bleibt nutzbar.
+
+Eine erfolgreiche technische Prüfung mit einem SCORM-Testplayer beweist keinen
+Import in die schleswig-holsteinische itslearning-Installation. Ein echter Import,
+iPads mit Safari, das Einbetten, separate Fenster, Popup-Freigaben, Touch und
+Bildschirmtastatur müssen dort mit einem Testkurs geprüft werden. WebKit unter
+Linux und emulierte Tablet-Ansichten ersetzen keinen echten iPad-Test.

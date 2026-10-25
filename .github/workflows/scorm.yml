@@ -1,0 +1,83 @@
+name: SCORM 1.2 – Paket und Prüfungen
+on:
+  workflow_dispatch:
+  push:
+    branches: [feat/scorm-1-2]
+permissions:
+  contents: read
+jobs:
+  scorm:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-scorm.txt
+      - run: npm ci
+      - run: python3 -m pip install -r requirements-scorm.txt
+      - run: npx playwright install --with-deps chromium webkit
+      - name: Spezifikation, Logik und SCORM-Paket bauen
+        run: |
+          set -euo pipefail
+          mkdir -p test-results
+          npm run test:spec | tee test-results/scorm-spec.txt
+          npm test | tee test-results/scorm-node.txt
+          npm run build:scorm | tee test-results/scorm-build.txt
+      - name: Manifest, Ressourcen und negative Pakettests
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_scorm.py --report test-results/scorm-package.json
+          npm run test:scorm:package 2>&1 | tee test-results/scorm-package-tests.txt
+      - name: Bisherige Browserprüfungen
+        # Keep Playwright's cleanup away from the spec, package and logic reports.
+        run: npm run test:browser -- --output test-results/original-browser
+        env:
+          TEST_WEBKIT: '1'
+      - name: HTTPS-SCORM-Player mit Chromium und WebKit
+        run: npm run test:scorm:browser
+        env:
+          TEST_WEBKIT: '1'
+      # Upload the package CONTENTS, not a ZIP inside another ZIP. GitHub's
+      # download is itself Mission-Sinneslabor-SCORM-1.2.zip with manifest at root.
+      - uses: actions/upload-artifact@v4
+        id: package
+        with:
+          name: Mission-Sinneslabor-SCORM-1.2
+          path: artifacts/scorm/package/
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 90
+      - name: Heruntergeladenes Artefakt nochmals prüfen
+        uses: actions/download-artifact@v4
+        with:
+          name: Mission-Sinneslabor-SCORM-1.2
+          path: artifacts/scorm/download-check
+      - name: ZIP-Wurzel und unveränderte Artefaktdateien bestätigen
+        run: |
+          python3 scripts/check_scorm_download.py
+      - name: Download und Grenzen dokumentieren
+        env:
+          SCORM_DOWNLOAD: ${{ steps.package.outputs.artifact-url }}
+        run: |
+          python3 scripts/scorm_summary.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: SCORM-Testnachweise
+          overwrite: true
+          path: |
+            test-results/browser-results.json
+            test-results/scorm-results.json
+            test-results/scorm-package.json
+            test-results/scorm-*.txt
+            test-results/scorm/
+            test-results/original-browser/
+            test-results/screenshots/
+          retention-days: 90

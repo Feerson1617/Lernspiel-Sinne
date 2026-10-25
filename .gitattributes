@@ -1,0 +1,3 @@
+# Preserve upstream standard schemas and their published checksums on all platforms.
+scorm/schemas/*.xsd -text -whitespace
+scorm/schemas/*.dtd -text -whitespace
