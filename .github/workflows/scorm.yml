@@ -3,6 +3,12 @@ on:
   workflow_dispatch:
   push:
     branches: [feat/scorm-1-2]
+  pull_request:
+    paths:
+      - '.github/workflows/scorm.yml'
+      - 'scripts/check_scorm_download.py'
+      - 'scripts/scorm_summary.py'
+      - 'docs/SCORM-1.2.md'
 permissions:
   contents: read
 jobs:
@@ -44,20 +50,20 @@ jobs:
         run: npm run test:scorm:browser
         env:
           TEST_WEBKIT: '1'
-      # Upload the package CONTENTS, not a ZIP inside another ZIP. GitHub's
-      # download is itself Mission-Sinneslabor-SCORM-1.2.zip with manifest at root.
-      - uses: actions/upload-artifact@v4
+      # Upload the already validated deterministic import ZIP directly, with
+      # no second GitHub-generated ZIP archive around it.
+      - name: Fertiges SCORM-1.2-Paket direkt bereitstellen
+        uses: actions/upload-artifact@v7
         id: package
         with:
-          name: Mission-Sinneslabor-SCORM-1.2
-          path: artifacts/scorm/package/
+          path: artifacts/scorm/Mission-Sinneslabor-SCORM-1.2.zip
+          archive: false
           if-no-files-found: error
-          overwrite: true
           retention-days: 90
-      - name: Heruntergeladenes Artefakt nochmals prüfen
-        uses: actions/download-artifact@v4
+      - name: Genau dieselbe Import-ZIP zurückladen
+        uses: actions/download-artifact@v8
         with:
-          name: Mission-Sinneslabor-SCORM-1.2
+          name: Mission-Sinneslabor-SCORM-1.2.zip
           path: artifacts/scorm/download-check
       - name: ZIP-Wurzel und unveränderte Artefaktdateien bestätigen
         run: |
