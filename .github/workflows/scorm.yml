@@ -36,7 +36,8 @@ jobs:
           python3 scripts/validate_scorm.py --report test-results/scorm-package.json
           npm run test:scorm:package 2>&1 | tee test-results/scorm-package-tests.txt
       - name: Bisherige Browserprüfungen
-        run: npm run test:browser
+        # Keep Playwright's cleanup away from the spec, package and logic reports.
+        run: npm run test:browser -- --output test-results/original-browser
         env:
           TEST_WEBKIT: '1'
       - name: HTTPS-SCORM-Player mit Chromium und WebKit
@@ -75,4 +76,6 @@ jobs:
             test-results/scorm-package.json
             test-results/scorm-*.txt
             test-results/scorm/
+            test-results/original-browser/
+            test-results/screenshots/
           retention-days: 90
