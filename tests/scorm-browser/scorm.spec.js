@@ -121,6 +121,17 @@ test('Background commits without finishing; simulated cached return reinitialize
   await content.evaluate(() => { window.dispatchEvent(new PageTransitionEvent('pagehide', { persisted: true })); window.dispatchEvent(new PageTransitionEvent('pageshow', { persisted: true })); });
   await expect(content.locator('#scorm-session')).toHaveAttribute('data-state', 'active');
   const result = await trace(page); expect(result.calls.filter(c => c[0] === 'LMSInitialize')).toHaveLength(2); expect(result.status).toBe('incomplete');
+  // A player may temporarily refuse cached-page reinitialization. The visible
+  // retry must work once that API becomes ready, even after an earlier Finish.
+  await page.evaluate(() => {
+    window.savedInitialize = API.LMSInitialize;
+    API.LMSInitialize = arg => { calls.push(['LMSInitialize', arg]); return 'false'; };
+  });
+  await content.evaluate(() => { window.dispatchEvent(new PageTransitionEvent('pagehide', { persisted: true })); window.dispatchEvent(new PageTransitionEvent('pageshow', { persisted: true })); });
+  await expect(content.locator('#scorm-exit')).toHaveText('Verbindung erneut prüfen');
+  await page.evaluate(() => { API.LMSInitialize = window.savedInitialize; });
+  await content.locator('#scorm-exit').click();
+  await expect(content.locator('#scorm-session')).toHaveAttribute('data-state', 'active');
 });
 for (const status of ['completed', 'passed', 'incomplete']) test(`Preserves LMS-provided status ${status}`, async ({ page }) => {
   const content = await launch(page, 'embedded', '&status=' + status); await content.locator('#scorm-exit').click();
@@ -131,6 +142,7 @@ for (const failure of ['init', 'get', 'set', 'commit', 'finish']) test(`API ${fa
   const content = await launch(page, 'embedded', '&fail=' + failure, failure === 'finish' ? 'active' : 'error');
   if (failure === 'finish') await content.locator('#scorm-exit').click();
   await expect(content.locator('#scorm-message')).toContainText('Verbindungsproblem');
+  await expect(content.locator('#scorm-exit')).toHaveText(failure === 'init' ? 'Verbindung erneut prüfen' : 'Sitzung beenden');
   await start(content, 'MSA'); await openTask(content, 'T15');
   await content.locator('[data-text]').fill('rund'); await action(content, 'check').click(); await expect(content.locator('.feedback.correct')).toBeVisible();
   const calls = (await trace(page)).calls;

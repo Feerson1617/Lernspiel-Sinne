@@ -18,8 +18,8 @@
     "flaky": 0
   },
   "browser_scorm_local": {
-    "startTime": "2026-10-25T07:38:08.452Z",
-    "duration": 82021.798,
+    "startTime": "2026-10-25T07:46:47.147Z",
+    "duration": 68271.705,
     "expected": 29,
     "skipped": 0,
     "unexpected": 0,
@@ -34,7 +34,7 @@
     "spec/golden-tests.json": "6bc8c95413a9ffe28b664e25c049e8cfeb54e27f7f631420b2b781f2a86484bc",
     "spiel/Mission-Sinneslabor-offline.html": "a56c751d1ff293b09a405d84a5a79752f592ed3d992da46271281efc0521262e",
     "scorm/runtime.js": "c933a532b6643d5f241a9aa817818b7cd79c48a591e860f78600a00894cbccc8",
-    "scorm/entry.js": "b5ba3a6f9c00a2ff88ae50501965525486b3358fadf5315c8ea1c8eab26380cf"
+    "scorm/entry.js": "7aaa2c279fffa40173a358eca172cdedc154754832fbd8e8af3d6e3939287c12"
   },
   "real_itslearning_import": false,
   "physical_ipad_test": false,

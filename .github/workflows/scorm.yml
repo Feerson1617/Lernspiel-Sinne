@@ -52,6 +52,7 @@ jobs:
           name: Mission-Sinneslabor-SCORM-1.2
           path: artifacts/scorm/package/
           if-no-files-found: error
+          overwrite: true
           retention-days: 90
       - name: Heruntergeladenes Artefakt nochmals prüfen
         uses: actions/download-artifact@v4
@@ -70,6 +71,7 @@ jobs:
         if: always()
         with:
           name: SCORM-Testnachweise
+          overwrite: true
           path: |
             test-results/browser-results.json
             test-results/scorm-results.json

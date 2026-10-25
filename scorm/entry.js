@@ -7,7 +7,8 @@ function boot() {
   const session = createSession(window, status => {
     document.getElementById('scorm-session').dataset.state = status.phase;
     button.disabled = status.phase === 'finished';
-    button.textContent = status.phase === 'unavailable' ? 'Verbindung erneut prüfen' : 'Sitzung beenden';
+    const retry = status.phase === 'unavailable' || status.phase === 'error' && !session.isActive();
+    button.textContent = retry ? 'Verbindung erneut prüfen' : 'Sitzung beenden';
     app.inert = status.phase === 'finished';
     text.textContent = ({
       active: 'Fortschritt wird nur auf diesem Gerät gespeichert.',
@@ -17,7 +18,7 @@ function boot() {
     })[status.phase] || '';
   });
   button.addEventListener('click', () => {
-    if (!session.isActive()) session.initialize();
+    if (!session.isActive()) session.initialize({ restore: true });
     else session.finish();
   });
   bindLifecycle(window, session);
