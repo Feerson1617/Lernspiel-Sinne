@@ -1,0 +1,24 @@
+[WebServer] (node:194536) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 2 workers
+
+(node:194553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:194554) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:194553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:194554) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/smoke/launch.spec.js:2:85 › http/embedded: configured package launches without missing/external resources (1.5s)
+  ✓  2 [chromium] › tests/smoke/launch.spec.js:2:85 › http/popup: configured package launches without missing/external resources (1.8s)
+  ✓  3 [chromium] › tests/smoke/launch.spec.js:2:85 › https/embedded: configured package launches without missing/external resources (1.4s)
+  ✓  4 [chromium] › tests/smoke/launch.spec.js:2:85 › https/popup: configured package launches without missing/external resources (1.5s)
+
+  4 passed (5.8s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

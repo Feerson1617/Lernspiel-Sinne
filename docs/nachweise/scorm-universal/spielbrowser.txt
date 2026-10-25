@@ -1,0 +1,68 @@
+
+> mission-sinneslabor@1.0.0 test:browser
+> playwright test --output test-results/original-browser
+
+[WebServer] (node:191284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:191297) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 41 tests using 2 workers
+
+(node:191305) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191306) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191305) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191306) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T22_AHR_1 (6.4s)
+  ✓   1 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T22_MSA_1 (8.8s)
+  ✓   3 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T15_AHR_2 (10.3s)
+  ✓   4 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T18_ESA_5 (8.5s)
+  ✓   6 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T18_MSA_1 (2.2s)
+  ✓   5 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T23_MSA_1 (2.7s)
+  ✓   7 [chromium] › tests/browser/correction-regressions.spec.js:9:3 › Correction regression through actual UI: T20_AHR_3 (3.0s)
+  ✓   8 [chromium] › tests/browser/game.spec.js:57:34 › Full correct tour: Foerder / 24 missions (16.8s)
+  ✓   9 [chromium] › tests/browser/game.spec.js:57:34 › Full correct tour: ESA / 24 missions (18.9s)
+  ✓  10 [chromium] › tests/browser/game.spec.js:57:34 › Full correct tour: MSA / 24 missions (12.1s)
+  ✓  11 [chromium] › tests/browser/game.spec.js:57:34 › Full correct tour: AHR / 24 missions (12.6s)
+  ✓  12 [chromium] › tests/browser/game.spec.js:80:34 › Error, help and solution path for each of 24 missions: Foerder (15.2s)
+  ✓  13 [chromium] › tests/browser/game.spec.js:80:34 › Error, help and solution path for each of 24 missions: ESA (16.7s)
+  ✓  14 [chromium] › tests/browser/game.spec.js:80:34 › Error, help and solution path for each of 24 missions: MSA (13.5s)
+  ✓  16 [chromium] › tests/browser/game.spec.js:110:1 › Clarification is usable once, preserves uncertainty and does not store raw text (1.2s)
+  ✓  17 [chromium] › tests/browser/game.spec.js:122:1 › Edited input invalidates success; solution and errors are tracked separately (1.3s)
+  ✓  18 [chromium] › tests/browser/game.spec.js:134:1 › Reload, level changes, restart and duplicate completion do not inflate progress (2.0s)
+  ✓  19 [chromium] › tests/browser/game.spec.js:146:1 › A physical double click only completes one step (1.0s)
+  ✓  20 [chromium] › tests/browser/game.spec.js:155:1 › Anatomy word bank can be opened before any failure and counts as support (1.9s)
+  ✓  15 [chromium] › tests/browser/game.spec.js:80:34 › Error, help and solution path for each of 24 missions: AHR (14.8s)
+  ✓  22 [chromium] › tests/browser/game.spec.js:178:1 › Blocked and corrupt storage still allow play; other application data survives (1.1s)
+  ✓  21 [chromium] › tests/browser/game.spec.js:165:1 › Moving a term out of a verified hidden group requires that group again (2.1s)
+  ✓  23 [chromium] › tests/browser/game.spec.js:182:1 › Corrupt and stale progress are rejected (1.6s)
+  ✓  24 [chromium] › tests/browser/game.spec.js:192:1 › Tap, drag, swap, remove, keyboard sorting, cancellation and partial success (3.1s)
+  ✓  25 [chromium] › tests/browser/game.spec.js:216:145 › Responsive layout and visible feedback 1440x900 (2.5s)
+  ✓  26 [chromium] › tests/browser/game.spec.js:216:145 › Responsive layout and visible feedback 768x1024 (2.1s)
+  ✓  27 [chromium] › tests/browser/game.spec.js:216:145 › Responsive layout and visible feedback 1024x768 (2.1s)
+  -  29 [chromium] › tests/browser/game.spec.js:234:1 › Local multi-file and single-file exports work without network
+  ✓  28 [chromium] › tests/browser/game.spec.js:216:145 › Responsive layout and visible feedback 390x844 (2.0s)
+  ✓  31 [chromium] › tests/browser/game.spec.js:263:1 › Touch interaction, reduced motion, keyboard navigation and safe raw text (1.1s)
+  ✓  32 [chromium] › tests/browser/round2.spec.js:20:1 › Two dropdowns expose all tasks, close again and remain reachable inside an activity (1.5s)
+  ✓  33 [chromium] › tests/browser/round2.spec.js:40:36 › Word bank can open/close repeatedly in all six recall activities: MSA (6.1s)
+  ✓  30 [chromium] › tests/browser/game.spec.js:251:1 › Self-contained offline export plays a complete level after networking is blocked (13.1s)
+  ✓  35 [chromium] › tests/browser/round2.spec.js:60:1 › Correct/incorrect/partial/unclear and neutral part feedback use the same semantic colours (1.8s)
+  ✓  34 [chromium] › tests/browser/round2.spec.js:40:36 › Word bank can open/close repeatedly in all six recall activities: AHR (6.6s)
+  ✓  36 [chromium] › tests/browser/round2.spec.js:87:1 › Single-choice and ordering errors are red with symbols and clear on edit (1.9s)
+  ✓  37 [chromium] › tests/browser/round2.spec.js:100:1 › Dog and brightness controls keep prompts, model and grading synchronized (2.2s)
+  ✓  38 [chromium] › tests/browser/round2.spec.js:119:1 › The one ESA text field is usable with typo tolerance and real clarification (1.9s)
+  ✓  40 [chromium] › tests/browser/round2.spec.js:148:1 › Student Info is short, explains the colours and contains no developer notice (813ms)
+  ✓  39 [chromium] › tests/browser/round2.spec.js:135:1 › Legacy progress retains 24 completions; new ESA question is available without a fake old answer (1.5s)
+  ✓  41 [chromium] › tests/browser/round2.spec.js:156:1 › Tablet portrait and landscape keep anatomy beside long input lists (1.3s)
+
+  1 skipped
+  40 passed (1.9m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

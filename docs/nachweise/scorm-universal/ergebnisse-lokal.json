@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-25",
+  "environment": "Linux cloud; system Chromium; isolated template under /tmp/scorm-template-independent",
+  "spec": {
+    "passed": true,
+    "tasks": 24,
+    "variants": 96,
+    "steps": 242,
+    "golden_cases": 176
+  },
+  "game_logic": {
+    "passed": 583,
+    "failed": 0,
+    "skipped": 0
+  },
+  "template_session": {
+    "passed": 16,
+    "failed": 0,
+    "skipped": 0
+  },
+  "template_package": {
+    "passed": 26,
+    "failed": 0
+  },
+  "original_browser": {
+    "startTime": "2026-10-25T09:03:29.113Z",
+    "duration": 116917.361,
+    "expected": 40,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "new_package_game_browser": {
+    "startTime": "2026-10-25T08:57:01.110Z",
+    "duration": 78102.79100000001,
+    "expected": 29,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "isolated_template_browser": {
+    "startTime": "2026-10-25T09:03:30.304Z",
+    "duration": 21212.998,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "isolated_template_launch": {
+    "startTime": "2026-10-25T09:03:54.782Z",
+    "duration": 8052.4130000000005,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "original_browser_skip": "Existing file:// export test skips in restricted cloud; remote CI runs it.",
+  "real_itslearning_import": false,
+  "physical_ipad_test": false,
+  "reference_user_report": "Previous corrected package imported into itslearning SH and started on an iPad; exact corrected archive unavailable",
+  "runtime_identical": true,
+  "original_game_sha256": "a56c751d1ff293b09a405d84a5a79752f592ed3d992da46271281efc0521262e",
+  "second_configured_html_model_browser": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0
+  }
+}

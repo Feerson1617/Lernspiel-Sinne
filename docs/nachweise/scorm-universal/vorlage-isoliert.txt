@@ -1,0 +1,130 @@
+Prepared pinned Three.js, GLB, GLTF, binary buffer and PNG texture.
+Validated: /tmp/scorm-template-independent/dist/Beispiel-SCORM-1.2.zip (448885 bytes)
+
+> scorm-universalvorlage@1.0.0 test
+> node --test tests/*.test.js && python3 -m unittest discover -s tests -p 'test_*.py' -v
+
+✔ SCORM initializes once, prevents default completion and finishes once without a score (3.256214ms)
+✔ Preserves existing LMS status: incomplete (0.182788ms)
+✔ Preserves existing LMS status: completed (0.113112ms)
+✔ Preserves existing LMS status: passed (0.209144ms)
+✔ Preserves existing LMS status: failed (0.129405ms)
+✔ Preserves existing LMS status: browsed (0.136105ms)
+✔ SCORM reports init failure without unhandled exceptions or fabricated success (0.328249ms)
+✔ SCORM reports get failure without unhandled exceptions or fabricated success (0.133915ms)
+✔ SCORM reports set failure without unhandled exceptions or fabricated success (0.142641ms)
+✔ SCORM reports commit failure without unhandled exceptions or fabricated success (0.195646ms)
+✔ SCORM reports finish failure without unhandled exceptions or fabricated success (0.10939ms)
+✔ Finds API in current window, ancestors, opener and opener ancestors (0.166888ms)
+✔ Inaccessible parents, closed openers, loops and excessive nesting terminate safely (0.567098ms)
+✔ Unavailable API supports an explicit retry once it becomes accessible (0.177429ms)
+✔ A throwing API is reported and never breaks the game (0.290758ms)
+✔ Visibility commits, pagehide finishes, cached return reinitializes, duplicate close is harmless (0.370319ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 101.266077
+test_bare_module (test_package.PackageTests.test_bare_module) ... ok
+test_case_collision (test_package.PackageTests.test_case_collision) ... ok
+test_changed_original_is_detected (test_package.PackageTests.test_changed_original_is_detected) ... ok
+test_classroom_mode_needs_explicit_adapter (test_package.PackageTests.test_classroom_mode_needs_explicit_adapter) ... ok
+test_duplicate_zip_entries (test_package.PackageTests.test_duplicate_zip_entries) ... ok
+test_dynamic_reference_is_reported_not_claimed_verified (test_package.PackageTests.test_dynamic_reference_is_reported_not_claimed_verified) ... ok
+test_external_css_and_gltf (test_package.PackageTests.test_external_css_and_gltf) ... ok
+test_external_dynamic_import (test_package.PackageTests.test_external_dynamic_import) ... ok
+test_external_fetch (test_package.PackageTests.test_external_fetch) ... ok
+test_inline_css_external_resource (test_package.PackageTests.test_inline_css_external_resource) ... ok
+test_inline_css_local_resource (test_package.PackageTests.test_inline_css_local_resource) ... ok
+test_missing_asset (test_package.PackageTests.test_missing_asset) ... ok
+test_missing_dynamic_module (test_package.PackageTests.test_missing_dynamic_module) ... ok
+test_missing_gltf_texture (test_package.PackageTests.test_missing_gltf_texture) ... ok
+test_modified_schema (test_package.PackageTests.test_modified_schema) ... ok
+test_no_base_redirect (test_package.PackageTests.test_no_base_redirect) ... ok
+test_no_outer_folder (test_package.PackageTests.test_no_outer_folder) ... ok
+test_no_zip_inside_zip (test_package.PackageTests.test_no_zip_inside_zip) ... ok
+test_output_path_rejected (test_package.PackageTests.test_output_path_rejected) ... ok
+test_reproducible_bytes (test_package.PackageTests.test_reproducible_bytes) ... ok
+test_root_relative_module (test_package.PackageTests.test_root_relative_module) ... ok
+test_scorm_version (test_package.PackageTests.test_scorm_version) ... ok
+test_symlink_rejected (test_package.PackageTests.test_symlink_rejected) ... ok
+test_traversal (test_package.PackageTests.test_traversal) ... ok
+test_valid_modules_nested_launch_and_xml_escaping (test_package.PackageTests.test_valid_modules_nested_launch_and_xml_escaping) ... ok
+test_xsd_required_resource_type (test_package.PackageTests.test_xsd_required_resource_type) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.752s
+
+OK
+Validated: /tmp/scorm-template-independent/dist/unit-fixture.zip (14659 bytes)
+Validated: /tmp/scorm-template-independent/dist/unit-fixture.zip (14659 bytes)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+
+> scorm-universalvorlage@1.0.0 test:browser
+> playwright test
+
+[WebServer] (node:191328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:191629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 11 tests using 2 workers
+
+(node:191648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191647) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191647) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:191648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/universal.spec.js:18:3 › http embedded: modules, dynamic import, JSON, textured GLB/GLTF and finish (2.9s)
+  ✓   2 [chromium] › tests/browser/universal.spec.js:18:3 › http popup: modules, dynamic import, JSON, textured GLB/GLTF and finish (2.8s)
+  ✓   3 [chromium] › tests/browser/universal.spec.js:18:3 › https embedded: modules, dynamic import, JSON, textured GLB/GLTF and finish (2.5s)
+  ✓   4 [chromium] › tests/browser/universal.spec.js:18:3 › https popup: modules, dynamic import, JSON, textured GLB/GLTF and finish (2.6s)
+  ✓   6 [chromium] › tests/browser/universal.spec.js:58:1 › Classroom adapter is volatile and never replaces or clears browser storage (2.2s)
+  ✓   5 [chromium] › tests/browser/universal.spec.js:50:1 › Nested parent discovery and actual popup close (2.4s)
+  ✓   8 [chromium] › tests/browser/universal.spec.js:76:1 › Initialization error stays visible; app and retry remain usable (1.5s)
+  ✓   7 [chromium] › tests/browser/universal.spec.js:69:1 › Normal mode keeps the application-owned save on reload (2.4s)
+  ✓   9 [chromium] › tests/browser/universal.spec.js:82:1 › A direct tab without accessible LMS API reports unavailable (1.1s)
+  ✓  10 [chromium] › tests/browser/universal.spec.js:87:86 › Tablet touch 768x1024 (3.5s)
+  ✓  11 [chromium] › tests/browser/universal.spec.js:87:86 › Tablet touch 1024x768 (3.5s)
+
+  11 passed (21.2s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+Validated: /tmp/scorm-template-independent/dist/Beispiel-SCORM-1.2.zip (448947 bytes)
+[WebServer] (node:192504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 2 workers
+
+(node:192521) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:192527) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:192527) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:192521) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/smoke/launch.spec.js:2:85 › http/embedded: configured package launches without missing/external resources (2.2s)
+  ✓  1 [chromium] › tests/smoke/launch.spec.js:2:85 › http/popup: configured package launches without missing/external resources (2.9s)
+  ✓  3 [chromium] › tests/smoke/launch.spec.js:2:85 › https/embedded: configured package launches without missing/external resources (2.0s)
+  ✓  4 [chromium] › tests/smoke/launch.spec.js:2:85 › https/popup: configured package launches without missing/external resources (2.0s)
+
+  4 passed (8.1s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
