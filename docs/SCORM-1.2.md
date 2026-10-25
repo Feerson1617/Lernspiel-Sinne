@@ -7,10 +7,10 @@ Die Startdatei ist der vorhandene Einzeldatei-Export plus einer abgegrenzten SCO
 ## Download ohne Terminal
 
 1. Im Repository **Actions → SCORM 1.2 – Paket und Prüfungen** öffnen und einen **erfolgreichen** Lauf wählen.
-2. Unter **Artifacts** auf **Mission-Sinneslabor-SCORM-1.2** klicken. GitHub lädt **Mission-Sinneslabor-SCORM-1.2.zip** herunter. Für Actions-Artefakte ist eine GitHub-Anmeldung erforderlich.
+2. Unter **Artifacts** direkt auf **`Mission-Sinneslabor-SCORM-1.2.zip`** klicken. GitHub lädt jetzt das bereits geprüfte SCORM-Paket **ohne zusätzliche Archivschicht** herunter. Für Actions-Artefakte ist eine GitHub-Anmeldung erforderlich.
 3. Genau diese ZIP in itslearning importieren. **Nicht entpacken.** Sie enthält `imsmanifest.xml` direkt im Hauptverzeichnis, keine weitere ZIP und keinen übergeordneten Paketordner. Auch die Zusammenfassung des Laufs enthält den Download-Link.
 
-Der Workflow lädt bewusst die ausgepackten, bereits validierten Paketdateien als Artefakt hoch. GitHub erstellt daraus den direkt importierbaren ZIP-Download. Danach lädt derselbe Workflow das Artefakt wieder herunter, prüft Dateipfade und identische Dateiinhalte und validiert es nochmals. Die ZIP-Komprimierung und damit der ZIP-Hash können sich vom lokal erzeugten ZIP unterscheiden; die enthaltenen Dateien müssen exakt identisch sein.
+Der Workflow lädt die **fertige, lokal bereits validierte SCORM-ZIP als einzelne unkomprimiert übertragene Datei** mit `actions/upload-artifact@v7` und `archive: false` hoch. Das Original-ZIP bleibt unverändert. `actions/download-artifact@v8` lädt genau diese Datei zum **byteweisen Vergleich und erneuten Manifest-/Inhaltsvalidieren** zurück. **Keine äußere GitHub-ZIP entpacken und nichts neu komprimieren.** Frühere Workflow-Läufe können noch das vorherige Artefaktformat verwenden.
 
 Der Workflow enthält `workflow_dispatch`. Nach Übernahme der Workflowdatei auf den Standardbranch kann er mit **Run workflow** manuell ausgeführt werden; dabei kann der SCORM-Branch gewählt werden. Solange die Änderungen ausschließlich im SCORM-Branch liegen, erzeugt ein Push auf diesen Branch das Paket. Ein vorhandener Lauf kann ohne Terminal über **Re-run all jobs** erneut ausgeführt werden. Artefakte bleiben 90 Tage verfügbar. Der Workflow veröffentlicht keine Website und verwendet keine Pages-Berechtigungen.
 
@@ -74,6 +74,6 @@ TEST_WEBKIT=1 npm run test:browser
 TEST_WEBKIT=1 npm run test:scorm:browser
 ```
 
-Die fertige Datei liegt unter `artifacts/scorm/Mission-Sinneslabor-SCORM-1.2.zip`. Wiederholte Paketbildung mit identischen Dateien ist deterministisch. GitHubs Artefakt-ZIP kann wegen eigener Metadaten andere ZIP-Bytes haben. Die erzeugten Dateien liegen außerhalb von `dist/`; `npm run build` und die Pages-Ausgabe bleiben unverändert.
+Die fertige Datei liegt unter `artifacts/scorm/Mission-Sinneslabor-SCORM-1.2.zip`. Wiederholte Paketbildung mit identischen Dateien ist deterministisch. Diese Datei wird nun als unverändertes Direktdownload-Artefakt bereitgestellt und vor/nach dem Upload verglichen. Die erzeugten Dateien liegen außerhalb von `dist/`; `npm run build` und die Pages-Ausgabe bleiben unverändert.
 
 Ergebnisse, bekannte Probleme und Grenzen: [SCORM-Prüfbericht](SCORM-Testbericht.md).
