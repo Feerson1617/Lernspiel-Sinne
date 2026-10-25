@@ -1,0 +1,114 @@
+name: SCORM Universal – Vorlage und Sinneslabor
+on:
+  workflow_dispatch:
+  push:
+    branches: [feat/scorm-universal]
+permissions:
+  contents: read
+jobs:
+  verify-export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      TEST_WEBKIT: '1'
+      LIBGL_ALWAYS_SOFTWARE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            scorm-template/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scorm-template/requirements.txt
+      - run: npm ci && npm ci --prefix scorm-template
+      - run: python3 -m pip install -r scorm-template/requirements.txt
+      - run: npx playwright install --with-deps chromium webkit
+      - name: Ursprüngliche Spezifikation und Logik
+        run: |
+          set -euo pipefail
+          mkdir -p test-results
+          npm run test:spec | tee test-results/universal-spec.txt
+          npm test | tee test-results/universal-game-logic.txt
+          npm run build
+          git diff --exit-code -- src spec spiel index.html .github/workflows/pages.yml
+          cmp scorm/runtime.js scorm-template/runtime/session.js
+      - name: Eigenständige Vorlage bauen und aus ZIP getrennt testen
+        run: |
+          set -euo pipefail
+          cd scorm-template
+          npm run prepare:example
+          python3 scripts/release.py
+          mkdir -p ../artifacts/universal/isolated
+          python3 -m zipfile -e dist/SCORM-Universalvorlage.zip ../artifacts/universal/isolated
+          cd ../artifacts/universal/isolated
+          npm ci
+          node scripts/workflow-build.mjs
+          mkdir -p .build/download
+          cp .build/export/*.zip .build/download/
+          python3 scripts/check-download.py
+      - name: Sinneslabor mit der Vorlage exportieren
+        run: |
+          node scripts/build-universal.mjs
+          python3 scorm-template/scripts/validate.py scorm-template/dist/Sinneslabor-SCORM-Vorlagentest.zip --report test-results/universal-package.json
+      - name: Bisherige Spielbrowserprüfungen Chromium und WebKit
+        run: npm run test:browser -- --output test-results/original-browser
+      - name: Neue ZIP mit vollständiger Spielregression im HTTPS-SCORM-Player
+        run: npx playwright test --config playwright.universal.config.js
+      - name: Tatsächliche ZIPs für direkten Download vorbereiten
+        run: python3 scripts/publish-universal.py
+      - uses: actions/upload-artifact@v4
+        id: template
+        with:
+          name: SCORM-Universalvorlage
+          path: artifacts/universal/publish/SCORM-Universalvorlage/
+          include-hidden-files: true
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 90
+      - uses: actions/upload-artifact@v4
+        id: game
+        with:
+          name: Sinneslabor-SCORM-Vorlagentest
+          path: artifacts/universal/publish/Sinneslabor-SCORM-Vorlagentest/
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 90
+      - uses: actions/download-artifact@v4
+        with:
+          name: SCORM-Universalvorlage
+          path: artifacts/universal/download/SCORM-Universalvorlage
+      - uses: actions/download-artifact@v4
+        with:
+          name: Sinneslabor-SCORM-Vorlagentest
+          path: artifacts/universal/download/Sinneslabor-SCORM-Vorlagentest
+      - run: python3 scripts/publish-universal.py --check-download
+      - name: Downloads und Importhinweis
+        env:
+          TEMPLATE_URL: ${{ steps.template.outputs.artifact-url }}
+          GAME_URL: ${{ steps.game.outputs.artifact-url }}
+        run: |
+          python3 - <<'PY'
+          import os
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write(f"[SCORM-Universalvorlage.zip]({os.environ['TEMPLATE_URL']}) – entpacken und als eigenes Quellprojekt verwenden.\n\n")
+              out.write(f"[Sinneslabor-SCORM-Vorlagentest.zip]({os.environ['GAME_URL']}) – **direkt unverändert in itslearning importieren**. Manifest auf ZIP-Wurzelebene, keine innere ZIP.\n\n")
+              out.write("Beide Einzelartefakte wurden zurückgeladen und byteweise nach Dateiinventar geprüft. Nicht ‚Download all artifacts‘ verwenden.\n\nNeuer itslearning-/iPad-Import noch manuell erforderlich; der bestätigte ältere Import gilt nicht automatisch für diese neue ZIP.\n")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Universal-Testnachweise
+          overwrite: true
+          path: |
+            test-results/
+            !test-results/scorm-tls/
+            artifacts/universal/isolated/test-results/
+            scorm-template/dist/*.validation.json
+            scorm-template/dist/template-validation.json
+          retention-days: 90

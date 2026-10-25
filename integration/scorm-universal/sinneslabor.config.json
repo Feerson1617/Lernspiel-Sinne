@@ -1,0 +1,9 @@
+{
+  "name": "Mission Sinneslabor",
+  "description": "Unverändertes Sinneslabor mit 24 Aufgaben und vier Niveaus, exportiert mit der universellen SCORM-1.2-Vorlage.",
+  "sourceDir": "../../artifacts/universal/sinneslabor-source",
+  "entry": "index.html",
+  "output": "Sinneslabor-SCORM-Vorlagentest.zip",
+  "classroomMode": false,
+  "classroomAdapter": null
+}
