@@ -1,0 +1,42 @@
+{
+  "game_base": "f55925a9611d69e1d3b8f66f1b77a9a195ad7332",
+  "node": {
+    "passed": 583,
+    "failed": 0
+  },
+  "original_golden_unchanged": 176,
+  "package_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "browser_original_local": {
+    "startTime": "2026-10-25T07:34:04.572Z",
+    "duration": 122523.87999999999,
+    "expected": 40,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browser_scorm_local": {
+    "startTime": "2026-10-25T07:38:08.452Z",
+    "duration": 82021.798,
+    "expected": 29,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "sha256": {
+    "src/app.js": "1655df93954b11884b02ca3a6bb0f34f224d69b81c110f5ba60a23bddbf59a82",
+    "src/evaluate.js": "2205b43ea9252397ca200f352340d8c89ce0928b106588435bb93e60dc8b8544",
+    "src/scoped-rules.js": "d7f34fa793505837f476d8aa24973f3429d57041f7273da96d6c5330fc5ea564",
+    "src/state.js": "f46c65390be3f619842e12d1cf2269656489b0654c1cdff7188896d218abdacd",
+    "spec/aufgabenbank.json": "a696b5e5a304c769d0ef408139441790946e40aedc519d0d247176a91fe2d757",
+    "spec/golden-tests.json": "6bc8c95413a9ffe28b664e25c049e8cfeb54e27f7f631420b2b781f2a86484bc",
+    "spiel/Mission-Sinneslabor-offline.html": "a56c751d1ff293b09a405d84a5a79752f592ed3d992da46271281efc0521262e",
+    "scorm/runtime.js": "c933a532b6643d5f241a9aa817818b7cd79c48a591e860f78600a00894cbccc8",
+    "scorm/entry.js": "b5ba3a6f9c00a2ff88ae50501965525486b3358fadf5315c8ea1c8eab26380cf"
+  },
+  "real_itslearning_import": false,
+  "physical_ipad_test": false,
+  "local_webkit": "not run: official browser downloads denied by network policy"
+}

@@ -1,0 +1,51 @@
+
+> mission-sinneslabor@1.0.0 test:scorm:browser
+> playwright test --config playwright.scorm.config.js
+
+
+Running 29 tests using 2 workers
+
+(node:180934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:180935) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:180935) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:180934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/scorm-browser/scorm.spec.js:65:3 › Packaged game complete: embedded / Foerder / all 24 tasks (19.2s)
+  ✓   1 [chromium] › tests/scorm-browser/scorm.spec.js:65:3 › Packaged game complete: embedded / ESA / all 24 tasks (24.1s)
+  ✓   3 [chromium] › tests/scorm-browser/scorm.spec.js:65:3 › Packaged game complete: embedded / MSA / all 24 tasks (18.9s)
+  ✓   4 [chromium] › tests/scorm-browser/scorm.spec.js:65:3 › Packaged game complete: embedded / AHR / all 24 tasks (18.9s)
+  ✓   6 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T22_MSA_1 (6.6s)
+  ✓   5 [chromium] › tests/scorm-browser/scorm.spec.js:65:3 › Packaged game complete: popup / AHR / all 24 tasks (15.6s)
+  ✓   7 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T22_AHR_1 (5.1s)
+  ✓   9 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T18_ESA_5 (6.6s)
+  ✓   8 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T15_AHR_2 (7.7s)
+  ✓  10 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T23_MSA_1 (2.1s)
+  ✓  11 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T18_MSA_1 (1.9s)
+  ✓  13 [chromium] › tests/scorm-browser/scorm.spec.js:104:1 › Nested parent API, page navigation and repeated pagehide finish once (704ms)
+  ✓  14 [chromium] › tests/scorm-browser/scorm.spec.js:110:1 › Popup close communicates with opener; iframe navigation closes a live session (953ms)
+  ✓  15 [chromium] › tests/scorm-browser/scorm.spec.js:117:1 › Background commits without finishing; simulated cached return reinitializes safely (670ms)
+  ✓  12 [chromium] › tests/scorm-browser/scorm.spec.js:91:57 › SCORM player keeps all correction regressions: T20_AHR_3 (3.9s)
+  ✓  16 [chromium] › tests/scorm-browser/scorm.spec.js:125:61 › Preserves LMS-provided status completed (728ms)
+  ✓  17 [chromium] › tests/scorm-browser/scorm.spec.js:125:61 › Preserves LMS-provided status passed (955ms)
+  ✓  18 [chromium] › tests/scorm-browser/scorm.spec.js:125:61 › Preserves LMS-provided status incomplete (924ms)
+  ✓  19 [chromium] › tests/scorm-browser/scorm.spec.js:129:67 › API init errors stay visible and do not break the game (1.6s)
+  ✓  20 [chromium] › tests/scorm-browser/scorm.spec.js:129:67 › API get errors stay visible and do not break the game (1.5s)
+  ✓  22 [chromium] › tests/scorm-browser/scorm.spec.js:129:67 › API commit errors stay visible and do not break the game (1.8s)
+  ✓  21 [chromium] › tests/scorm-browser/scorm.spec.js:129:67 › API set errors stay visible and do not break the game (3.1s)
+  ✓  23 [chromium] › tests/scorm-browser/scorm.spec.js:129:67 › API finish errors stay visible and do not break the game (2.1s)
+  ✓  24 [chromium] › tests/scorm-browser/scorm.spec.js:141:1 › Cross-origin API denial is handled without bypassing browser security (1.3s)
+  ✓  25 [chromium] › tests/scorm-browser/scorm.spec.js:146:1 › Launch without a player is usable and does not pretend to initialize SCORM (747ms)
+  ✓  27 [chromium] › tests/scorm-browser/scorm.spec.js:163:1 › Denied browser storage still allows game play and SCORM termination (1.4s)
+  ✓  26 [chromium] › tests/scorm-browser/scorm.spec.js:151:1 › Word bank, feedback, private free text and reload preserve only local progress (2.6s)
+  ✓  28 [chromium] › tests/scorm-browser/scorm.spec.js:169:86 › HTTPS tablet touch in iframe and popup: 768x1024 (2.3s)
+  ✓  29 [chromium] › tests/scorm-browser/scorm.spec.js:169:86 › HTTPS tablet touch in iframe and popup: 1024x768 (2.1s)
+
+  29 passed (1.4m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
